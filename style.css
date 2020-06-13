@@ -1,0 +1,111 @@
+body{
+    font-family:'poppins';
+}
+h2{
+    font-size:36px;
+}
+#logo{
+    width:150px;
+    padding-left:20px;
+    padding-top:15px;
+}
+#main-photo{
+    width:20vw;
+}
+#main-image{
+    float:left;
+    padding-right:5vw;
+    vertical-align:middle;
+}
+#main-text{
+    width:70vw;
+
+}
+#landing-container{
+    padding:15vw;
+    height:90vh;
+}
+#text-container{
+    padding-top:5vh;
+ 
+}
+#text1{
+    font-size:48px;
+    font-weight:400;
+}
+#text2{
+    font-size:24px;
+    font-weight:300;
+}
+.nav-menu{
+    padding:15px 20px;
+}
+#nav-links{
+    float:right;
+}
+#about-container{
+    clip-path: polygon(0 0, 100% 15%, 100% 88%, 0% 100%);
+    background-color:#0078E8;
+    height:100%;
+    color:white;
+    width:100vw;
+   height:465px;
+   padding-top:15vh;
+   text-align:center;
+}
+
+#about-text{
+    text-align:center;   
+    font-size:24px;
+    font-weight:300;
+}
+.sub-heading{
+    font-size:36px;
+
+}
+#values-section{
+    padding-top:15vh;
+    width:550px;
+    margin:0 auto;
+}
+.value-text{
+    float:left;
+    width:250px;
+}
+.value-container img{
+    padding-left:100px
+}
+.value-container{
+    padding-bottom:120px;
+ 
+}
+.value-container p{
+    font-size:18px;
+}
+.sub-text{
+    font-weight: 600;
+}
+#contact-section{
+    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+    background-color:#E4F1FF;
+    height:300px;
+  
+}
+#contact-container{
+    padding-top:10vh;
+}
+#contact-text{
+    width:50vw;
+    margin:0 auto;
+}
+.text-center{
+    margin:0 auto;
+}
+button{
+    color:white;
+    background-color: #0078E8;
+    padding:7px 30px;
+    border: none;
+    border-radius: 2px;
+
+}

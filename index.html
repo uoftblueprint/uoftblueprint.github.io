@@ -1,17 +1,76 @@
-<html lang="en-US" class="no-js">
+<!DOCTYPE html>
+<html>
 <head>
-    <style>
-        .container{
-            height: 100%; 
-            width:100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>UofT Blueprint</title>
+    
 </head>
+
 <body>
-<div class="container">
-<img src="img/img_square.png">
-</div>
+    <div id="nav-bar">
+        <img src="assets/banner.png" id="logo"/>
+        <div id="nav-links">
+            <p class="nav-menu">Projects</p>
+        </div>
+    </div>
+    <div id="landing-container">
+        <div id="main-image">    
+            <img src="assets/main.png" id="main-photo"/>
+        </div>
+        <div id="main-text">
+            <div id="text-container">
+            <p id="text1">Tech for Social Good</p>
+            <p id="text2">We are a group of students at the University of Toronto that provide technical solutions (or software) for non-for profits</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about-container" class="text-center">
+            <p class="sub-heading">About Us</p>
+            <div style="width:50vw;" class="text-center">
+            <p id="about-text" >Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare.</p></div>
+    </div>
+
+    <div id="values-section" >
+        <p class="sub-heading" style="text-align:center;color:#0078E8">Our Values</p>
+        <div class="value-container">
+            <div class="value-text">
+            <p class="sub-text">Mission First</p>
+            <p>We will always prioritize the mission first. Our main priority is doing work for social good / public welfare.</p>
+            </div>
+            <img src="assets/icon1.svg"/>
+        </div>
+        <div class="value-container">
+            <div class="value-text">
+            <p class="sub-text">Innovation</p>
+            <p>We will always prioritize the mission first. Our main priority is doing work for social good / public welfare.</p>
+            </div>
+            <img src="assets/icon2.svg"/>
+        </div>
+        <div class="value-container">
+            <div class="value-text">
+            <p class="sub-text">Mission First</p>
+            <p>We will always prioritize the mission first. Our main priority is doing work for social good / public welfare.</p>
+            </div>
+            <img src="assets/icon3.svg"/>
+        </div>
+    </div>
+    
+    <div id="contact-section">
+        <div id="contact-container">
+            <div id="contact-text">
+            <h2>Contact Us!</h2>
+            <p>We are looking for non-profits who are in need of technological solutions, as well as partners interested in supporting us and our cause.</p>
+            <button>Let's get in Touch!</button>
+            </div>
+            
+        </div>
+ 
+
 </body>
+</html>

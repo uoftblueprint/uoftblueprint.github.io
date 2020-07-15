@@ -88,11 +88,11 @@ h2{
 #contact-section{
     clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
     background-color:#E4F1FF;
-    height:300px;
-  
+
 }
 #contact-container{
     padding-top:10vh;
+    padding-bottom:10vh;
 }
 #contact-text{
     width:50vw;
@@ -104,8 +104,12 @@ h2{
 button{
     color:white;
     background-color: #0078E8;
-    padding:7px 30px;
+    padding:10px 25px;
     border: none;
     border-radius: 2px;
+
+}
+.contact-button:hover{
+    background-color:#006BD0;
 
 }

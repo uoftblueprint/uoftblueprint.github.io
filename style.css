@@ -116,3 +116,25 @@ button{
 .value-icons{
     padding-top:20px;
 }
+@media (max-width: 700px) {                  
+    .content-to-hide {
+       display: none !important;
+    }
+    .mobile-container{
+        position:relative;
+        top:20vh;
+        text-align:center;
+        padding:30px;
+        background-color:white;
+    }
+    .mobile-container img{
+        width:200px;
+        padding-bottom:20px;
+    }
+    
+ }
+ @media (min-width:700px){
+     .mobile-show{
+         display:none !important;
+     }
+ }

@@ -37,9 +37,22 @@ h2{
     font-size:24px;
     font-weight:300;
 }
-.nav-menu{
-    padding:15px 20px;
+#nav-bar{
+    padding-top: 2.5vh;
+    padding-left: 6.5vh;
+    padding-right: 10vh;
+
 }
+.nav-menu{
+    padding:20px 20px;
+
+}
+
+.nav-menu a:hover, a:visited, a:link, a:active{
+    color: black;
+
+}
+
 #nav-links{
     float:right;
 }
@@ -51,6 +64,62 @@ h2{
     color:white;
     width:100vw;
     height:400px;
+}
+
+#projects-banner{
+    margin-top: -12vw;
+    padding-top:25vh;
+    height:100%;
+    height:700px;
+    background: rgba(241, 241, 241, 0.5);
+}
+
+#projects-future{
+    height:100%;
+    height:600px;
+    padding-left: 400px;
+
+}
+
+#sub-title{
+    color:black;
+    font-size:30px;
+    font-weight:350;
+    padding-top:10vh;
+    padding-left:10vh;
+}
+
+#projects-list{
+    color:black;
+    font-size:20px;
+    padding-left:10vh;
+    padding-right:10vh;
+
+}
+
+#project-title{
+    font-size:20px;
+    font-weight: 500;
+}
+
+#project-description{
+    font-size:20px;
+    padding-right: 75vh;
+}
+
+span{
+    border:1px solid transparent;
+
+}
+.inRow{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,auto);
+    grid-gap:10px /*This add space between elements, only works on grid items*/
+}
+.inColumn{
+    display:grid;
+    grid-template-rows:repeat(auto-fill,auto);
+    grid-gap:15px;
 }
 
 #page-title{

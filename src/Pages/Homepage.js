@@ -23,14 +23,15 @@ export default function Homepage() {
             <img className="background-style" src={background} /> 
           </div>
           <div className="content-to-hide">
+            {/*
             <div id="nav-bar">
               <a href="./index.html"><img src={banner} id="logo" /></a>
-              {/*         <div id="nav-links">
+                       <div id="nav-links">
               <a href="./projects.html" class="nav-menu" style="text-decoration: none;">Projects</a>
               <a href="./meet_team.html" class="nav-menu" style="text-decoration: none;">Team</a>
   
-          </div> */}
-            </div>
+          </div> 
+            </div> */}
             <div id="landing-container">
               <div id="main-image">    
                 <img src={main} id="main-photo" />

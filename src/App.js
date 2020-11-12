@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Homepage from './Pages/Homepage';
+import Navbar from './NavBar/NavBar';
 
 function App() {
   return (
-    <Homepage/>
+    <div>
+      <Navbar />
+      <Homepage/>
+    </div>
+    
   );
 }
 

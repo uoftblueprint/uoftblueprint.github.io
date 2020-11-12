@@ -62,7 +62,7 @@ export default function Homepage() {
                 <div className="value-container">
                     <img className="value-icons" src={missionIcon} />
                     <div className="value-text">
-                    <p className="sub-text">Mission First</p>
+                    <p className="sub-text">Mission Second</p>
                     <p>We will always prioritize the mission first. Our main priority is doing professional work for social good and public welfare.</p>
                     </div>
                     

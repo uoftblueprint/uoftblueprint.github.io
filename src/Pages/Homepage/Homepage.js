@@ -1,13 +1,13 @@
 import React from 'react'
 import './Homepage.css'
-import banner from '../assets/banner.png'
-import background from "../assets/patternbackground.svg"
-import main from '../assets/main.png'
-import missionIcon from "../assets/icon1.svg"
-import innovationIcon from '../assets/icon2.svg'
-import communityIcon from '../assets/icon3.svg'
-import waveBottom from '../assets/aboutUsWaveBottom.svg'
-import waveTop from '../assets/aboutUsWaveTop.svg'
+import banner from '../../assets/banner.png'
+import background from "../../assets/patternbackground.svg"
+import main from '../../assets/main.png'
+import missionIcon from "../../assets/icon1.svg"
+import innovationIcon from '../../assets/icon2.svg'
+import communityIcon from '../../assets/icon3.svg'
+import waveBottom from '../../assets/aboutUsWaveBottom.svg'
+import waveTop from '../../assets/aboutUsWaveTop.svg'
 
 
 export default function Homepage() {

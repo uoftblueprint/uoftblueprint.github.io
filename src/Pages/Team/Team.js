@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const Team = () => {
     return (
-      <div>
-        <h1>Team</h1>
+      <div class="container">
+        <div class="row">
+          <h1 style={{ textAlign: 'center' }}>Team</h1>
+        </div>
       </div>
     )
 }

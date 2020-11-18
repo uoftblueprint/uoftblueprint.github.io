@@ -2,8 +2,10 @@ import React from 'react'
 
 const Projects = () => {
     return (
-      <div>
-        <h1>Projects</h1>
+      <div class="container">
+        <div class="row">
+          <h1 style={{ textAlign: 'center' }}>Projects</h1>
+        </div>
       </div>
     )
 }

@@ -1,13 +1,13 @@
 import React from 'react'
 import './Homepage.css'
-import banner from '../assets/banner.png'
-import background from "../assets/patternbackground.svg"
-import main from '../assets/main.png'
-import missionIcon from "../assets/icon1.svg"
-import innovationIcon from '../assets/icon2.svg'
-import communityIcon from '../assets/icon3.svg'
-import waveBottom from '../assets/aboutUsWaveBottom.svg'
-import waveTop from '../assets/aboutUsWaveTop.svg'
+import banner from '../../assets/banner.png'
+import background from "../../assets/patternbackground.svg"
+import main from '../../assets/main.png'
+import missionIcon from "../../assets/icon1.svg"
+import innovationIcon from '../../assets/icon2.svg'
+import communityIcon from '../../assets/icon3.svg'
+import waveBottom from '../../assets/aboutUsWaveBottom.svg'
+import waveTop from '../../assets/aboutUsWaveTop.svg'
 
 
 export default function Homepage() {
@@ -23,14 +23,15 @@ export default function Homepage() {
             <img className="background-style" src={background} /> 
           </div>
           <div className="content-to-hide">
+            {/*
             <div id="nav-bar">
               <a href="./index.html"><img src={banner} id="logo" /></a>
-              {/*         <div id="nav-links">
+                       <div id="nav-links">
               <a href="./projects.html" class="nav-menu" style="text-decoration: none;">Projects</a>
               <a href="./meet_team.html" class="nav-menu" style="text-decoration: none;">Team</a>
   
-          </div> */}
-            </div>
+          </div> 
+            </div> */}
             <div id="landing-container">
               <div id="main-image">    
                 <img src={main} id="main-photo" />

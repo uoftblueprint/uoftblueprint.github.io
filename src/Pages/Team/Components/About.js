@@ -1,17 +1,17 @@
 import React from 'react';
 import {Image} from "react-bootstrap";
 import { Container, Row, Col } from "react-bootstrap";
-// import photo from "https://via.placeholder.com/100";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../Team.css';
 
 
 
 const About = (props) => {
     return (
-      <div class="container">
+      <div class="AboutContainer">
         <Image src={props.profile_img} roundedCircle fluid/>
-        <h4>name</h4>
-        <p>hello</p>
+        <h4>{props.name}</h4>
+        <p className="role">{props.role}</p>
       </div>
     )
 }

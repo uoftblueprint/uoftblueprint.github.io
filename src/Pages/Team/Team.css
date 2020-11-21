@@ -1,18 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* 
+    TAG SELECTORS
+*/
+
 body {
   font-family: Poppins;
 }
+
+/*
+    CLASS SELECTORS
+*/
+
 .AboutContainer {
   text-align: center;
+  padding-top: 40px;
 }
 
-.role {
-  color: #C4C4C4;
+.Header {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.HeaderStyle {
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.Role {
+  color: #c4c4c4;
 }
 
 .ProfileName {
   padding-top: 20px;
 }
+
+/* .TeamContainer {
+
+} */
 
 .TeamTitle {
   text-align: center;

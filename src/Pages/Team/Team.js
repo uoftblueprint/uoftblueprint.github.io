@@ -5,15 +5,15 @@ import { Container, Row, Col } from "react-bootstrap";
 const Team = () => {
     return (
       <div class="container">
-       <h1 style={{ textAlign: 'center' }}>Team</h1>
+       <h1 style={{ textAlign: 'center' }}>Meet Our Team</h1>
         <Row>
-          <Col xs={12} md={4} lg={3}>
+          <Col xs={12} md={3} lg={2}>
             <About/>
           </Col>
-          <Col xs={12} md={4} lg={3}>
+          <Col xs={12} md={3} lg={2}>
             <About/>
           </Col>
-          <Col xs={12} md={4} lg={3}>
+          <Col xs={12} md={3} lg={2}>
             <About/>
           </Col>
         </Row>

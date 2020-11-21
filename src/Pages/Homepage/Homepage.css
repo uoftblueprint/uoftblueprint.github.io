@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 body {
-  font-family: "poppins";
+  font-family: Poppins;
 }
 h2 {
   font-size: 36px;

@@ -7,7 +7,7 @@ const IMG = "https://via.placeholder.com/100";
 const Team = () => {
     return (
       <div class="container">
-       <h1 style={{ textAlign: 'center' }}>Meet Our Team</h1>
+       <h3 className="TeamTitle">Meet Our Team</h3>
         <Row>
           <Col xs={12} md={3} lg={2}>
             <About profile_img={IMG} name={"Elena"} role={"Best Human"}/>

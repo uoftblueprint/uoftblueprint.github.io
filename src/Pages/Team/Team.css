@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body {
+  font-family: Poppins;
+}
 .AboutContainer {
   text-align: center;
+}
+
+.role {
+  color: #C4C4C4;
+}
+
+.ProfileName {
+  padding-top: 20px;
+}
+
+.TeamTitle {
+  text-align: center;
+  padding: 50px;
 }

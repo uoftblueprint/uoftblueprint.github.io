@@ -93,7 +93,6 @@ const Team = () => {
           </Col>
         </Row>
       </div>
-
     </div>
   );
 };

@@ -10,13 +10,13 @@ const Team = () => {
        <h1 style={{ textAlign: 'center' }}>Meet Our Team</h1>
         <Row>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG}/>
+            <About profile_img={IMG} name={"Elena"} role={"Best Human"}/>
           </Col>
           <Col xs={12} md={3} lg={2}>
-          <About profile_img={IMG}/>
+          <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"}/>
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG}/>
+            <About profile_img={IMG} name={"Varun"} role={"Best Boi"}/>
           </Col>
         </Row>
       </div>

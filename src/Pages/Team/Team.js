@@ -24,6 +24,76 @@ const Team = () => {
           </Col>
         </Row>
       </div>
+
+      <div className="TeamContainer">
+        <h5 className="HeaderStyle">
+          <span className="Header">SHELTER MOVERS</span>
+        </h5>
+        <Row>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+          </Col>
+        </Row>
+      </div>
+
+      <div className="TeamContainer">
+        <h5 className="HeaderStyle">
+          <span className="Header">MERIT AWARD</span>
+        </h5>
+        <Row>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+          </Col>
+        </Row>
+      </div>
+
+      <div className="TeamContainer">
+        <h5 className="HeaderStyle">
+          <span className="Header">VIABILITY</span>
+        </h5>
+        <Row>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+          </Col>
+        </Row>
+      </div>
+
     </div>
   );
 };

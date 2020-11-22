@@ -24,22 +24,23 @@ export default function ProjectsPage() {
         <>
             <Jumbotron fluid>
                 <Container fluid="md">
-                    <h1>Current Projects</h1>
+                    <h1>
+                        Current Projects
+                    </h1>
                     <h4>
                         Blah blah project blurb. Click here to apply for us to do  a project.
                     </h4>
                 </Container>
-
             </Jumbotron>
             <Container fluid="md">
                 <Row >
-                    <Col>
+                    <Col style={{"margin-bottom": '15px'}}>
                         <ProjectCard project_image={"https://via.placeholder.com/250"} project_title={"Viability"} project_description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla mauris iaculis orci hendrerit varius. Proin ante neque, convallis sed lacinia sit amet, interdum nec."} />
                     </Col>
-                    <Col>
+                    <Col style={{"margin-bottom": '15px'}}>
                         <ProjectCard project_image={"https://via.placeholder.com/250"} project_title={"Shelter Movers"} project_description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla mauris iaculis orci hendrerit varius. Proin ante neque, convallis sed lacinia sit amet, interdum nec."} />
                     </Col>
-                    <Col>
+                    <Col style={{"margin-bottom": '15px'}}>
                         <ProjectCard project_image={"https://via.placeholder.com/250"} project_title={"Your Project!"} project_description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla mauris iaculis orci hendrerit varius. Proin ante neque, convallis sed lacinia sit amet, interdum nec."} />
                     </Col>
                 </Row>

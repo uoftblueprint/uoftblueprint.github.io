@@ -14,22 +14,52 @@ const Team = () => {
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Antoine Finot"} role={"President"} />
+            <About
+              profile_img={IMG}
+              name={"Antoine Finot"}
+              role={"President"}
+              linkedin={"https://linkedin.com/in/antoine-f/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Angela Bi"} role={"VP External"} />
+            <About
+              profile_img={IMG}
+              name={"Angela Bi"}
+              role={"VP External"}
+              linkedin={"https://linkedin.com/in/angela-bi-/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Karen Zhao"} role={"VP Internal"} />
+            <About
+              profile_img={IMG}
+              name={"Karen Zhao"}
+              role={"VP Internal"}
+              linkedin={"https://linkedin.com/in/karenjyzhao"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Windsor Huang"} role={"VP Finance"} />
+            <About
+              profile_img={IMG}
+              name={"Windsor Huang"}
+              role={"VP Finance"}
+              linkedin={"https://linkedin.com/in/windsorhuang/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Olivia Li"} role={"Director of Projects"} />
+            <About
+              profile_img={IMG}
+              name={"Olivia Li"}
+              role={"Director of Projects"}
+              linkedin={"https://linkedin.com/in/oliviaoli/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Ling Lu"} role={"Director of Design"} />
+            <About
+              profile_img={IMG}
+              name={"Ling Lu"}
+              role={"Director of Design"}
+              linkedin={"https://linkedin.com/in/ling-l-b4982288/"}
+            />
           </Col>
         </Row>
       </div>
@@ -40,34 +70,79 @@ const Team = () => {
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Michael Jia"} role={"Product Manager"} />
+            <About
+              profile_img={IMG}
+              name={"Michael Jia"}
+              role={"Product Manager"}
+              linkedin={"https://linkedin.com/in/michaelzcjia"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Dakota McInnis"} role={"Project Lead"} />
+            <About
+              profile_img={IMG}
+              name={"Dakota McInnis"}
+              role={"Project Lead"}
+              linkedin={"https://linkedin.com/in/dakotamcinnis/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Tammy Taabassum"} role={"Designer"} />
+            <About
+              profile_img={IMG}
+              name={"Tammy Taabassum"}
+              role={"Designer"}
+              linkedin={"https://linkedin.com/in/taamannae/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About profile_img={IMG} name={"Anita Xu"} role={"Designer"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Sakina Gadriwala"} role={"Developer"} />
+            <About
+              profile_img={IMG}
+              name={"Sakina Gadriwala"}
+              role={"Developer"}
+              linkedin={"https://linkedin.com/in/sakina-gadriwala-14b779156/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Dane Gledhill"} role={"Developer"} />
+            <About
+              profile_img={IMG}
+              name={"Dane Gledhill"}
+              role={"Developer"}
+              linkedin={"https://linkedin.com/in/danegledhill/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Rayyana Kambris"} role={"Developer"} />
+            <About
+              profile_img={IMG}
+              name={"Rayyana Kambris"}
+              role={"Developer"}
+              linkedin={"https://linkedin.com/in/raykambris"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Amy Peng"} role={"Developer"} />
+            <About
+              profile_img={IMG}
+              name={"Amy Peng"}
+              role={"Developer"}
+              linkedin={"https://linkedin.com/in/amy-p/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Samuel Moor-Smith"} role={"Developer"} />
+            <About
+              profile_img={IMG}
+              name={"Samuel Moor-Smith"}
+              role={"Developer"}
+              linkedin={"https://linkedin.com/in/samuel-moor-smith"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Chi-Hong Cheung"} role={"Developer"} />
+            <About
+              profile_img={IMG}
+              name={"Chi-Hong Cheung"}
+              role={"Developer"}
+              linkedin={"https://linkedin.com/in/cheung-chihong/"}
+            />
           </Col>
         </Row>
       </div>

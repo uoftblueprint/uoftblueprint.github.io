@@ -7,7 +7,14 @@ import "../Team.css";
 const About = (props) => {
   return (
     <div class="AboutContainer">
-      <Image className="ProfileImage" src={props.profile_img} roundedCircle fluid />
+      <a href={props.linkedin}>
+        <Image
+          className="ProfileImage"
+          src={props.profile_img}
+          roundedCircle
+          fluid
+        />
+      </a>
       <h5 className="ProfileName">{props.name}</h5>
       <p className="Role">{props.role}</p>
     </div>

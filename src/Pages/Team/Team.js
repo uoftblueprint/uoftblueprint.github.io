@@ -14,13 +14,22 @@ const Team = () => {
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+            <About profile_img={IMG} name={"Antoine Finot"} role={"President"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+            <About profile_img={IMG} name={"Angela Bi"} role={"VP External"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+            <About profile_img={IMG} name={"Karen Zhao"} role={"VP Internal"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Windsor Huang"} role={"VP Finance"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Olivia Li"} role={"Director of Projects"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Ling Lu"} role={"Director of Design"} />
           </Col>
         </Row>
       </div>
@@ -31,31 +40,34 @@ const Team = () => {
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+            <About profile_img={IMG} name={"Michael Jia"} role={"Product Manager"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+            <About profile_img={IMG} name={"Dakota McInnis"} role={"Project Lead"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+            <About profile_img={IMG} name={"Tammy Taabassum"} role={"Designer"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+            <About profile_img={IMG} name={"Anita Xu"} role={"Designer"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+            <About profile_img={IMG} name={"Sakina Gadriwala"} role={"Developer"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+            <About profile_img={IMG} name={"Dane Gledhill"} role={"Developer"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+            <About profile_img={IMG} name={"Rayyana Kambris"} role={"Developer"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+            <About profile_img={IMG} name={"Amy Peng"} role={"Developer"} />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+            <About profile_img={IMG} name={"Samuel Moor-Smith"} role={"Developer"} />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Chi-Hong Cheung"} role={"Developer"} />
           </Col>
         </Row>
       </div>

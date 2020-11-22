@@ -7,7 +7,7 @@ import "../Team.css";
 const About = (props) => {
   return (
     <div class="AboutContainer">
-      <Image src={props.profile_img} roundedCircle fluid />
+      <Image className="ProfileImage" src={props.profile_img} roundedCircle fluid />
       <h5 className="ProfileName">{props.name}</h5>
       <p className="Role">{props.role}</p>
     </div>

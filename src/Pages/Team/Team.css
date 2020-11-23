@@ -18,8 +18,8 @@ body {
 }
 
 .Header {
-  /* background: #c7e3ff; */
-  background: linear-gradient(to top, #c7e3ff 60%, transparent 60%);
+  background: #c7e3ff;
+  /* background: linear-gradient(to top, #c7e3ff 60%, transparent 60%); */
   padding: 0 10px;
   color: #0078e8;
 }
@@ -44,7 +44,7 @@ body {
   width: 100px;
   height: 100px;
   opacity: 0.3;
-  transition-duration: 0.5;
+  transition-duration: 0.9;
 }
 
 /* .TeamContainer {

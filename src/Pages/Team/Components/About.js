@@ -7,7 +7,7 @@ import "../Team.css";
 const About = (props) => {
   return (
     <div class="AboutContainer">
-      <a href={props.linkedin}>
+      <a href={props.linkedin} target="_blank">
         <Image
           className="ProfileImage"
           src={props.profile_img}

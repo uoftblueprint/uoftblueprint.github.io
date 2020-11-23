@@ -66,6 +66,44 @@ const Team = () => {
 
       <div className="TeamContainer">
         <h5 className="HeaderStyle">
+          <span className="Header">INTERNAL TEAM</span>
+        </h5>
+        <Row>
+          <Col xs={12} md={3} lg={2}>
+          <About profile_img={IMG} name={"Windsor Huang"} role={"Project Manager"} 
+            linkedin={"https://linkedin.com/in/windsorhuang/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+          <About profile_img={IMG} name={"Varun Lodaya"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/varun-lodaya/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+          <About profile_img={IMG} name={"Rajvi Rana"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/varun-lodaya/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+          <About profile_img={IMG} name={"Elena Wang"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/elenawzy/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+          <About profile_img={IMG} name={"Kevin Zhu"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/kevin-zhu-732019175/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+          <About profile_img={IMG} name={"Jacky Yang"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/jyangcs/"}
+            />
+          </Col>
+        </Row>
+      </div>
+
+      <div className="TeamContainer">
+        <h5 className="HeaderStyle">
           <span className="Header">SHELTER MOVERS</span>
         </h5>
         <Row>
@@ -163,33 +201,38 @@ const Team = () => {
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
-            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            <About profile_img={IMG} name={"Purnima Mehta"} role={"Designer"} 
+            linkedin={"https://linkedin.com/in/purnimamehta"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
-            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            <About profile_img={IMG} name={"Antoine Finot"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/antoine-f/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
-            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            <About profile_img={IMG} name={"Baker Jackson"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/baker-jackson/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
-            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            <About profile_img={IMG} name={"Song You"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/songeunyou/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
-            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            <About profile_img={IMG} name={"Alexander Shih"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/alexandershih2022/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
-            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            <About profile_img={IMG} name={"Stella Cai"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/stella-cai-77a526181/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Sheree Zhang"} role={"Developer"} 
+            linkedin={"https://linkedin.com/in/shereezhang/"}
             />
           </Col>
         </Row>

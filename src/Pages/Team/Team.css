@@ -18,7 +18,8 @@ body {
 }
 
 .Header {
-  background: #c7e3ff;
+  /* background: #c7e3ff; */
+  background: linear-gradient(to top, #c7e3ff 60%, transparent 60%);
   padding: 0 10px;
   color: #0078e8;
 }

@@ -40,7 +40,7 @@ export default function Homepage() {
                 <div id="text-container">
                   <p id="text1">Tech for Social Good</p>
                   <p id="text2">We are a group of students at the University of Toronto that provide technical solutions (or software) for nonprofits.</p>
-                  <a href="http://bit.ly/uoftblueprint"><button className="contact-button">Apply now!</button></a>
+                  <a href="http://bit.ly/uoftblueprint"><button className="apply-button">Apply now!</button></a>
                 </div>
               </div>
             </div>
@@ -92,8 +92,10 @@ export default function Homepage() {
               <div id="contact-container">
                 <div id="contact-text">
                   <h2>Contact Us!</h2>
-                  <p>We are looking for nonprofits who are in need of technological solutions, as well as partners interested in supporting us and our cause.</p>
-                  <a href="mailto:contact@uoftblueprint.org"><button className="contact-button">Let's get in touch!</button></a>
+                  <div class='horizontal'>
+                    <p>We are looking for nonprofits who are in need of technological solutions, as well as partners interested in supporting us and our cause.</p>
+                    <a href="mailto:contact@uoftblueprint.org"><button className="contact-button">contact@uoftblueprint.org</button></a>
+                  </div>
                 </div>
               </div>
             </div>

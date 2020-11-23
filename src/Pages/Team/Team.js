@@ -153,13 +153,44 @@ const Team = () => {
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Elena"} role={"Best Human"} />
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Rajvi"} role={"Also Best Human"} />
+            <About profile_img={IMG} name={"Rishab Luthra"} role={"Project Lead"} 
+            linkedin={"https://linkedin.com/in/rishabluthra"}
+            />
           </Col>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Varun"} role={"Best Boi"} />
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            />
+          </Col>
+          <Col xs={12} md={3} lg={2}>
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            linkedin={"https://linkedin.com/in/trudiecheung/"}
+            />
           </Col>
         </Row>
       </div>

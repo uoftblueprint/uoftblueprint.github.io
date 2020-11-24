@@ -3,6 +3,7 @@ import About from "./Components/About";
 import { Container, Row, Col } from "react-bootstrap";
 
 const IMG = "https://via.placeholder.com/100";
+const ANTOINE = "https://media-exp1.licdn.com/dms/image/C5603AQERSjsNVOI6cg/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=HOnA7VMQbu-HoXdRAHhDkMHb2Hzv5HxfvHzrprlxqqo";
 
 const Team = () => {
   return (
@@ -15,7 +16,7 @@ const Team = () => {
         <Row>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={IMG}
+              profile_img={ANTOINE}
               name={"Antoine Finot"}
               role={"President"}
               linkedin={"https://linkedin.com/in/antoine-f/"}
@@ -23,7 +24,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={IMG}
+              profile_img={"https://media-exp1.licdn.com/dms/image/C4E03AQHznrYYS4F3hA/profile-displayphoto-shrink_400_400/0/1597105774791?e=1611792000&v=beta&t=z7KplyJr554teK_PuGO2b4IH6J8mO_k5tTbd5k9O8ys"}
               name={"Angela Bi"}
               role={"VP External"}
               linkedin={"https://linkedin.com/in/angela-bi-/"}
@@ -31,7 +32,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={IMG}
+              profile_img={"https://media-exp1.licdn.com/dms/image/C5603AQHEG5tvMithXg/profile-displayphoto-shrink_400_400/0/1579562506855?e=1611792000&v=beta&t=ls2bTuPl9A7iKnVBFIVhChjidjDUMk5uf3Slzd1MOdc"}
               name={"Karen Zhao"}
               role={"VP Internal"}
               linkedin={"https://linkedin.com/in/karenjyzhao"}
@@ -39,7 +40,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={IMG}
+              profile_img={"https://media-exp1.licdn.com/dms/image/C5603AQGPEFE-4i6udg/profile-displayphoto-shrink_400_400/0/1552299742135?e=1611792000&v=beta&t=yoLV-L6_JA32IUVq5kclxMD9_9jag-VlQFpwH_bMOdI"}
               name={"Windsor Huang"}
               role={"VP Finance"}
               linkedin={"https://linkedin.com/in/windsorhuang/"}
@@ -47,7 +48,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={IMG}
+              profile_img={"https://media-exp1.licdn.com/dms/image/C5603AQHMaBwyDQwDtA/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=Ytgwweh2T3_OmHHU41UgfG37G-lfQldMvXibSIw5XN8"}
               name={"Olivia Li"}
               role={"Director of Projects"}
               linkedin={"https://linkedin.com/in/oliviaoli/"}
@@ -55,7 +56,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={IMG}
+              profile_img={"https://media-exp1.licdn.com/dms/image/C5603AQGonjCdZJiyYA/profile-displayphoto-shrink_400_400/0/1575409896752?e=1611792000&v=beta&t=WcpYh9EXTQ3UwUBY12-e_bL_Ou7hb0x4Ut8kf2f57Bk"}
               name={"Ling Lu"}
               role={"Director of Design"}
               linkedin={"https://linkedin.com/in/ling-l-b4982288/"}
@@ -70,7 +71,7 @@ const Team = () => {
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>
-          <About profile_img={IMG} name={"Windsor Huang"} role={"Project Manager"} 
+          <About profile_img={"https://media-exp1.licdn.com/dms/image/C5603AQGPEFE-4i6udg/profile-displayphoto-shrink_400_400/0/1552299742135?e=1611792000&v=beta&t=yoLV-L6_JA32IUVq5kclxMD9_9jag-VlQFpwH_bMOdI"} name={"Windsor Huang"} role={"Project Manager"} 
             linkedin={"https://linkedin.com/in/windsorhuang/"}
             />
           </Col>

@@ -76,27 +76,27 @@ const Team = () => {
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-          <About profile_img={IMG} name={"Varun Lodaya"} role={"Developer"} 
+          <About profile_img={"https://media-exp1.licdn.com/dms/image/C4D03AQHKNv-3M1yZCQ/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=1RumMh3UGMB7okBY0m2CKy8ryBTIcVRkrSnWlOrXx2U"} name={"Varun Lodaya"} role={"Developer"} 
             linkedin={"https://linkedin.com/in/varun-lodaya/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-          <About profile_img={IMG} name={"Rajvi Rana"} role={"Developer"} 
-            linkedin={"https://linkedin.com/in/varun-lodaya/"}
+          <About profile_img={"https://media-exp1.licdn.com/dms/image/C4D03AQHyCtOh6EnoKw/profile-displayphoto-shrink_400_400/0/1600198498959?e=1611792000&v=beta&t=Q94GK7xrYeC88HMMlxuf4p2PrzE4W-tyJ_MMzFIvIAU"} name={"Rajvi Rana"} role={"Developer"} 
+            linkedin={"https://www.linkedin.com/in/rajvirana/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-          <About profile_img={IMG} name={"Elena Wang"} role={"Developer"} 
+          <About profile_img={"https://media-exp1.licdn.com/dms/image/C5603AQG9he6PsQOw0g/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=celZcQNJQsrxCQ5hHQKilWZNzB4YZzN6zm7ShAAcseQ"} name={"Elena Wang"} role={"Developer"} 
             linkedin={"https://linkedin.com/in/elenawzy/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-          <About profile_img={IMG} name={"Kevin Zhu"} role={"Developer"} 
+          <About profile_img={"https://media-exp1.licdn.com/dms/image/C4E03AQE43_TmFAeAqQ/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=Q9PDMEXxi1_6pfsXUg62uDwS24583pF95rFoHCazS-Y"} name={"Kevin Zhu"} role={"Developer"} 
             linkedin={"https://linkedin.com/in/kevin-zhu-732019175/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>
-          <About profile_img={IMG} name={"Jacky Yang"} role={"Developer"} 
+          <About profile_img={"https://media-exp1.licdn.com/dms/image/C4E03AQHGzycd8rVXEw/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=HIIaRKpuANYqu0teZtMpShRA0UMKkuW2O4azoW-GoOQ"} name={"Jacky Yang"} role={"Developer"} 
             linkedin={"https://linkedin.com/in/jyangcs/"}
             />
           </Col>
@@ -112,7 +112,7 @@ const Team = () => {
             <About
               profile_img={IMG}
               name={"Michael Jia"}
-              role={"Product Manager"}
+              role={"Project Manager"}
               linkedin={"https://linkedin.com/in/michaelzcjia"}
             />
           </Col>
@@ -192,7 +192,7 @@ const Team = () => {
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>
-            <About profile_img={IMG} name={"Trudie Cheung"} role={"Product Manager"} 
+            <About profile_img={IMG} name={"Trudie Cheung"} role={"Project Manager"} 
             linkedin={"https://linkedin.com/in/trudiecheung/"}
             />
           </Col>
@@ -241,7 +241,7 @@ const Team = () => {
 
       <div className="TeamContainer">
         <h5 className="HeaderStyle">
-          <span className="Header">VIABILITY</span>
+          <span className="Header">VEEP</span>
         </h5>
         <Row>
           <Col xs={12} md={3} lg={2}>

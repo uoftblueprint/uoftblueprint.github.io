@@ -17,6 +17,11 @@ body {
   padding: 40px 0;
 }
 
+.BottomContainer {
+  background-color: rgba(147, 201, 254, 0.25);
+  padding: 125px;
+  text-align: center;
+}
 .Header {
   background: #c7e3ff;
   /* background: linear-gradient(to top, #c7e3ff 60%, transparent 60%); */

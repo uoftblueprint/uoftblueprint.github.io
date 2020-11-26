@@ -6,14 +6,21 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Jumbotron } from 'react-bootstrap'
+import shelter_movers from '../../assets/shelter_movers.png'
+import merit_award from '../../assets/merit_award.png'
+import veep from '../../assets/veep.png'
+import blueprint from '../../assets/blueprint.png'
+import './Projects.css'
 
 const ProjectCard = (props) => {
     return (
-        <Card style={{ width: '20rem' }} className={"text-center"}>
-            <Card.Img variant="top" src={props.project_image} />
-            <Card.Body>
-                <Card.Title>{props.project_title}</Card.Title>
-                <Card.Text>{props.project_description}</Card.Text>
+        <Card style={{ width: '300px', height: "555px" }} className={"text-center ProjectCard"}>
+            <a href={props.website}><Card.Img variant="top" src={props.project_image} style={{ width: "100%", height: "280px", padding: 0, margin: 0 }} /></a>
+            <hr style={{ padding: 0, margin: "0 0 5px 0" }} />
+            <Card.Body style={{ padding: 0 }}>
+                <Card.Title style={{ padding: "5px 0 0 0 " }}>{props.project_title}</Card.Title>
+                <hr style={{ padding: 0, margin: "0 0 5px 0" }} />
+                <Card.Text style={{ padding: "5px" }}>{props.project_description}</Card.Text>
             </Card.Body>
         </Card>
     )
@@ -22,26 +29,30 @@ const ProjectCard = (props) => {
 export default function ProjectsPage() {
     return (
         <>
-            <Jumbotron fluid>
+            <Jumbotron fluid style={{ padding: "25px 0 25px 0", "background-color": "rgba(147, 201, 254, 0.25)" }}>
                 <Container fluid="md">
                     <h1>
                         Current Projects
                     </h1>
-                    <h4>
-                        Blah blah project blurb. Click here to apply for us to do  a project.
+                    <h4 style={{ padding: "0 0 5px 0" }}>
+                        If you want to work with us on a project for your organization, do let us know! We'd be happy to chat with you about your requirements.
                     </h4>
+                    <a href="mailto:contact@uoftblueprint.org"><button class="contact-button">Let's get in touch!</button></a>
                 </Container>
             </Jumbotron>
             <Container fluid="md">
                 <Row >
-                    <Col style={{"margin-bottom": '15px'}}>
-                        <ProjectCard project_image={"https://via.placeholder.com/250"} project_title={"Merit Award"} project_description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla mauris iaculis orci hendrerit varius. Proin ante neque, convallis sed lacinia sit amet, interdum nec."} />
+                    <Col style={{ "margin-bottom": '15px' }}>
+                        <ProjectCard website={"/"} project_image={blueprint} project_title={"UofT Blueprint Website"} project_description={"This website! In the spirit of innovation and community, we decided to build all the club infrastructure ourselves, as a learning experience, and as a new opportunity for our members. This includes the website you're currently seeing! It was built from the ground up by some of the (most talented) people in UofT Blueprint."} />
                     </Col>
-                    <Col style={{"margin-bottom": '15px'}}>
-                        <ProjectCard project_image={"https://via.placeholder.com/250"} project_title={"Shelter Movers"} project_description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla mauris iaculis orci hendrerit varius. Proin ante neque, convallis sed lacinia sit amet, interdum nec."} />
+                    <Col style={{ "margin-bottom": '15px' }}>
+                        <ProjectCard website={"http://meritaward.ca/"} project_image={merit_award} project_title={"Merit Award"} project_description={"The Merit Award project is a scholarship platform that handles applications, applicant recommendations, and applicant review for the purpose of awarding scholarships to high school students. The goal of the platform is to serve as a way for Merit Award to manage their scholarship program efficiently."} />
                     </Col>
-                    <Col style={{"margin-bottom": '15px'}}>
-                        <ProjectCard project_image={"https://via.placeholder.com/250"} project_title={"This Site!"} project_description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla mauris iaculis orci hendrerit varius. Proin ante neque, convallis sed lacinia sit amet, interdum nec."} />
+                    <Col style={{ "margin-bottom": '15px' }}>
+                        <ProjectCard website={"https://www.sheltermovers.com/"} project_image={shelter_movers} project_title={"Shelter Movers"} project_description={"Shelter Movers is a national, volunteer-powered charitable organization providing moving and storage services at no cost to women and children fleeing abuse. With guidance from local shelters and community agencies, they developed a survivor-centred, free moving service to fill a critical gap."} />
+                    </Col>
+                    <Col style={{ "margin-bottom": '15px' }}>
+                        <ProjectCard website={"http://uoftveep.herokuapp.com/"} project_image={veep} project_title={"VEEP - Collaboration Project"} project_description={"The Volunteer Engineering Experience Program (VEEP) is an undergraduate club based at the University of Toronto that pairs local, community oriented organizations with student teams who have technical expertise to create a product that will improve our partner organizations’ impact on their community."} />
                     </Col>
                 </Row>
             </Container>

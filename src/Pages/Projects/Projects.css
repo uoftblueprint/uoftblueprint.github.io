@@ -1,4 +1,11 @@
 body {
-    font-family: "poppins";
-    padding-bottom: 50px;
+    /* padding-bottom: 25px; */
+    font-family: Poppins;
+}
+.ProjectCard{
+    transition: transform .3s ease-out;
+}
+.ProjectCard:hover {
+    transform: translate(-5px, -10px);
+    /* box-shadow: 5px 10px #888888;  */
 }

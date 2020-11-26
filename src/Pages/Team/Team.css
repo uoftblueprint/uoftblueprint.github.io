@@ -19,9 +19,13 @@ body {
 
 .BottomContainer {
   background-color: rgba(147, 201, 254, 0.25);
-  padding: 125px;
-  text-align: center;
+  padding: 125px 220px ;
 }
+
+.BottomButton {
+  margin-top: 45px;
+}
+
 .Header {
   background: #c7e3ff;
   /* background: linear-gradient(to top, #c7e3ff 60%, transparent 60%); */
@@ -34,6 +38,11 @@ body {
   border-bottom: 1px solid #e4e4e4;
   line-height: 0.1em;
   margin: 10px 0 20px;
+}
+
+.HeartIcon {
+  padding-top: 25px;
+  text-align: center;
 }
 
 .Role {

@@ -1,7 +1,8 @@
 import React from "react";
 import About from "./Components/About";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import placeholder from "./Images/placeholder.JPG";
+import heart from "./Images/heart.png";
 
 const Team = () => {
   return (
@@ -383,7 +384,24 @@ const Team = () => {
 
       {/* BOTTOM CONTAINER TEAM */}
       <div className="BottomContainer">
-        <h4>Wanna join the team?</h4>
+        <Row>
+          <Col xs={12} md={2} lg={2}>
+            <Image className="HeartIcon" src={heart} />
+          </Col>
+          <Col xs={12} md={6} lg={8}>
+            <h4>Wanna join the team?</h4>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos
+              dolores et quas molestias excepturi sint occaecati cupiditate non
+              provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga. Et har
+            </p>
+          </Col>
+          <Col xs={12} md={2} lg={2}>
+          <a href="http://bit.ly/uoftblueprint"><button className="contact-button BottomButton">Contact Us!</button></a>
+          </Col>
+        </Row>
       </div>
     </div>
   );

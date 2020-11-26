@@ -1,10 +1,7 @@
 import React from "react";
 import About from "./Components/About";
 import { Container, Row, Col } from "react-bootstrap";
-
-const IMG = "https://via.placeholder.com/100";
-const ANTOINE =
-  "https://media-exp1.licdn.com/dms/image/C5603AQERSjsNVOI6cg/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=HOnA7VMQbu-HoXdRAHhDkMHb2Hzv5HxfvHzrprlxqqo";
+import placeholder from "./Images/placeholder.JPG";
 
 const Team = () => {
   return (
@@ -17,7 +14,9 @@ const Team = () => {
         <Row>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={ANTOINE}
+              profile_img={
+                "https://media-exp1.licdn.com/dms/image/C5603AQERSjsNVOI6cg/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=HOnA7VMQbu-HoXdRAHhDkMHb2Hzv5HxfvHzrprlxqqo"
+              }
               name={"Antoine Finot"}
               role={"President"}
               linkedin={"https://linkedin.com/in/antoine-f/"}
@@ -279,9 +278,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={
-                "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              }
+              profile_img={placeholder}
               name={"Purnima Mehta"}
               role={"Designer"}
               linkedin={"https://linkedin.com/in/purnimamehta"}
@@ -309,9 +306,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={
-                "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              }
+              profile_img={placeholder}
               name={"Song You"}
               role={"Developer"}
               linkedin={"https://linkedin.com/in/songeunyou/"}
@@ -358,26 +353,6 @@ const Team = () => {
           <Col xs={12} md={3} lg={2}>
             <About
               profile_img={
-                "https://media-exp1.licdn.com/dms/image/C5103AQF3O0A53TLagQ/profile-displayphoto-shrink_400_400/0/1580694909064?e=1611792000&v=beta&t=cxW_euWmVG9kP7arwq70cT1pw5bAL97bs-zf9pxLBF8"
-              }
-              name={"Jehan Vakharia"}
-              role={"Developer"}
-              linkedin={"https://linkedin.com/in/jehan-vakharia-19928b178/"}
-            />
-          </Col>
-          <Col xs={12} md={3} lg={2}>
-            <About
-              profile_img={
-                "https://media-exp1.licdn.com/dms/image/C4D03AQGji1MCFaacfw/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=L5tv-pbefZIwuWv5cCLqGApCrJ3l1GUvncbodQJq2uk"
-              }
-              name={"Lily Yu"}
-              role={"Developer"}
-              linkedin={"https://linkedin.com/in/lily-xiangning-yu/"}
-            />
-          </Col>
-          <Col xs={12} md={3} lg={2}>
-            <About
-              profile_img={
                 "https://media-exp1.licdn.com/dms/image/C5603AQFfgALTSfZKkA/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=icO4OaJINPmK6W_6ozH9MVyAZWLD_Z8VF4kxPnedvbo"
               }
               name={"Tina Teng"}
@@ -387,9 +362,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={
-                "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              }
+              profile_img={placeholder}
               name={"Michelle Lin"}
               role={"Developer"}
               linkedin={"https://linkedin.com/in/m-ichellelin"}
@@ -407,9 +380,7 @@ const Team = () => {
           </Col>
           <Col xs={12} md={3} lg={2}>
             <About
-              profile_img={
-                "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-              }
+              profile_img={placeholder}
               name={"Zarif Mahmud"}
               role={"Developer"}
               linkedin={"https://linkedin.com/in/zarifmahmud/"}

@@ -86,7 +86,7 @@ const Team = () => {
                 "https://media-exp1.licdn.com/dms/image/C5603AQGPEFE-4i6udg/profile-displayphoto-shrink_400_400/0/1552299742135?e=1611792000&v=beta&t=yoLV-L6_JA32IUVq5kclxMD9_9jag-VlQFpwH_bMOdI"
               }
               name={"Windsor Huang"}
-              role={"Project Manager"}
+              role={"Project Manager / Project Lead"}
               linkedin={"https://linkedin.com/in/windsorhuang/"}
             />
           </Col>
@@ -282,16 +282,6 @@ const Team = () => {
               name={"Purnima Mehta"}
               role={"Designer"}
               linkedin={"https://linkedin.com/in/purnimamehta"}
-            />
-          </Col>
-          <Col xs={12} md={3} lg={2}>
-            <About
-              profile_img={
-                "https://media-exp1.licdn.com/dms/image/C5603AQERSjsNVOI6cg/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=HOnA7VMQbu-HoXdRAHhDkMHb2Hzv5HxfvHzrprlxqqo"
-              }
-              name={"Antoine Finot"}
-              role={"Developer"}
-              linkedin={"https://linkedin.com/in/antoine-f/"}
             />
           </Col>
           <Col xs={12} md={3} lg={2}>

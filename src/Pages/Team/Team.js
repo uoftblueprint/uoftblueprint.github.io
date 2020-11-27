@@ -384,24 +384,24 @@ const Team = () => {
 
       {/* BOTTOM CONTAINER TEAM */}
       <div className="BottomContainer">
-        <Row>
-          <Col xs={12} md={2} lg={2}>
-            <Image className="HeartIcon" src={heart} />
-          </Col>
-          <Col xs={12} md={6} lg={8}>
-            <h4>Wanna join the team?</h4>
-            <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et dolorum fuga. Et har
-            </p>
-          </Col>
-          <Col xs={12} md={2} lg={2}>
-          <a href="http://bit.ly/uoftblueprint"><button className="contact-button BottomButton">Contact Us!</button></a>
-          </Col>
-        </Row>
+        {/* <Row>
+          <Col xs={12} md={2} lg={2}> */}
+        <Image className="HeartIcon" src={heart} />
+        {/* </Col> */}
+        {/* <Col xs={12} md={6} lg={8}> */}
+        <h4>Wanna join the team?</h4>
+        <p>
+          We are looking for non-profits who are in need of technological
+          solutions, as well as partners interested in supporting us and our
+          cause. Feel free to contact us for any inquiries!
+        </p>
+        {/* </Col>
+          <Col xs={12} md={2} lg={2}> */}
+        <a href="http://bit.ly/uoftblueprint">
+          <button className="contact-button BottomButton">Contact Us!</button>
+        </a>
+        {/* </Col>
+        </Row> */}
       </div>
     </div>
   );

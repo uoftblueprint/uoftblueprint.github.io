@@ -153,7 +153,7 @@ span {
 
 #top-wave {
   position: absolute;
-  bottom: 2px; /*adjusts for a small gap under bottom-wave*/
+  bottom: 0px; /*adjusts for a small gap under bottom-wave*/
   left: 0;
   width: 100%;
   height: auto;
@@ -174,7 +174,7 @@ span {
   font-size: 36px;
 }
 #values-section {
-  padding-top: 15vh;
+  /*padding-top: 15vh;*/
   margin: 0 auto;
 }
 
@@ -242,37 +242,6 @@ button {
 .horizontal {
   display: inline-block;
 }
-@media only screen and (max-width: 700px) {
-  .content-to-hide {
-    display: none !important;
-  }
-  .mobile-container {
-    position: relative;
-    top: 20vh;
-    text-align: center;
-    padding: 30px;
-    background-color: white;
-  }
-  .mobile-container img {
-    width: 200px;
-    padding-bottom: 20px;
-  }
-  .background-style {
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    top: 20px;
-    height: 100vh;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-  }
-}
-@media (min-width: 700px) {
-  .mobile-show {
-    display: none !important;
-  }
+@media screen and (max-width: 800px) {
+  #values-horizontal { display: flex; flex-flow: column; }
 }

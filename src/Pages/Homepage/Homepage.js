@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import './Homepage.css'
 import banner from '../../assets/banner.png'
 import background from "../../assets/patternbackground.svg"
@@ -11,18 +11,20 @@ import waveTop from '../../assets/aboutUsWaveTop.svg'
 
 
 export default function Homepage() {
+
+    const [offset, setOffset] = useState(0)
+    useEffect(() => {
+        function handleScroll() {
+            setOffset(window.pageYOffset)
+        }
+        window.addEventListener("scroll", handleScroll)
+        return () => {
+            window.removeEventListener("scroll", handleScroll)
+        }
+    }, [])
+
     return (
         <div>
-          <div className="mobile-show">
-            <div className="mobile-container">
-              <img src={banner} />
-              <p>Thanks for checking out our website! 💙</p>
-              <p>Currently our mobile site is under construction. 🚧</p>
-              <p>Check us out on your laptop  or desktop for the best viewing experience! 💻 🖥 </p>
-            </div>
-            <img className="background-style" src={background} /> 
-          </div>
-          <div className="content-to-hide">
             {/*
             <div id="nav-bar">
               <a href="./index.html"><img src={banner} id="logo" /></a>
@@ -47,10 +49,10 @@ export default function Homepage() {
 
             {/* About Us */}
             <div id='waves'>
-                    <img src={waveBottom} id='bottom-wave'/>
-                    <img src={waveTop} id='top-wave'/>
+                    <img src={waveBottom} id='bottom-wave' style={{transform: `translateY(${offset * -0.05}px)`}}/>
+                    <img src={waveTop} id='top-wave' style={{transform: `translateY(${offset * -0.1}px)`}}/>
             </div>
-            <div id="about-container" className="text-center">
+            <div id="about-container" className="text-center" style={{transform: `translateY(${offset * -0.1}px)`}}>
               <p className="sub-heading">About Us</p>
               <div style={{width: '50vw'}} className="text-center">
                 <p id="about-text">Blueprint strives to make technology accessible and useful for those who assist communities and promote public welfare.</p></div>
@@ -99,6 +101,6 @@ export default function Homepage() {
                 </div>
               </div>
             </div>
-          </div></div>
+          </div>
       );
 }

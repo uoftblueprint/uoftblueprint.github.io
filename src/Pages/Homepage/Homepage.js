@@ -94,7 +94,7 @@ export default function Homepage() {
               <div id="contact-container">
                 <div id="contact-text">
                   <h2>Contact Us!</h2>
-                  <div class='horizontal'>
+                  <div className='horizontal'>
                     <p>We are looking for nonprofits who are in need of technological solutions, as well as partners interested in supporting us and our cause.</p>
                     <a href="mailto:contact@uoftblueprint.org"><button className="contact-button">contact@uoftblueprint.org</button></a>
                   </div>

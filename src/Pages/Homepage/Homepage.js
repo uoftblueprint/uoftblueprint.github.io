@@ -3,9 +3,12 @@ import './Homepage.css'
 import banner from '../../assets/banner.png'
 import background from "../../assets/patternbackground.svg"
 import main from '../../assets/main.png'
-import missionIcon from "../../assets/icon1.svg"
-import innovationIcon from '../../assets/icon2.svg'
-import communityIcon from '../../assets/icon3.svg'
+import missionIcon from "../../assets/mission-globe.svg"
+import missionBlob from "../../assets/mission-blob.svg"
+import innovationIcon from '../../assets/innovation-box.svg'
+import innovationBlob from "../../assets/innovation-blob.svg"
+import communityIcon from '../../assets/community-hands.svg'
+import communityBlob from "../../assets/community-blob.svg"
 import waveBottom from '../../assets/aboutUsWaveBottom.svg'
 import waveTop from '../../assets/aboutUsWaveTop.svg'
 
@@ -63,6 +66,7 @@ export default function Homepage() {
               <p className="sub-heading" style={{textAlign: 'center', color: '#0078E8', paddingBottom: '20px'}}>Our Values</p>
               <div id='values-horizontal'>
                 <div className="value-container">
+                    {/*<img className="value-blob" src={missionBlob} />*/}
                     <img className="value-icons" src={missionIcon} />
                     <div className="value-text">
                     <p className="sub-text">Mission First</p>
@@ -71,6 +75,7 @@ export default function Homepage() {
                     
                 </div>
                 <div className="value-container">
+                    {/*<img className="value-blob" src={innovationBlob} />*/}
                     <img className="value-icons" src={innovationIcon} />
                     <div className="value-text">
                     <p className="sub-text">Innovation</p>
@@ -79,6 +84,7 @@ export default function Homepage() {
                     
                 </div>
                 <div className="value-container">
+                    {/*<img className="value-blob" src={communityBlob} />*/}
                     <img className="value-icons" src={communityIcon} />
                     <div className="value-text">
                     <p className="sub-text">Community</p>

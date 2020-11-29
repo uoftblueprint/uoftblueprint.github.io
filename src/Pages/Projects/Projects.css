@@ -9,3 +9,11 @@ body {
     transform: translate(-5px, -10px);
     /* box-shadow: 5px 10px #888888;  */
 }
+
+.Col{
+    padding: 3rem;
+}
+
+/* .text-responsive {
+    font-size: calc(80% + 1vw + 1vh);
+  } */

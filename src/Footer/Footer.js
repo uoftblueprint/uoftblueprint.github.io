@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="row">
                     {/* Column1 */}
                     <div className="col">
-                        <a className="logo" href="/home"><img src={banner} id="logo" /></a>
+                        <a className="logo" href="/home"><img src={banner} id="logo" style={{ padding: "4px"}}/></a>
                     </div>
                     {/* Column2 */}
                     <div className="col">
@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
                 <div className="text-center">
                     <h5 className="col-sm">
-                        &copy; Blueprint 2018.
+                        &copy; Blueprint 2020.
                     </h5>
                 </div>
             </div>

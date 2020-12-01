@@ -252,3 +252,34 @@ button {
 @media screen and (max-width: 800px) {
   #values-horizontal { display: flex; flex-flow: column; }
 }
+
+.MobileFooterTitle {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+
+.MobileFooterBody {
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.Copyright {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.MobileBottomButton {
+  background-color: #ffffff;
+  color: #333333;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  width: 80vw;
+  height: 4em;
+}

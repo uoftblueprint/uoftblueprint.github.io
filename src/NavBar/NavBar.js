@@ -9,7 +9,7 @@ class NavigationBar extends React.Component {
     render() {
         return(
             <Navbar>
-                <Navbar.Brand href="/home">
+                <Navbar.Brand href="/">
                 <img
                     alt=""
                     src={banner}
@@ -19,8 +19,8 @@ class NavigationBar extends React.Component {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end" style={{ paddingTop: '8px' }}>
                     <Nav className="ml-auto">
-                        <Nav.Link className="navlink" href="/team">Team</Nav.Link>
-                        <Nav.Link className="navlink" href="/projects">Projects</Nav.Link>
+                        <Link className="navlink" to="/team">Team</Link>
+                        <Link className="navlink" to="/projects">Projects</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

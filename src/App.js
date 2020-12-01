@@ -16,27 +16,24 @@ import 'bootstrap/dist/css/bootstrap.css';
 function App() {
   return (
     <div className="page">
-    <Router>
-    <div className="content">
-      
-        <Navbar />
-         <Switch>
-          <Route exact path="/">
-            <Redirect to="/home" />
-          </Route>
-          <Route path="/home">
-            <Homepage />
-          </Route>
-          <Route path="/team">
-            <Team />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-        </Switch>
-      </div>
+      <div className="content">
+          <Navbar />
+          <Switch>
+            <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
+            {/* <Route path="/home">
+              <Homepage />
+            </Route> */}
+            <Route path="/team">
+              <Team />
+            </Route>
+            <Route path="/projects">
+              <Projects />
+            </Route>
+          </Switch>
+        </div>
       { window.innerWidth > 480 ? <Footer /> : null }
-    </Router>
     </div>
   );
 }

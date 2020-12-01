@@ -20,15 +20,27 @@ const ProjectCard = (props) => {
                 src={props.project_image} 
                 style={{ width: "100%", height: "12rem", crop: 'fill' }}
             />
-            <Card.Body style={{ height: '14em' }}>
-                <Card.Title style={{ fontSize: '24px', fontWeight: '600' }}>{props.project_title}</Card.Title>
-                <Card.Text style={{ fontSize: '14px', fontWeight: 'normal' }}>
-                {props.project_description}
-                </Card.Text>
-            </Card.Body>
-            <Card.Body>
-                <Card.Link href={props.website}>Learn more</Card.Link>
-            </Card.Body>
+            {window.innerWidth < 480 ? (
+                <Card.Body>
+                    <Card.Title style={{ fontSize: '24px', fontWeight: '600' }}>{props.project_title}</Card.Title>
+                    <Card.Text style={{ fontSize: '14px', fontWeight: 'normal' }}>
+                    {props.project_description}
+                    </Card.Text>
+                    <Card.Link href={props.website}>Learn more</Card.Link>
+                </Card.Body>
+            ) : (
+                <>
+                    <Card.Body style={{ height: '14em' }}>
+                        <Card.Title style={{ fontSize: '24px', fontWeight: '600' }}>{props.project_title}</Card.Title>
+                        <Card.Text style={{ fontSize: '14px', fontWeight: 'normal' }}>
+                        {props.project_description}
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body>
+                        <Card.Link href={props.website}>Learn more</Card.Link>
+                    </Card.Body>
+                </>
+            )}
         </Card>
     )
     // return (

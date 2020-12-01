@@ -47,7 +47,7 @@ export default function Homepage() {
                 <div id="text-container">
                   <p id="text1">Tech for Social Good</p>
                   <p id="text2">We are a group of students at the University of Toronto that provide technical solutions (or software) for nonprofits.</p>
-                  <a href="mailto:contact@uoftblueprint.org"><button className="apply-button">Contact us!</button></a>
+                  {/* <a href="mailto:contact@uoftblueprint.org"><button className="apply-button">Contact us!</button></a> */}
                 </div>
               </div>
               {window.innerWidth < 480 ? (

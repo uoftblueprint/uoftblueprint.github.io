@@ -14,13 +14,12 @@ const Footer = () => {
       </Row>
       <Row>
         <p className={'MobileFooterBody'}>
-          We are looking for non-profits who are in need of technological
-          solutions, as well as partners interested in supporting us and our
-          cause. Feel free to contact us for any inquiries!
+          We are always looking for new talent! If you would love to learn more about the oppurtunities 
+          here at UofT Blueprint, feel free to contact us for any inquiries!
         </p>
       </Row>
       <Row style={{ paddingTop: '1em' }}>
-        <Button className="MobileBottomButton">
+        <Button style={{ backgroundColor: '#ffffff' }} className="MobileBottomButton">
           <a href="mailto:contact@uoftblueprint.org">
             contact@uoftblueprint.org
           </a>
@@ -42,9 +41,8 @@ const Footer = () => {
         <Col md="6">
           <h4 className={'FooterTitle'}>Wanna join the team?</h4>
           <p className={'FooterBody'}>
-            We are looking for non-profits who are in need of technological
-            solutions, as well as partners interested in supporting us and our
-            cause. Feel free to contact us for any inquiries!
+            We are always looking for new talent! If you would love to learn more about the oppurtunities 
+            here at UofT Blueprint, feel free to contact us for any inquiries!
           </p>
         </Col>
         <Col>

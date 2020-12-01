@@ -41,7 +41,26 @@ body {
 }
 
 .BottomButton {
-  margin-top: 20px;
+  background-color: #0078e8;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 2em;
+}
+
+.FooterTitle {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.FooterBody {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
 }
 
 .Header {

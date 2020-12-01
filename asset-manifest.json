@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uoftblueprint/uoftblueprint.github.io/static/css/main.aae247d9.chunk.css",
-    "main.js": "/uoftblueprint/uoftblueprint.github.io/static/js/main.d4aa8ff2.chunk.js",
-    "main.js.map": "/uoftblueprint/uoftblueprint.github.io/static/js/main.d4aa8ff2.chunk.js.map",
+    "main.js": "/uoftblueprint/uoftblueprint.github.io/static/js/main.076d1515.chunk.js",
+    "main.js.map": "/uoftblueprint/uoftblueprint.github.io/static/js/main.076d1515.chunk.js.map",
     "runtime-main.js": "/uoftblueprint/uoftblueprint.github.io/static/js/runtime-main.d3d9da2f.js",
     "runtime-main.js.map": "/uoftblueprint/uoftblueprint.github.io/static/js/runtime-main.d3d9da2f.js.map",
     "static/css/2.9648bd54.chunk.css": "/uoftblueprint/uoftblueprint.github.io/static/css/2.9648bd54.chunk.css",
@@ -35,6 +35,6 @@
     "static/css/2.9648bd54.chunk.css",
     "static/js/2.ba4ead85.chunk.js",
     "static/css/main.aae247d9.chunk.css",
-    "static/js/main.d4aa8ff2.chunk.js"
+    "static/js/main.076d1515.chunk.js"
   ]
 }

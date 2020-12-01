@@ -63,11 +63,11 @@ export default function ProjectsPage() {
             </Jumbotron>
             <Container fluid="md" style={{ paddingTop: "4rem", paddingBottom: '8em' }}>
                 <Row>
-                    <div className={'Year'}>
+                    <Col className={'Year'}>
                         <h5> 
                             2020 - 2021
                         </h5>
-                    </div>
+                    </Col>
                 </Row>
                 <Row style={{ paddingTop: '2em', paddingLeft: '5%' }}>
                     <Col>

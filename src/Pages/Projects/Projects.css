@@ -1,0 +1,41 @@
+body {
+    /* padding-bottom: 25px; */
+    font-family: Poppins;
+}
+.ProjectCard{
+    transition: transform .3s ease-out;
+}
+.ProjectCard:hover {
+    transform: translate(-5px, -10px);
+    /* box-shado
+    w: 5px 10px #888888;  */
+}
+
+.ProjectTitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.ProjectDescription {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.Year h5 {
+    font-weight: 600;
+    padding-left: 5%;
+    color: #333333;
+    text-decoration-color: #3E9CF3;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 20%;
+}
+
+.Col{
+    padding: 3rem;
+}
+
+/* .text-responsive {
+    font-size: calc(80% + 1vw + 1vh);
+  } */

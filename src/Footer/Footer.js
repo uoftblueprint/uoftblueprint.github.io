@@ -45,18 +45,18 @@ const Footer = () => {
                                 instagram
                                 </a>
                                 </li>
-                            <li><a target="_blank" href="" style={{ color: '#FFF' }}>
+                            {/* <li><a target="_blank" href="" style={{ color: '#FFF' }}>
                                 twitter
                                 </a>
-                                </li> 
+                                </li>  */}
                             <li><a target="_blank" href="https://www.linkedin.com/company/uoftblueprint/?originalSubdomain=ca" style={{ color: '#FFF' }}>
                                 linkedin
                                 </a>
                                 </li> 
-                            <li><a target="_blank" href="" style={{ color: '#FFF' }}>
+                            {/* <li><a target="_blank" href="" style={{ color: '#FFF' }}>
                                 medium
                                 </a>
-                                </li>
+                                </li> */}
                         </ul>
                     </div>
                 </div>

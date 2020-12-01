@@ -31,7 +31,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-      <Footer />
+      { window.innerWidth > 480 ? <Footer /> : null }
     </Router>
     </div>
   );

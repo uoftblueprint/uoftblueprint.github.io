@@ -14,15 +14,15 @@ import './Projects.css'
 
 const ProjectCard = (props) => {
     return (
-        <Card style={{ width: '18rem', height: '35em' }} className={'ProjectCard border-0'}>
+        <Card style={{ width: '20rem', height: '35em' }} className={'ProjectCard border-0'}>
             <Card.Img 
                 variant="top" 
                 src={props.project_image} 
                 style={{ width: "100%", height: "12rem", crop: 'fill' }}
             />
-            <Card.Body style={{ height: '20em' }}>
-                <Card.Title className={'ProjectTitle'}>{props.project_title}</Card.Title>
-                <Card.Text className={'ProjectDescription'}>
+            <Card.Body style={{ height: '14em' }}>
+                <Card.Title style={{ fontSize: '24px', fontWeight: '600' }}>{props.project_title}</Card.Title>
+                <Card.Text style={{ fontSize: '14px', fontWeight: 'normal' }}>
                 {props.project_description}
                 </Card.Text>
             </Card.Body>
@@ -61,7 +61,7 @@ export default function ProjectsPage() {
                     </div>
                 </Container>
             </Jumbotron>
-            <Container fluid="md" style={{ paddingTop: "4rem" }}>
+            <Container fluid="md" style={{ paddingTop: "4rem", paddingBottom: '8em' }}>
                 <Row>
                     <div className={'Year'}>
                         <h5> 

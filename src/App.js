@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect
 } from "react-router-dom";
 import './App.css';
 import Homepage from './Pages/Homepage/Homepage';
@@ -20,6 +21,9 @@ function App() {
       
         <Navbar />
          <Switch>
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
           <Route path="/home">
             <Homepage />
           </Route>

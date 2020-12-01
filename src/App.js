@@ -20,6 +20,9 @@ function App() {
       
         <Navbar />
          <Switch>
+         <Route exact path="/">
+              <Redirect to="/home" />
+          </Route>
           <Route path="/home">
             <Homepage />
           </Route>

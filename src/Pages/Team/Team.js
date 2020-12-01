@@ -1,8 +1,60 @@
 import React from "react";
 import About from "./Components/About";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import placeholder from "./Images/placeholder.JPG";
 import heart from "./Images/heart.png";
+
+const Footer = () => {
+ if (window.innerWidth < 480) return (
+    <Container style={{ background: '#3E9CF3', padding: '3.5em 3.5em'}}>
+      <Row>
+        <h1 className={'MobileFooterTitle'}>
+          Wanna join the team?
+        </h1>
+      </Row>
+      <Row>
+        <p className={'MobileFooterBody'}>
+          We are looking for non-profits who are in need of technological
+          solutions, as well as partners interested in supporting us and our
+          cause. Feel free to contact us for any inquiries!
+        </p>
+      </Row>
+      <Row style={{ paddingTop: '1em' }}>
+        <Button className="MobileBottomButton">
+          <a href="mailto:contact@uoftblueprint.org">
+            contact@uoftblueprint.org
+          </a>
+        </Button>
+      </Row>
+      <Container style={{ paddingTop: '3em', textAlign: 'center' }}>
+        <div style={{ textAlign: 'center' }}>
+          <p className="Copyright">@ Blueprint 2020.</p>
+        </div>
+      </Container>
+    </Container>
+  )
+  return (
+    <div className="BottomContainer">
+      <Row>
+        <Col md="auto" style={{ paddingLeft: '5vw' }}>
+          <Image style={{ paddingTop: '1em', width: '6em', height: 'auto' }} src={heart} />
+        </Col>
+        <Col md="6">
+          <h4 className={'FooterTitle'}>Wanna join the team?</h4>
+          <p className={'FooterBody'}>
+            We are looking for non-profits who are in need of technological
+            solutions, as well as partners interested in supporting us and our
+            cause. Feel free to contact us for any inquiries!
+          </p>
+        </Col>
+        <Col>
+          <a href="mailto:contact@uoftblueprint.org">
+            <button className="contact-button BottomButton">contact@uoftblueprint.org</button>
+          </a>
+        </Col>
+      </Row>
+    </div>)
+}
 
 const Team = () => {
   return (
@@ -337,7 +389,7 @@ const Team = () => {
           </Row>
         </div>
 
-        <div className="TeamContainer">
+        {/* <div className="TeamContainer">
           <h5 className="HeaderStyle">
             <span className="Header">VEEP</span>
           </h5>
@@ -379,30 +431,11 @@ const Team = () => {
               />
             </Col>
           </Row>
-        </div>
+        </div> */}
       </div>
 
       {/* BOTTOM CONTAINER TEAM */}
-      <div className="BottomContainer">
-        {/* <Row>
-          <Col xs={12} md={2} lg={2}> */}
-        <Image className="HeartIcon" src={heart} />
-        {/* </Col> */}
-        {/* <Col xs={12} md={6} lg={8}> */}
-        <h4>Wanna join the team?</h4>
-        <p>
-          We are looking for non-profits who are in need of technological
-          solutions, as well as partners interested in supporting us and our
-          cause. Feel free to contact us for any inquiries!
-        </p>
-        {/* </Col>
-          <Col xs={12} md={2} lg={2}> */}
-        <a href="http://bit.ly/uoftblueprint">
-          <button className="contact-button BottomButton">Contact Us!</button>
-        </a>
-        {/* </Col>
-        </Row> */}
-      </div>
+      <Footer />
     </div>
   );
 };

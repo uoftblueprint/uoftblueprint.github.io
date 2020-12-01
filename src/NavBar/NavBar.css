@@ -7,9 +7,25 @@
 }
 
 .navbar-logo {
-  width: 200px;
+  width: 149px;
+  height: 34px;
   padding-left: 20px;
   padding-top: 15px;
+  height: auto;
+}
+
+.navlink {
+  font-weight: 500;
+  font-size: 18px;
+  color: #333333;
+  font-style: normal;
+  padding: 0.5rem 1rem;
+}
+
+.navlink:hover {
+  background-color: #e4f1ff;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
 }
 
 .nav-menu {
@@ -19,6 +35,18 @@
   list-style: none;
   text-align: center;
   width: 80vw;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.mobile-nav-menu {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 30px;
+  list-style: none;
+  text-align: center;
+  width: 80vw;
+  padding-top: 7%;
   justify-content: end;
   margin-right: 1rem;
 }

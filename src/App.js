@@ -9,11 +9,15 @@ import Homepage from './Pages/Homepage/Homepage';
 import Team from './Pages/Team/Team';
 import Projects from './Pages/Projects/Projects';
 import Navbar from './NavBar/NavBar';
+import Footer from './Footer/Footer'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
+    <div className="page">
     <Router>
-      <div>
+    <div className="content">
+      
         <Navbar />
          <Switch>
           <Route path="/home">
@@ -27,7 +31,9 @@ function App() {
           </Route>
         </Switch>
       </div>
+      { window.innerWidth > 480 ? <Footer /> : null }
     </Router>
+    </div>
   );
 }
 

@@ -10,7 +10,9 @@ const Footer = () => {
                 <div className="row">
                     {/* Column1 */}
                     <div className="col">
-                        <a className="logo" href="/home"><img src={banner} id="logo" style={{ padding: "4px"}}/></a>
+                        <Link className="logo" to="/">
+                            <img src={banner} id="logo" style={{ padding: "4px"}}/>
+                        </Link>
                     </div>
                     {/* Column2 */}
                     <div className="col">
@@ -18,7 +20,7 @@ const Footer = () => {
                         <ul className="list-unstyled">
                             <li>
                                 <Link to={'/projects'} style={{ color: '#FFF' }}>
-                                project
+                                projects
                                 </Link>
                             </li>
                         </ul>

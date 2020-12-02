@@ -37,11 +37,11 @@ const Footer = () => {
                         <h4>say hello</h4>
                         <ul className="list-unstyled">
                             <li>
-                                <a target="_blank" href="https://www.facebook.com/uoftblueprint/" style={{ color: '#FFF' }}>
+                                <a target="_blank" href="https://facebook.com/uoftblueprint" style={{ color: '#FFF' }}>
                                 facebook
                                 </a>
                                 </li>
-                            <li><a target="_blank" href="https://www.instagram.com/uoftblueprint/?hl=en" style={{ color: '#FFF' }}>
+                            <li><a target="_blank" href="https://instagram.com/uoftblueprint" style={{ color: '#FFF' }}>
                                 instagram
                                 </a>
                                 </li>
@@ -49,7 +49,7 @@ const Footer = () => {
                                 twitter
                                 </a>
                                 </li>  */}
-                            <li><a target="_blank" href="https://www.linkedin.com/company/uoftblueprint/?originalSubdomain=ca" style={{ color: '#FFF' }}>
+                            <li><a target="_blank" href="https://linkedin.com/company/uoftblueprint" style={{ color: '#FFF' }}>
                                 linkedin
                                 </a>
                                 </li> 

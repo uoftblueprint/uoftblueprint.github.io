@@ -110,8 +110,9 @@ body {
   height: 120px;
 }
 
+/* https://www.iconfinder.com/icons/771370/circle_linkedin_logo_media_network_social_share_icon */
 .ProfileImage:hover {
-  content: url("https://www.pngfind.com/pngs/m/53-534062_linkedin-for-lawyers-property-icon-circle-hd-png.png");
+  content: url("https://cdn4.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-linkedin-circle-512.png");
   width: 120px;
   height: 120px;
   opacity: 0.8;

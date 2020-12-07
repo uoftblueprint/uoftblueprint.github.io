@@ -325,7 +325,6 @@ const Team = () => {
                 }
                 name={"Rishab Luthra"}
                 role={"Project Lead"}
-                linkedin={"https://linkedin.com/in/rishabluthra"}
               />
             </Col>
             <Col xs={12} md={3} lg={2}>

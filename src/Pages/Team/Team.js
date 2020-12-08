@@ -14,7 +14,7 @@ const Footer = () => {
       </Row>
       <Row>
         <p className={'MobileFooterBody'}>
-          We are always looking for new talent! If you would love to learn more about the oppurtunities 
+          We are always looking for new talent! If you would love to learn more about the opportunities 
           here at UofT Blueprint, feel free to contact us for any inquiries!
         </p>
       </Row>
@@ -41,7 +41,7 @@ const Footer = () => {
         <Col md="6">
           <h4 className={'FooterTitle'}>Wanna join the team?</h4>
           <p className={'FooterBody'}>
-            We are always looking for new talent! If you would love to learn more about the oppurtunities 
+            We are always looking for new talent! If you would love to learn more about the opportunities 
             here at UofT Blueprint, feel free to contact us for any inquiries!
           </p>
         </Col>

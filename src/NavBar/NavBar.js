@@ -17,29 +17,33 @@ class NavigationBar extends React.Component {
                 />{' '}
                 </Navbar.Brand>
                 <Navbar.Toggle />
-                <Navbar.Collapse className="justify-content-end" style={{ paddingTop: '8px' }}>
-                    {window.innerWidth < 480 ? (
-                         <NavDropdown title="Pages" id="basic-nav-dropdown">
-                            <NavDropdown.Item>
-                                <Link to="/team">Team</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to="/chapters">Chapters</Link>
-                            </NavDropdown.Item>
-                            <NavDropdown.Item>
-                                <Link to="/projects">Projects</Link>
-                            </NavDropdown.Item>
-                            {/* <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-                        </NavDropdown>
+                {window.innerWidth < 480 ? (
+                    <Navbar.Collapse style={{ paddingTop: '10px', paddingLeft: '6em' }}>
+                        <NavDropdown title="☰" id="basic-nav-dropdown" style={{ marginLeft: '-6em' }}>
+                                <NavDropdown.Item>
+                                    <Link to="/team">Team</Link>
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link to="/chapters">Chapters</Link>
+                                </NavDropdown.Item>
+                                <NavDropdown.Item>
+                                    <Link to="/projects">Projects</Link>
+                                </NavDropdown.Item>
+                                {/* <NavDropdown.Divider />
+                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
+                            </NavDropdown>
+                    </Navbar.Collapse>
+                         
                     ) : (
-                        <Nav className="ml-auto">
-                            <Link className="navlink" to="/team">Team</Link>
-                            <Link className="navlink" to="/chapters">Chapters</Link>
-                            <Link className="navlink" to="/projects">Projects</Link>
-                        </Nav>
+                        <Navbar.Collapse className="justify-content-end" style={{ paddingTop: '8px' }}>
+                            <Nav className="ml-auto">
+                                <Link className="navlink" to="/team">Team</Link>
+                                <Link className="navlink" to="/chapters">Chapters</Link>
+                                <Link className="navlink" to="/projects">Projects</Link>
+                            </Nav>
+                        </Navbar.Collapse>
                     )}
-                </Navbar.Collapse>
+                
             </Navbar>
         )
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css"
-import banner from '../assets/banner_negative.png'
+import banner from '../../assets/banner_negative.png'
 import { Link } from "react-router-dom";
 
 const Footer = () => {

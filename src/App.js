@@ -10,8 +10,9 @@ import Homepage from './Pages/Homepage/Homepage';
 import Team from './Pages/Team/Team';
 import Projects from './Pages/Projects/Projects';
 import Chapters from './Pages/Chapters/Chapters';
-import Navbar from './NavBar/NavBar';
-import Footer from './Footer/Footer'
+import Apply from './Pages/Apply/Apply';
+import Navbar from './Components/NavBar/NavBar';
+import Footer from './Components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/projects">
               <Projects />
+            </Route>
+            <Route path="/apply">
+              <Apply />
             </Route>
           </Switch>
         </div>

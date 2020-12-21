@@ -1,43 +1,29 @@
 import React, { useEffect } from "react";
-import { Row, Col, Card } from 'react-bootstrap';
+import { Row, Col, Card, Jumbotron, Container } from 'react-bootstrap';
 import toronto from '../../assets/toronto.png';
 import pharmacy from '../../assets/pharmacy.png';
 import './Apply.css';
 
 const Students = () => {
   return (
-    <div>
-        <Row style={{ paddingTop: '4em', paddingBottom: '4em' }} className="justify-content-center bg-transparent">
-          <Col md="4" className="bg-transparent">
-            <Card className="ApplyCard" style={{ backgroundColor: 'transparent', border: 'transparent' }}>
-              <Card.Img style={{ maxHeight: '16em', objectFit: 'cover' }} variant="top" src={pharmacy} />
-              <Card.Body>
-                <Card.Title style={{ fontSize: '40px', fontWeight: '600' }}>For Nonprofits</Card.Title>
-                <Card.Text style={{ color: 'grey', fontSize: '24px', fontWeight: '500' }}>
-                  Partner with Blueprint to build the application your organization needs.
-                </Card.Text>
-                <Card.Text style={{ cursor: 'pointer', color: '#00407B', fontSize: '24px', fontWeight: '600' }}>
-                  {'Learn More >'}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="4" className="bg-transparent">
-            <Card className="ApplyCard" style={{ backgroundColor: 'transparent', border: 'transparent' }}>
-              <Card.Img style={{ maxHeight: '16em', objectFit: 'cover' }} variant="top" src={toronto} />
-              <Card.Body>
-                <Card.Title style={{ fontSize: '40px', fontWeight: '600' }}>For Students</Card.Title>
-                <Card.Text style={{ color: 'grey', fontSize: '24px', fontWeight: '500' }}>
-                  Use your skills to give back to the community. Join us today!
-                </Card.Text>
-                <Card.Text style={{ cursor: 'pointer', color: '#00407B', fontSize: '24px', fontWeight: '600' }}>
-                  {'Learn More >'}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-    </div>
+    <>
+      <Jumbotron fluid style={{ "background-color": "#3E9CF3"}}>
+        <Container fluid="md" className={"justify-content-center"}>
+            <div style={{ paddingLeft: '5%', paddingTop: '1.5em', paddingBottom: '2em' }}>
+                <h1 style={{"font-size": "36px", color: '#FFFFFF' }}>
+                    Current Projects
+                </h1>
+                <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>
+                    <h4 style={{ padding: "25px 0 5px 0", "font-size": "1.25rem", color: '#FFFFFF' }}  className={"text-responsive"}>
+                        If you are interested in working with us, click <a style={{ color: 'white' }}href="mailto:contact@uoftblueprint.org">here</a> 
+                        {' '}to contact us with your project idea!
+                    </h4>
+                </div>
+                {/* <a href="mailto:contact@uoftblueprint.org"><button class="contact-button">Let's get in touch!</button></a> */}
+            </div>
+        </Container>
+      </Jumbotron>
+    </>
     
   )
 }

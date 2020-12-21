@@ -21,7 +21,7 @@ class NavigationBar extends React.Component {
                     <Nav className="ml-auto">
                         <Link className="navlink" to="/team">Team</Link>
                         <Link className="navlink" to="/chapters">Chapters</Link>
-                        <Link className="navlink" to="/projects">Projects</Link>
+                        {/* <Link className="navlink" to="/projects">Projects</Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

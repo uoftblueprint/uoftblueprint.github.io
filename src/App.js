@@ -11,6 +11,8 @@ import Team from './Pages/Team/Team';
 import Projects from './Pages/Projects/Projects';
 import Chapters from './Pages/Chapters/Chapters';
 import Apply from './Pages/Apply/Apply';
+import Students from './Pages/Apply/Students';
+import Nonprofits from './Pages/Apply/Nonprofits';
 import Navbar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.css';
@@ -38,6 +40,12 @@ function App() {
             </Route>
             <Route path="/apply">
               <Apply />
+            </Route>
+            <Route path="/apply/students">
+              <Students />
+            </Route>
+            <Route path="/apply/nonprofits">
+              <Nonprofits />
             </Route>
           </Switch>
         </div>

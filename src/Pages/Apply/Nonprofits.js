@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import { Row, Col, Card } from 'react-bootstrap';
-import { Link } from "react-router-dom";
 import toronto from '../../assets/toronto.png';
 import pharmacy from '../../assets/pharmacy.png';
 import './Apply.css';
 
-const Apply = () => {
+const Nonprofits = () => {
   return (
     <div>
         <Row style={{ paddingTop: '4em', paddingBottom: '4em' }} className="justify-content-center bg-transparent">
@@ -18,7 +17,7 @@ const Apply = () => {
                   Partner with Blueprint to build the application your organization needs.
                 </Card.Text>
                 <Card.Text style={{ cursor: 'pointer', color: '#00407B', fontSize: '24px', fontWeight: '600' }}>
-                  <Link to="/apply/nonprofits">{'Learn More >'}</Link>
+                  {'Learn More >'}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -32,7 +31,7 @@ const Apply = () => {
                   Use your skills to give back to the community. Join us today!
                 </Card.Text>
                 <Card.Text style={{ cursor: 'pointer', color: '#00407B', fontSize: '24px', fontWeight: '600' }}>
-                  <Link to="/apply/students">{'Learn More >'}</Link>
+                  {'Learn More >'}
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -43,4 +42,4 @@ const Apply = () => {
   )
 }
 
-export default Apply;
+export default Nonprofits;

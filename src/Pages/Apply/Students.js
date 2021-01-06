@@ -7,10 +7,10 @@ import './Apply.css';
 const Criteria = ({ title, description, image }) => {
   return (
     <Row>
-      <Col md="auto">
-        <img src={image} style={{ paddingTop: '1em', width: '2.5em', height: 'auto' }} />
+      <Col md="3">
+        <img src={image} style={{ paddingTop: '1.5em', width: 'auto', height: '4.5em' }} />
       </Col>
-      <Col md="6" style={{ paddingTop: '1em' }}>
+      <Col md="8" style={{ paddingTop: '1em' }}>
         <h5 style={{ fontWeight: '600' }}>
           {title}
         </h5>
@@ -58,15 +58,56 @@ const Students = () => {
                 <p style={{ paddingTop: '2em', color: 'grey', fontSize: '1.4em', fontWeight: '400' }}>
                  We would love to accept every applicant if we could, but unfortunately we cannot manage the volume of people and administrative overhead while still fulfilling our mission as a club. As such, we use the following criteria to find the best applicants for our club.
                 </p>
-                {CriteriaList.map((criteria) => {
-                  return (
-                    <Criteria 
-                      title={criteria.title}
-                      description={criteria.description}
-                      image={criteria.image}
-                      />
-                  )
-                })}
+                <Container className="pt-3">
+                  <Row>
+                    <Col>
+                      <Criteria 
+                        title={CriteriaList[0].title}
+                        description={CriteriaList[0].description}
+                        image={CriteriaList[0].image}
+                        />
+                    </Col>
+                    <Col>
+                      <Criteria 
+                        title={CriteriaList[1].title}
+                        description={CriteriaList[1].description}
+                        image={CriteriaList[1].image}
+                        />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      <Criteria 
+                        title={CriteriaList[2].title}
+                        description={CriteriaList[2].description}
+                        image={CriteriaList[2].image}
+                        />
+                    </Col>
+                    <Col>
+                      <Criteria 
+                        title={CriteriaList[3].title}
+                        description={CriteriaList[3].description}
+                        image={CriteriaList[3].image}
+                        />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col>
+                      <Criteria 
+                        title={CriteriaList[4].title}
+                        description={CriteriaList[4].description}
+                        image={CriteriaList[4].image}
+                        />
+                    </Col>
+                    <Col>
+                      <Criteria 
+                        title={CriteriaList[5].title}
+                        description={CriteriaList[5].description}
+                        image={CriteriaList[5].image}
+                        />
+                    </Col>
+                  </Row>
+                </Container>
             </Col>
           </Row>
       </Container>

@@ -77,7 +77,7 @@ const Team = () => {
             <Col xs={12} md={3} lg={2}>
               <About
                 profile_img={
-                  "https://media-exp1.licdn.com/dms/image/C4E03AQHznrYYS4F3hA/profile-displayphoto-shrink_400_400/0/1597105774791?e=1611792000&v=beta&t=z7KplyJr554teK_PuGO2b4IH6J8mO_k5tTbd5k9O8ys"
+                  "https://media-exp1.licdn.com/dms/image/C4E03AQH7AQ2onqbW7Q/profile-displayphoto-shrink_400_400/0/1608511277502?e=1615420800&v=beta&t=1zCACzRVN_R_f0t9i9o4JecBrRsgfkhodNmZv2gV1LM"
                 }
                 name={"Angela Bi"}
                 role={"VP External"}
@@ -203,7 +203,7 @@ const Team = () => {
             <Col xs={12} md={3} lg={2}>
               <About
                 profile_img={
-                  "https://media-exp1.licdn.com/dms/image/C4E03AQE0JKb1H5z9ag/profile-displayphoto-shrink_400_400/0?e=1611792000&v=beta&t=jdp-NC2Z7O2tv1JGGhia392gHCrsyJWeWgJK1meSfVQ"
+                  "https://media-exp1.licdn.com/dms/image/C4E03AQEJEvZ4G3ocsQ/profile-displayphoto-shrink_800_800/0/1608698105884?e=1615420800&v=beta&t=DfNyW0tcTPNh3Y_6ss97DCGYRmXGKROyJEhb7nIZCbQ"
                 }
                 name={"Michael Jia"}
                 role={"Project Manager"}

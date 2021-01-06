@@ -57,9 +57,9 @@ const Chapters = () => {
       <Container fluid="md" style={{ paddingTop: "4rem", paddingBottom: '8em' }}>
         <Row>
           <Col className={'Year'}>
-              <h5> 
+              <h3> 
                 🇨🇦 Canada
-              </h5>
+              </h3>
           </Col>
         </Row>
         <Row style={{ paddingTop: '2em', paddingLeft: '5%' }}>
@@ -78,9 +78,9 @@ const Chapters = () => {
         </Row>
         <Row className="pt-5">
           <Col className={'Year'}>
-              <h5> 
+              <h3> 
                 🇺🇸 USA
-              </h5>
+              </h3>
           </Col>
         </Row>
         <Row style={{ paddingLeft: '5%', paddingTop: '1em' }}>

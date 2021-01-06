@@ -37,3 +37,31 @@ export const CriteriaList = [
     image: culture
   }
 ]
+
+export const NonprofitList = [
+  {
+    title: 'Impact',
+    description: 'How much will your project impact the community?',
+    image: growth
+  },
+  {
+    title: 'Necessity',
+    description: 'How vital is your project to your non-profit organization?',
+    image: resourceful
+  },
+  {
+    title: 'Scope',
+    description: 'Is your project achievable within the alloted timeline?',
+    image: attitude
+  },
+  {
+    title: 'Technical Fit',
+    description: 'Does your project use the capabilities of technology?',
+    image: teamwork
+  },
+  {
+    title: 'Credibility',
+    description: 'Is there evidence that your project will have an impact?',
+    image: passion
+  },
+]

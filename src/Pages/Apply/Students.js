@@ -47,7 +47,7 @@ const Students = () => {
               </div>
             </Col>
             <Col md="5" style={{ paddingLeft: '4em'}}>
-              <img src={team} style={{ paddingTop: '4em', paddingBottom: '4em', width: '30em', height: 'auto' }} />
+              <img className="jumboImage" src={team} style={{ paddingTop: '4em', paddingBottom: '4em', width: '30em', height: 'auto' }} />
             </Col>
           </Row>
         </Container>

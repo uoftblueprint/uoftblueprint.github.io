@@ -10,10 +10,24 @@
   object-fit: 'fill';
 }
 
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
+.jumboImage {
+  animation: fadeInAnimation ease 1s
+}
+
 .ApplyCard{
   transition: all 0.3s ease-out;
   background-color: rgba(255,255,255, 0.8) !important;
+  animation: fadeInAnimation ease 2s
 }
+
 .ApplyCard:hover {
   transform: translate(-5px, -10px);
   background-color: #ffffff !important;

@@ -43,7 +43,7 @@ export const usChapters = [
   {
     title: 'University of Alabama',
     description: 'Another BP chapter that was started in the US ✨',
-    link: 'https://uciblueprint.org/#/',
+    link: 'https://website.sdwight.workers.dev/',
     image: blueprint,
   },
   {

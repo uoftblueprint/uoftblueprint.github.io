@@ -5,7 +5,6 @@ import { MenuItems } from "./MenuItems"
 import logo from '../../assets/banner-crop.png'
 import title from '../../assets/banner-text.png'
 import "./NavBar.css"
-import { getByTitle } from '@testing-library/react';
 
 class NavigationBar extends React.Component {
     render() {

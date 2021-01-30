@@ -6,12 +6,27 @@
   font-size: 1.2 rem;
 }
 
-.navbar-logo {
-  width: 149px;
-  height: 34px;
+.banner {
   padding-left: 20px;
-  padding-top: 15px;
+  margin-top: 14px;
   height: auto;
+}
+
+.navbar-logo {
+  width: 24px;
+  height: 24px;
+  height: auto;
+  transition: transform 0.55s;
+}
+
+.navbar-logo:hover {
+  transform: rotate(360deg);
+}
+
+.navbar-title {
+  width: 100px;
+  height: auto;
+  padding-top: 2px;
 }
 
 .navlink {

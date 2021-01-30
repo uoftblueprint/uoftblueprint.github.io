@@ -11,7 +11,7 @@ const Footer = () => {
                     {/* Column1 */}
                     <div className="col">
                         <Link className="logo" to="/">
-                            <img src={banner} id="logo" style={{ padding: "4px"}}/>
+                            <img src={banner} id="logo" style={{ padding: "4px"}} alt="Blueprint Logo"/>
                         </Link>
                     </div>
                     {/* Column2 */}
@@ -23,15 +23,28 @@ const Footer = () => {
                                 projects
                                 </Link>
                             </li>
+                            <li>
+                                <Link to={'/apply/nonprofits'} style={{ color: '#FFF' }}>
+                                partner
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     {/* Column3 */}
                     <div className="col">
                         <h4>team</h4>
                         <ul className="list-unstyled">
-                            <li><Link to={'/team'} style={{ color: '#FFF' }}>
+                            <li>
+                                <Link to={'/team'} style={{ color: '#FFF' }}>
                                 current
-                                </Link></li>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to={'/apply/students'} style={{ color: '#FFF' }}>
+                                join
+                                </Link>
+                            </li>
+                            
                         </ul>
                     </div>
                     {/* Column4 */}
@@ -39,11 +52,11 @@ const Footer = () => {
                         <h4>say hello</h4>
                         <ul className="list-unstyled">
                             <li>
-                                <a target="_blank" href="https://facebook.com/uoftblueprint" style={{ color: '#FFF' }}>
+                                <a target="_blank" href="https://facebook.com/uoftblueprint" style={{ color: '#FFF' }} rel="noreferrer">
                                 facebook
                                 </a>
                                 </li>
-                            <li><a target="_blank" href="https://instagram.com/uoftblueprint" style={{ color: '#FFF' }}>
+                            <li><a target="_blank" href="https://instagram.com/uoftblueprint" style={{ color: '#FFF' }} rel="noreferrer">
                                 instagram
                                 </a>
                                 </li>
@@ -51,7 +64,7 @@ const Footer = () => {
                                 twitter
                                 </a>
                                 </li>  */}
-                            <li><a target="_blank" href="https://linkedin.com/company/uoftblueprint" style={{ color: '#FFF' }}>
+                            <li><a target="_blank" href="https://linkedin.com/company/uoftblueprint" style={{ color: '#FFF' }} rel="noreferrer">
                                 linkedin
                                 </a>
                                 </li> 

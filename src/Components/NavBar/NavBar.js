@@ -2,18 +2,24 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { Navbar, Nav, NavDropdown} from 'react-bootstrap';
 import { MenuItems } from "./MenuItems"
-import banner from '../../assets/banner.png'
+import logo from '../../assets/banner-crop.png'
+import title from '../../assets/banner-text.png'
 import "./NavBar.css"
 
 class NavigationBar extends React.Component {
     render() {
         return(
             <Navbar>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/" className="banner">
                 <img
                     alt=""
-                    src={banner}
+                    src={logo}
                     className="navbar-logo d-inline-block align-top"
+                />{' '}
+                 <img
+                    alt=""
+                    src={title}
+                    className="navbar-title d-inline-block align-top"
                 />{' '}
                 </Navbar.Brand>
                 <Navbar.Toggle />

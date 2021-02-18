@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/*body {*/
-/*  font-family: "Poppins";*/
-/*}*/
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
 h2 {
   font-size: 36px;
 }
@@ -12,28 +13,34 @@ h2 {
   padding-top: 15px;
 }
 #main-photo {
-  width: 20vw;
+  width: 35vw;
 }
 #main-image {
-  float: left;
-  padding-right: 5vw;
-  vertical-align: middle;
+  display: inline-block;
+  margin-left: -5vw;
+  text-align: center;
 }
 #main-text {
-  width: 70vw;
+  display: inline-block;
+  /*min-width: 40vw;*/
+  width: 45vw;
+  padding-left: 10vw;
 }
 #landing-container {
-  padding: 15vw;
+  padding-top: 3vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   /* height: 50vh; */
 }
 #text1 {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 600;
   display: inline-block;
 }
 #text2 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
+
 }
 #nav-bar {
   padding-top: 2.5vh;
@@ -142,14 +149,18 @@ span {
   height: 100%;
   color: white;
   width: 100%;
-  height: 465px;
-  padding-top: 15vh;
+  /*height: 465px;*/
+  padding: 15vw 0;
   text-align: center;
 }
 
 #waves {
   position: relative;
   margin-bottom: -2px; /*fixes thin gap between waves and aboutus divs*/
+  z-index: -1;
+  margin-top: -35vw;
+  padding-top: 10vw;
+  overflow: hidden;
 }
 
 #top-wave {
@@ -157,13 +168,14 @@ span {
   bottom: 0px; /*adjusts for a small gap under bottom-wave*/
   left: 0;
   width: 100%;
+  min-width: 600px;
   height: auto;
 }
 
 #bottom-wave {
   width: 100%;
+  min-width: 600px;
   height: auto;
-  overflow: hidden;
 }
 
 #about-text {
@@ -248,6 +260,14 @@ button {
 }
 .horizontal {
   display: inline-block;
+}
+
+@media screen and (max-width: 700px) {
+  #main-text { padding-left: 0; width: 100%; transition: 1s;}
+  #main-image {
+    display: block;
+    text-align: center;
+  }
 }
 @media screen and (max-width: 800px) {
   #values-horizontal { display: flex; flex-flow: column; }

@@ -3,7 +3,7 @@ import './Homepage.css'
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import banner from '../../assets/banner.png'
 import background from "../../assets/patternbackground.svg"
-import main from '../../assets/main.png'
+import main from '../../assets/main.svg'
 import missionIcon from "../../assets/mission-globe.svg"
 import missionBlob from "../../assets/mission-blob.svg"
 import innovationIcon from '../../assets/innovation-box.svg'
@@ -39,20 +39,20 @@ export default function Homepage() {
           </div> 
             </div> */}
             <div id="landing-container">
-              {window.innerWidth > 480 ? (
-              <div id="main-image">    
-                <img src={main} id="main-photo" />
-              </div>) : null}
               <div id="main-text">
                 <div id="text-container">
-                  <p id="text1">Tech for Social Good</p>
-                  <p id="text2">We are a group of students at the University of Toronto that provide technical solutions (or software) for nonprofits.</p>
+                  <p id="text1"><span style={{display: "inline-block"}}>Tech for&nbsp;</span><span style={{display: "inline-block"}}>Social Good</span></p>
+                  <p id="text2">We are a team of students at the University of Toronto that provide software solutions for nonprofits.</p>
                   {/* <a href="mailto:contact@uoftblueprint.org"><button className="apply-button">Contact us!</button></a> */}
                 </div>
               </div>
-              {window.innerWidth < 480 ? (
-              <div id="main-image">    
-                <img src={main} id="main-photo" style={{ paddingTop: '4em', paddingBottom: '4em', width: '70vw', height: 'auto' }} />
+              {window.innerWidth > 700 ? (
+                <div id="main-image" style={{transform: `translateY(${offset * -0.05}px)`}}>
+                  <img src={main} id="main-photo" />
+                </div>) : null}
+              {window.innerWidth < 700 ? (
+              <div id="main-image" style={{transform: `translateY(${offset * -0.05}px)`}}>
+                <img src={main} id="main-photo" style={{ paddingTop: '2em', width: '70vw', height: 'auto' }} />
               </div>) : null}
             </div>
 

@@ -12,6 +12,7 @@ import communityIcon from '../../assets/community-hands.svg'
 import communityBlob from "../../assets/community-blob.svg"
 import waveBottom from '../../assets/aboutUsWaveBottom.svg'
 import waveTop from '../../assets/aboutUsWaveTop.svg'
+import ValueCard from "./ValueCard";
 
 
 export default function Homepage() {
@@ -40,28 +41,29 @@ export default function Homepage() {
             </div> */}
             <div id="landing-container">
               <div id="main-text">
-                <div id="text-container">
+                <div id="text-container"  style={{transform: `translateY(${offset * -0.1}px)`}}>
                   <p id="text1"><span style={{display: "inline-block"}}>Tech for&nbsp;</span><span style={{display: "inline-block"}}>Social Good</span></p>
                   <p id="text2">We are a team of students at the University of Toronto that provide software solutions for nonprofits.</p>
                   {/* <a href="mailto:contact@uoftblueprint.org"><button className="apply-button">Contact us!</button></a> */}
                 </div>
               </div>
               {window.innerWidth > 700 ? (
-                <div id="main-image" style={{transform: `translateY(${offset * -0.05}px)`}}>
+                <div id="main-image">
                   <img src={main} id="main-photo" />
-                </div>) : null}
+                </div>
+              ) : null}
               {window.innerWidth < 700 ? (
-              <div id="main-image" style={{transform: `translateY(${offset * -0.05}px)`}}>
+              <div id="main-image">
                 <img src={main} id="main-photo" style={{ paddingTop: '2em', width: '70vw', height: 'auto' }} />
               </div>) : null}
             </div>
 
             {/* About Us */}
             <div id='waves'>
-                    <img src={waveBottom} id='bottom-wave' style={{transform: `translateY(${offset * -0.05}px)`}}/>
-                    <img src={waveTop} id='top-wave' style={{transform: `translateY(${offset * -0.1}px)`}}/>
+                    <img src={waveBottom} id='bottom-wave' style={{transform: `translateY(${offset * 0.1}px)`}}/>
+                    <img src={waveTop} id='top-wave'/>
             </div>
-            <div id="about-container" className="text-center" style={{transform: `translateY(${offset * -0.1}px)`}}>
+            <div id="about-container" className="text-center">
               <p className="sub-heading">About Us</p>
               <div style={{width: '50vw'}} className="text-center">
                 {window.innerWidth > 480 ? (
@@ -73,36 +75,19 @@ export default function Homepage() {
             </div>
 
             {/* Values */}
-            <div id="values-section">
+            <div id="values-section" >
               <p className="sub-heading" style={{textAlign: 'center', color: '#0078E8', paddingBottom: '20px'}}>Our Values</p>
-              {window.innerWidth > 480 ? (
+              {window.innerWidth > 0 ? (
                 <div id='values-horizontal'>
-                  <div className="value-container">
-                      {/*<img className="value-blob" src={missionBlob} />*/}
-                      <img className="value-icons" src={missionIcon} />
-                      <div className="value-text">
-                      <p className="sub-text">Mission First</p>
-                      <p>We will always prioritize the mission first. Our main priority is doing professional work for social good and public welfare.</p>
-                      </div>
-                      
-                  </div>
-                  <div className="value-container">
-                      {/*<img className="value-blob" src={innovationBlob} />*/}
-                      <img className="value-icons" src={innovationIcon} />
-                      <div className="value-text">
-                      <p className="sub-text">Innovation</p>
-                      <p>We will continue to push the boundaries by combining the expertise of our developers and the nonprofit to guarantee the best possible solution.</p>
-                      </div>
-                      
-                  </div>
-                  <div className="value-container">
-                      {/*<img className="value-blob" src={communityBlob} />*/}
-                      <img className="value-icons" src={communityIcon} />
-                      <div className="value-text">
-                      <p className="sub-text">Community</p>
-                      <p>We strive to develop a tight-knit community both within our club and as part of a network of nonprofits.</p>
-                      </div>
-                  </div>
+                  <ValueCard image = {missionIcon} title={"Mission First"}>
+                    <p>We will always prioritize the mission first. Our main priority is doing professional work for social good and public welfare.</p>
+                  </ValueCard>
+                  <ValueCard image={innovationIcon} title={"Innovation"}>
+                    <p>We will continue to push the boundaries by combining the expertise of our developers and the nonprofit to guarantee the best possible solution.</p>
+                  </ValueCard>
+                  <ValueCard image={communityIcon} title={"Community"}>
+                    <p>We strive to develop a tight-knit community both within our club and as part of a network of nonprofits.</p>
+                  </ValueCard>
                 </div>
               ) : (
                 <Container>

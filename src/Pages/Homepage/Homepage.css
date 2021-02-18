@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins", sans-serif !important;
+  background-color: #F3F7FB !important;
 }
 
 h2 {
@@ -158,7 +159,7 @@ span {
   position: relative;
   margin-bottom: -2px; /*fixes thin gap between waves and aboutus divs*/
   z-index: -1;
-  margin-top: -35vw;
+  margin-top: -40vw;
   padding-top: 10vw;
   overflow: hidden;
 }
@@ -185,18 +186,20 @@ span {
 }
 .sub-heading {
   font-size: 36px;
+  text-align: center;
 }
 #values-section {
-  /*padding-top: 15vh;*/
+  padding: 10vw;
   margin: 0 auto;
 }
 
 #values-horizontal {
   display: grid;
-  column-gap: 50px;
+  grid-gap: 3vw;
   grid-template-columns: auto auto auto;
   margin-left: 20%;
   margin-right: 20%;
+  align-items: center;
   justify-content: center;
 }
 .value-text {
@@ -209,6 +212,10 @@ span {
 .value-container {
   padding-bottom: 120px;
   text-align: center;
+  width: 301px;
+  height: 411px;
+  background: #FFFFFF;
+  border-radius: 10px;
 }
 .value-container p {
   font-size: 18px;
@@ -218,12 +225,12 @@ span {
 }
 #contact-section {
   /* clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%); */
-  background-color: #1586ee;
+  background-color: #3E9CF3;
   color: white;
 }
 #contact-container {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 #contact-text {
   width: 50vw;

@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
-import { Row, Col, Card, Jumbotron, Container } from 'react-bootstrap';
+import React from "react";
+import { Row, Col, Jumbotron, Container } from 'react-bootstrap';
 import standing from '../../assets/standing 8.png';
 import team from '../../assets/team-build2.png';
 import { CriteriaList } from './applyData';
 import './Apply.css';
+import { Link} from "react-scroll";
 
 const Criteria = ({ title, description, image }) => {
   return (
@@ -44,6 +45,16 @@ const Students = () => {
                         Our application for developers and designers are now closed for the 2020-2021 academic year. We will be recruiting again in Fall 2021!
                       </h5>
                   </div>
+                  <div>
+                      {/* <h5 style={{ padding: "25px 0 5px 0", "font-size": "1rem", color: '#FFFFFF' }}  className={"text-responsive"}>
+                        <button onClick={executeScroll}>What do we look for?</button>
+                      </h5> */}
+                      <button>
+                        <Link activeClass="active" to="requirements" spy={true} smooth={true} duration={1000} style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}>
+                          What we look for
+                        </Link>
+                      </button>
+                  </div>
               </div>
             </Col>
             <Col md="5" style={{ paddingLeft: '4em'}}>
@@ -60,7 +71,7 @@ const Students = () => {
               </Col>
             )}
             <Col md="8">
-                <h1> 
+                <h1 id={"requirements"}> 
                     What We Look For
                 </h1>
                 <p style={{ paddingTop: '2em', color: 'grey', fontSize: '1.4em', fontWeight: '400' }}>

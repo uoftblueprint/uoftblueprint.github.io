@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
-import { Row, Col, Card, Jumbotron, Container } from 'react-bootstrap';
+import React from "react";
+import { Row, Col, Jumbotron, Container } from 'react-bootstrap';
 import standing from '../../assets/standing-7.png';
 import work from '../../assets/work-together.png';
 import { NonprofitList } from './applyData';
 import './Apply.css';
+import { Link} from "react-scroll";
 
 const Criteria = ({ title, description, image }) => {
   return (
@@ -44,6 +45,11 @@ const Nonprofits = () => {
                         We are no longer accepting nonprofit applications for the 2020-2021 academic year. Please contact us if you are interested in partnering with us in the future! 
                       </h5>
                   </div>
+                  <button>
+                      <Link activeClass="active" to="requirements" spy={true} smooth={true} duration={1000} style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}>
+                        What we look for
+                      </Link>
+                  </button>
               </div>
             </Col>
             <Col md="5" style={{ paddingLeft: '4em'}}>
@@ -60,10 +66,10 @@ const Nonprofits = () => {
               </Col>
             )}
             <Col md="8">
-                <h1> 
+                <h1 id={"requirements"}> 
                   Decision Criteria
                 </h1>
-                <p style={{ paddingTop: '2em', color: 'grey', fontSize: '1.4em', fontWeight: '400' }}>
+                  <p style={{ paddingTop: '2em', color: 'grey', fontSize: '1.4em', fontWeight: '400' }}>
                   Although we want to help as many organizations as possible, we can only work with a few nonprofits at a time because of the amount of resources each partnership requires. As such, we use the following criteria to find projects with the best fit.
                   </p>
                 <Container className="pt-3">

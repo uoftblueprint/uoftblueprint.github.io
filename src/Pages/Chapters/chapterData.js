@@ -1,4 +1,4 @@
-import blueprint from '../../assets/mission-globe.svg'
+import blueprint from '../../assets/mission-globe.svg';
 
 export const canadaChapters = [
   {
@@ -53,4 +53,3 @@ export const usChapters = [
     image: blueprint,
   },
 ];
-

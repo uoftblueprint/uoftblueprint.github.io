@@ -193,7 +193,7 @@ span {
   margin: 0 auto;
 }
 
-#values-horizontal {
+#values-grid {
   display: grid;
   grid-gap: 3vw;
   grid-template-columns: auto auto auto;
@@ -229,12 +229,18 @@ span {
   color: white;
 }
 #contact-container {
-  padding-top: 10vw;
-  padding-bottom: 10vw;
+  display: grid;
+  grid-gap: 3vw;
+  grid-template-columns: auto auto;
+  padding: 10vw;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-items: center;
+  justify-content: center;
 }
 #contact-text {
-  width: 50vw;
-  margin: 0 auto;
+  display: inline-block;
+  width: 40vw;
   font-size: 18px;
 }
 .text-center {
@@ -249,6 +255,10 @@ button {
   border-radius: 2px;
 }
 .contact-button {
+  float: right;
+  margin-top: 30px;
+  display: inline-block;
+  margin-right: 5vw;
   color: black;
   background-color: white;
   padding: 10px 25px;
@@ -277,7 +287,13 @@ button {
   }
 }
 @media screen and (max-width: 800px) {
-  #values-horizontal { display: flex; flex-flow: column; }
+  #values-grid { display: flex; flex-flow: column; }
+  #contact-container {
+    display: flex; flex-flow: column; grid-gap: 0px;
+  }
+  #contact-text {
+    width: 60vw;
+  }
 }
 
 .MobileFooterTitle {

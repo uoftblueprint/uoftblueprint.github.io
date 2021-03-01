@@ -30,7 +30,7 @@ import sheree from "./Images/sheree.jpg";
 import song from "./Images/song.jpg";
 import stella from "./Images/stella.jpg";
 import tammy from "./Images/tammy.jpg";
-import trudie from "./Images/tammy.jpg";
+import trudie from "./Images/trudie.jpg";
 import varun from "./Images/varun.jpg";
 import windsor from "./Images/windsor.jpg";
 import rishab from "./Images/rishab.jpg";

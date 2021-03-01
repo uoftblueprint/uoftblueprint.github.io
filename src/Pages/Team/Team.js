@@ -318,6 +318,7 @@ const Team = () => {
                 profile_img={rishab}
                 name={"Rishab Luthra"}
                 role={"Project Lead"}
+                linkedin={"https://www.linkedin.com/in/rishabluthra/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>

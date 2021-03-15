@@ -40,11 +40,11 @@ const Students = () => {
                         Joining Blueprint is the perfect way to use your skills to give back to the community. We accept applications at the beginning of every year.
                       </h4>
                   </div>
-                  <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>
+                  {/* <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>
                       <h5 style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}  className={"text-responsive"}>
                         Our application for developers and designers are now closed for the 2020-2021 academic year. We will be recruiting again in Fall 2021!
                       </h5>
-                  </div>
+                  </div> */}
                   <div>
                       {/* <h5 style={{ padding: "25px 0 5px 0", "font-size": "1rem", color: '#FFFFFF' }}  className={"text-responsive"}>
                         <button onClick={executeScroll}>What do we look for?</button>

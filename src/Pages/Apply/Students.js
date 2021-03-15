@@ -37,7 +37,7 @@ const Students = () => {
                   </h1>
                   <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>
                       <h4 style={{ padding: "25px 0 5px 0", "font-size": "2rem", color: '#FFFFFF', fontWeight: '200' }}  className={"text-responsive"}>
-                        Joining Blueprint is the perfect way to use your skills to give back to the community. We accept applications at the beginning of every year.
+                        Joining Blueprint is the perfect way to use your skills to give back to the community. We are currently recruiting for our senior roles.
                       </h4>
                   </div>
                   {/* <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>

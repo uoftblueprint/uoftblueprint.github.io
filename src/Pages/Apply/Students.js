@@ -50,9 +50,10 @@ const Students = () => {
                         <button onClick={executeScroll}>What do we look for?</button>
                       </h5> */}
                       <button>
-                        <Link activeClass="active" to="requirements" spy={true} smooth={true} duration={1000} style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}>
+                        {/* <Link activeClass="active" to="requirements" spy={true} smooth={true} duration={1000} style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}>
                           What we look for
-                        </Link>
+                        </Link> */}
+                        <a href="http://bit.ly/uoftbp-app-form" style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}>Apply Now</a>
                       </button>
                   </div>
               </div>

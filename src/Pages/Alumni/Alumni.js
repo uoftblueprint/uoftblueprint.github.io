@@ -2,13 +2,14 @@ import React from "react";
 import About from "./Components/About";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import alumni_data from "./Alumni.json";
+import header from "../../assets/teamPageBanner.png";
 
 const Footer = () => {
 	if (window.innerWidth < 480)
 		return (
 			<Container style={{ background: "#3E9CF3", padding: "3.5em 3.5em" }}>
 				<Row>
-					<h1 className={"MobileFooterTitle"}>Contact Us</h1>
+					<h1 className={"MobileFooterTitle"}>Contact Us!</h1>
 				</Row>
 				<Row>
 					<p className={"MobileFooterBody"}>
@@ -38,7 +39,7 @@ const Footer = () => {
 		<div className="BottomContainer">
 			<Row>
 				<Col md="6">
-					<h4 className={"FooterTitle"}>Contact Us</h4>
+					<h4 className={"FooterTitle"}>Contact Us!</h4>
 					<p className={"FooterBody"}>
 						We are looking for non-profits who are in need of technological
 						solutions, as well as partners interested in supporting us and our
@@ -80,17 +81,27 @@ const Member = () => {
 const Team = () => {
 	return (
 		<div>
+			<div className="BannerContainer">
+				<img src={header} id="banner" />
+				<div className="BannerText">
+					<div>
+						<h4 id="header-title">Meet our Team</h4>
+						<h2 id="header-text">
+							This is us! We’re a group of students passionate about building
+							tech for the greater good.
+						</h2>
+					</div>
+				</div>
+			</div>
 			<div className="container">
 				<div className="TeamContainer">
 					<h5 className="HeaderStyle">
 						<span className="Header">Alumni</span>
 					</h5>
 					<p>
-						<b>
-							Special thanks to all of our alumni who have given their time and
-							effort to our cause for social good. We couldn't have done it
-							without you!
-						</b>
+						Special thanks to all of our alumni who have given their time and
+						effort to our cause for social good. We couldn't have done it
+						without you!
 					</p>
 					<Row>{Member()}</Row>
 				</div>

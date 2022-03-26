@@ -287,70 +287,74 @@ const Team = () => {
 
         <div className="TeamContainer">
           <h5 className="HeaderStyle">
-            <span className="Header">MERIT AWARD</span>
+            <span className="Header">HOMES FOR HEROES</span>
           </h5>
           <Row>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={trudie}
-                name={"Trudie Cheung"}
-                role={"Project Manager"}
-                linkedin={"https://linkedin.com/in/trudiecheung/"}
+                profile_img={placeholder}
+                name={"Raymond Chen"}
+                role={"Project Lead"}
+                linkedin={"https://linkedin.com/in/raycxn/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={rishab}
-                name={"Rishab Luthra"}
+                profile_img={placeholder}
+                name={"Mesbah Rafin"}
                 role={"Project Lead"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={fiza}
-                name={"Purnima Mehta"}
+                profile_img={placeholder}
+                name={"Anita Xu"}
                 role={"Designer"}
-                linkedin={"https://linkedin.com/in/purnimamehta"}
+                linkedin={"https://linkedin.com/in/anita-xu/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={baker}
-                name={"Baker Jackson"}
+                profile_img={placeholder}
+                name={"Nancy Li"}
                 role={"Developer"}
-                linkedin={"https://linkedin.com/in/baker-jackson/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={song}
-                name={"Song You"}
+                profile_img={placeholder}
+                name={"Yvonne Rao"}
                 role={"Developer"}
-                linkedin={"https://linkedin.com/in/songeunyou/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={alexander}
-                name={"Alexander Shih"}
+                profile_img={placeholder}
+                name={"Jeffery Zhan"}
                 role={"Developer"}
-                linkedin={"https://linkedin.com/in/alexandershih2022/"}
+                linkedin={"https://linkedin.com/in/jeffery-zhan/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={stella}
-                name={"Stella Cai"}
+                profile_img={placeholder}
+                name={"Siddharth Dagar"}
                 role={"Developer"}
-                linkedin={"https://linkedin.com/in/stella-cai-77a526181/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={sheree}
-                name={"Sheree Zhang"}
+                profile_img={placeholder}
+                name={"Sunghyoun Kim"}
                 role={"Developer"}
-                linkedin={"https://linkedin.com/in/shereezhang/"}
+              />
+            </Col>
+            <Col xs={6} md={3} lg={2}>
+              <About
+                profile_img={placeholder}
+                name={"Youssef Soliman"}
+                role={"Developer"}
+                linkedin={"https://linkedin.com/in/youssefsoliman/"}
               />
             </Col>
           </Row>

@@ -5,8 +5,6 @@ import placeholder from "./Images/placeholder.JPG";
 import heart from "./Images/heart.png";
 
 // IMAGES: IK THIS IS INEFFICIENT DON'T @ ME
-import antoine from "./Images/antoine.jpg";
-import angela from "./Images/angela.jpg";
 import alexander from "./Images/alexander.jpg";
 import amy from "./Images/amy.jpg";
 import anita from "./Images/anita.jpg";
@@ -14,16 +12,13 @@ import baker from "./Images/baker.jpg";
 import chihong from "./Images/chihong.jpg";
 import dakota from "./Images/dakota.jpg";
 import dane from "./Images/dane.jpg";
-import elena from "./Images/elena.jpg";
 import fiza from "./Images/fiza.jpg";
-import jacky from "./Images/jacky.jpg";
+import jordan from "./Images/jordan.jpg";
 import karen from "./Images/karen.jpg";
-import kevin from "./Images/kevin.jpg";
-import ling from "./Images/ling.jpg";
 import michael from "./Images/michael.jpg";
-import olivia from "./Images/olivia.jpg";
 import rajvi from "./Images/rajvi.jpg";
 import rayyana from "./Images/rayyana.jpg";
+import rishab from "./Images/rishab.jpg";
 import sakina from "./Images/sakina.jpg";
 import samuel from "./Images/samuel.jpg";
 import sheree from "./Images/sheree.jpg";
@@ -31,9 +26,7 @@ import song from "./Images/song.jpg";
 import stella from "./Images/stella.jpg";
 import tammy from "./Images/tammy.jpg";
 import trudie from "./Images/trudie.jpg";
-import varun from "./Images/varun.jpg";
 import windsor from "./Images/windsor.jpg";
-import rishab from "./Images/rishab.jpg";
 
 const Footer = () => {
   if (window.innerWidth < 480)
@@ -107,25 +100,9 @@ const Team = () => {
           <Row>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={antoine}
-                name={"Antoine Finot"}
-                role={"President"}
-                linkedin={"https://linkedin.com/in/antoine-f/"}
-              />
-            </Col>
-            <Col xs={6} md={3} lg={2}>
-              <About
-                profile_img={angela}
-                name={"Angela Bi"}
-                role={"VP External"}
-                linkedin={"https://linkedin.com/in/angela-bi-/"}
-              />
-            </Col>
-            <Col xs={6} md={3} lg={2}>
-              <About
                 profile_img={karen}
                 name={"Karen Zhao"}
-                role={"VP Internal"}
+                role={"Co-President"}
                 linkedin={"https://linkedin.com/in/karenjyzhao"}
               />
             </Col>
@@ -133,24 +110,48 @@ const Team = () => {
               <About
                 profile_img={windsor}
                 name={"Windsor Huang"}
-                role={"VP Finance"}
+                role={"Co-President"}
                 linkedin={"https://linkedin.com/in/windsorhuang/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={olivia}
-                name={"Olivia Li"}
-                role={"Director of Projects"}
-                linkedin={"https://linkedin.com/in/oliviaoli/"}
+                profile_img={alexander}
+                name={"Alex Shih"}
+                role={"VP Internal"}
+                linkedin={"https://linkedin.com/in/alexandershih2022/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={ling}
-                name={"Ling Lu"}
+                profile_img={baker}
+                name={"Baker Jackson"}
+                role={"VP External"}
+                linkedin={"https://linkedin.com/in/angela-bi-/"}
+              />
+            </Col>
+            <Col xs={6} md={3} lg={2}>
+              <About
+                profile_img={placeholder}
+                name={"Michelle Lin"}
+                role={"Managing Director"}
+                linkedin={"linkedin.com/in/m-ichellelin"}
+              />
+            </Col>
+            <Col xs={6} md={3} lg={2}>
+              <About
+                profile_img={rajvi}
+                name={"Rajvi Rana"}
+                role={"Director of Projects"}
+                linkedin={"https://www.linkedin.com/in/rajvirana/"}
+              />
+            </Col>
+            <Col xs={6} md={3} lg={2}>
+              <About
+                profile_img={placeholder}
+                name={"Simran Singh"}
                 role={"Director of Design"}
-                linkedin={"https://linkedin.com/in/ling-l-b4982288/"}
+                linkedin={"https://linkedin.com"}
               />
             </Col>
           </Row>
@@ -163,50 +164,34 @@ const Team = () => {
           <Row>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={windsor}
-                name={"Windsor Huang"}
-                role={"Project Manager / Project Lead"}
-                linkedin={"https://linkedin.com/in/windsorhuang/"}
+                profile_img={fiza}
+                name={"Purnima Mehta"}
+                role={"Designer"}
+                linkedin={"https://linkedin.com/in/purnimamehta"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={varun}
-                name={"Varun Lodaya"}
+                profile_img={jordan}
+                name={"Jordan Janakievski"}
                 role={"Developer"}
-                linkedin={"https://linkedin.com/in/varun-lodaya/"}
+                linkedin={"https://linkedin.com/in/jordan-janakievski/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={rajvi}
-                name={"Rajvi Rana"}
+                profile_img={placeholder}
+                name={"Azamat Khamidov"}
                 role={"Developer"}
-                linkedin={"https://www.linkedin.com/in/rajvirana/"}
+                linkedin={"linkedin.com/in/azamat-khamidov/"}
               />
             </Col>
             <Col xs={6} md={3} lg={2}>
               <About
-                profile_img={elena}
-                name={"Elena Wang"}
+                profile_img={placeholder}
+                name={"Mishaal Kandapath"}
                 role={"Developer"}
-                linkedin={"https://linkedin.com/in/elenawzy/"}
-              />
-            </Col>
-            <Col xs={6} md={3} lg={2}>
-              <About
-                profile_img={kevin}
-                name={"Kevin Zhu"}
-                role={"Developer"}
-                linkedin={"https://linkedin.com/in/kevin-zhu-732019175/"}
-              />
-            </Col>
-            <Col xs={6} md={3} lg={2}>
-              <About
-                profile_img={jacky}
-                name={"Jacky Yang"}
-                role={"Developer"}
-                linkedin={"https://linkedin.com/in/jyangcs/"}
+                linkedin={"https://www.linkedin.com/in/mishaal-kandapath/"}
               />
             </Col>
           </Row>

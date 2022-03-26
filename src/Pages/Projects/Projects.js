@@ -114,7 +114,11 @@ export default function ProjectsPage() {
                 to contact us with your project idea!
               </h4>
             </div>
-            {/* <a href="mailto:contact@uoftblueprint.org"><button class="contact-button">Let's get in touch!</button></a> */}
+            <a href="mailto:contact@uoftblueprint.org">
+              <button class="contact-button">
+                Let's get in touch!
+              </button>
+            </a>
           </div>
         </Container>
       </Jumbotron>

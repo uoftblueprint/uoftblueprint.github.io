@@ -64,8 +64,8 @@ const Banner = () => {
   return (
     <div id='banner-container'>
       <img src={banner} width="1280" id='banner'/>
-      <p id="sub-heading">Meet our Team</p>
-      <p id="about-text">This is us! We're a group of students passionate about building tech for the greater good.</p>
+      <p id="banner-subheading">Meet our Team</p>
+      <p id="banner-text">This is us! We're a group of students passionate about building tech for the greater good.</p>
     </div>
   )
 }

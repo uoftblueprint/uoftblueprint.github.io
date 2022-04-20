@@ -134,7 +134,7 @@ body {
 	margin-bottom: 40px;
 }
 
-#sub-heading {
+#banner-subheading {
   position: absolute;
   width: 175px;
   height: 28px;
@@ -152,7 +152,7 @@ body {
   color: #FFFFFF;
 }
 
-#about-text {
+#banner-text {
   position: absolute;
   width: 600px;
   height: 90px;

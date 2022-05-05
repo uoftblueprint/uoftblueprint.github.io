@@ -40,6 +40,11 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li>
+                                <Link to={'/team/alumni'} style={{ color: '#FFF' }}>
+                                alumni
+                                </Link>
+                            </li>
+                            <li>
                                 <Link to={'/apply/students'} style={{ color: '#FFF' }}>
                                 join
                                 </Link>

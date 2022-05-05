@@ -2,40 +2,49 @@
     {
         "team name" : "EXECUTIVE TEAM", 
         "members" : [
-            {"name" : "Windsor Huang", "role" : "Co-President", "linkedin" : "linkedin.com/in/windsorhuang"},
-            {"name" : "Karen Zhao", "role" : "Co-President", "linkedin" : "linkedin.com/in/karenjyzhao"},
-            {"name" : "Michelle Lin", "role" : "Managing Director", "linkedin" : "linkedin.com/in/m-ichellelin"},
-            {"name" : "Baker Jackson", "role" : "VP External", "linkedin" : "linkedin.com/in/baker-jackson/"},
-            {"name" : "Alexander Shih", "role" : "VP Internal", "linkedin" : "linkedin.com/in/alexandershih2022"},
-            {"name" : "Rajvi Rana", "role" : "Director of Projects", "linkedin" : "linkedin.com/in/rajvirana"}
+            {"name" : "Windsor Huang", "role" : "Co-President", "linkedin" : "https://www.linkedin.com/in/windsorhuang"},
+            {"name" : "Karen Zhao", "role" : "Co-President", "linkedin" : "https://www.linkedin.com/in/karenjyzhao"},
+            {"name" : "Michelle Lin", "role" : "Managing Director", "linkedin" : "https://www.linkedin.com/in/m-ichellelin"},
+            {"name" : "Baker Jackson", "role" : "VP External", "linkedin" : "https://www.linkedin.com/in/baker-jackson/"},
+            {"name" : "Alexander Shih", "role" : "VP Internal", "linkedin" : "https://www.linkedin.com/in/alexandershih2022"},
+            {"name" : "Rajvi Rana", "role" : "Director of Projects", "linkedin" : "https://www.linkedin.com/in/rajvirana"}
         ]
     },
     {
         "team name" : "INTERNAL", 
         "members" : [
-            {"name" : "Purnima Mehta", "role" : "Project Lead Designer", "linkedin" : "linkedin.com/in/purnimamehta"},
-            {"name" : "Azamat Khamidov", "role" : "Developer", "linkedin" : "linkedin.com/in/azamat-khamidov"},
-            {"name" : "Jordan Janakievski", "role" : "Developer", "linkedin" : "linkedin.com/in/jordan-janakievski"},
-            {"name" : "Mishaal Kandapath", "role" : "Developer", "linkedin" : "linkedin.com/in/mishaal-kandapath"}
+            {"name" : "Purnima Mehta", "role" : "Project Lead Designer", "linkedin" : "https://www.linkedin.com/in/purnimamehta"},
+            {"name" : "Azamat Khamidov", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/azamat-khamidov"},
+            {"name" : "Jordan Janakievski", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jordan-janakievski"},
+            {"name" : "Mishaal Kandapath", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/mishaal-kandapath"}
         ]
     },
     {
         "team name" : "HEROES FOR HOMES", 
         "members" : [
-            {"name" : "Raymond Chen", "role" : "Project Lead", "linkedin" : "linkedin.com/in/raycxn"},
-            {"name" : "Anita Xu", "role" : "Designer", "linkedin" : "linkedin.com/in/anita-xu"},
-            {"name" : "Jeffery Zhan", "role" : "Developer", "linkedin" : "linkedin.com/in/jeffery-zhan"},
-            {"name" : "Youssef Soliman", "role" : "Developer", "linkedin" : "linkedin.com/in/youssefsoliman"}
+            {"name" : "Raymond Chen", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/raycxn"},
+            {"name" : "Mesbah Rafin", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/mesbah-rafin/"},
+            {"name" : "Anita Xu", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/anita-xu"},
+            {"name" : "Jeffery Zhan", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jeffery-zhan"},
+            {"name" : "Youssef Soliman", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/youssefsoliman"},
+            {"name" : "Nancy Li", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/nancy-li-557106181/"},
+            {"name" : "Siddarth Dagar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/siddarth-dagar/"},
+            {"name" : "Sunghyoun Kim", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"},
+            {"name" : "Yvonne Rao", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/yvonne-rao/"}
         ]
     },
     {
         "team name" : "THE PERIOD PURSE",
         "members" : [
-            {"name" : "Chloe Zhao", "role" : "Project Lead", "linkedin" : "linkedin.com"},
-            {"name" : "Edward Han", "role" : "Developer", "linkedin" : "linkedin.com/in/edwardhuahan"},
-            {"name" : "Helen Li", "role" : "Developer", "linkedin" : "linkedin.com/in/helenli28"},
-            {"name" : "Kenneth Miura", "role" : "Developer", "linkedin" : "linkedin.com/in/kenneth-miura/"},
-            {"name" : "Emily Yu", "role" : "Developer", "linkedin" : "linkedin.com/in/emily-yu24"}
+            {"name" : "Chloe Zhao", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
+            {"name" : "Faye Tan", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/faye-tan/"},
+            {"name" : "Jing Tey", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/jing-tey/"},
+            {"name" : "Edward Han", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/edwardhuahan"},
+            {"name" : "Helen Li", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/helenli28"},
+            {"name" : "Kenneth Miura", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kenneth-miura/"},
+            {"name" : "Annie Liu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/liuzr-annie/"},
+            {"name" : "Roy Lin", "role" : "Developer", "linkedin" : "https://www.linkedin.com"},
+            {"name" : "Emily Yu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"}
         ]
     }
 ]

@@ -13,7 +13,6 @@
     {
         "team name" : "INTERNAL", 
         "members" : [
-            {"name" : "Purnima Mehta", "role" : "Project Lead Designer", "linkedin" : "https://www.linkedin.com/in/purnimamehta"},
             {"name" : "Azamat Khamidov", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/azamat-khamidov"},
             {"name" : "Jordan Janakievski", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jordan-janakievski"},
             {"name" : "Mishaal Kandapath", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/mishaal-kandapath"}

@@ -9,20 +9,24 @@ const teams = require('./teams.json');
 const Footer = () => {
   if (window.innerWidth < 480)
     return (
-      <Container style={{ background: "#3E9CF3", padding: "3.5em 3.5em" }}>
+      <Container
+        style={{ background: '#3E9CF3', padding: '3.5em 3.5em' }}
+      >
         <Row>
-          <h1 className={"MobileFooterTitle"}>Wanna join the team?</h1>
+          <h1 className={'MobileFooterTitle'}>
+            Wanna join the team?
+          </h1>
         </Row>
         <Row>
-          <p className={"MobileFooterBody"}>
-            We are always looking for new talent! If you would love to learn
-            more about the opportunities here at UofT Blueprint, feel free to
-            contact us for any inquiries!
+          <p className={'MobileFooterBody'}>
+            We are always looking for new talent! If you would love to
+            learn more about the opportunities here at UofT Blueprint,
+            feel free to contact us for any inquiries!
           </p>
         </Row>
-        <Row style={{ paddingTop: "1em" }}>
+        <Row style={{ paddingTop: '1em' }}>
           <Button
-            style={{ backgroundColor: "#ffffff" }}
+            style={{ backgroundColor: '#ffffff' }}
             className="MobileBottomButton"
           >
             <a href="mailto:contact@uoftblueprint.org">
@@ -30,8 +34,8 @@ const Footer = () => {
             </a>
           </Button>
         </Row>
-        <Container style={{ paddingTop: "3em", textAlign: "center" }}>
-          <div style={{ textAlign: "center" }}>
+        <Container style={{ paddingTop: '3em', textAlign: 'center' }}>
+          <div style={{ textAlign: 'center' }}>
             <p className="Copyright">@ Blueprint 2020.</p>
           </div>
         </Container>

@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
 
 /* 
     TAG SELECTORS
@@ -18,7 +20,7 @@ body {
 }
 
 .BottomContainer {
-  background-color: rgba(147, 201, 254, 0.25);
+  background: #CBD5DF;
   padding: 125px 220px ;
 }
 
@@ -40,15 +42,18 @@ body {
 }
 
 .BottomButton {
-  background-color: #0078e8;
-  color: #ffffff;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  line-height: 27px;
   margin: 2em;
 }
 
 .FooterTitle {
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 36px;
   line-height: 54px;
@@ -62,11 +67,12 @@ body {
 }
 
 .FooterBody {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 27px;
-  color: #333333;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #273646;
 }
 
 .MobileFooterBody {
@@ -91,8 +97,6 @@ body {
 }
 
 .HeartIcon {
-  /* padding-top: 25px;
-  text-align: center; */
   margin-right: 10px;
   float: left;
 }
@@ -119,11 +123,86 @@ body {
   transition-duration: 0.7s;
 }
 
-/* .TeamContainer {
-
-} */
-
-.TeamTitle {
+.container {
   text-align: center;
   padding: 50px;
+}
+
+#banner-container {
+  position: relative;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+#banner-subheading {
+  position: absolute;
+  width: 175px;
+  height: 28px;
+  left: 220px;
+  top: 100px;
+
+  text-align: left;
+
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+
+#banner-text {
+  position: absolute;
+  width: 600px;
+  height: 90px;
+  left: 220px;
+  top: 140px;
+
+  text-align: left;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 45px;
+
+  color: #FFFFFF;
+}
+
+#alumni-text {
+  height: 72px;
+  text-align: center;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+button {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  align-items: center;
+  text-align: center;
+  
+  padding: 15px 30px;
+  border: none;
+  border-radius: 2px;
+}
+#alumni-button {
+  background: #2087E5;
+  border-radius: 15px;
+
+  padding: 15px 50px;
 }

@@ -2,12 +2,12 @@
     {
         "team name" : "EXECUTIVE TEAM", 
         "members" : [
-            {"name" : "Windsor Huang", "role" : "Co-President", "linkedin" : "https://www.linkedin.com/in/windsorhuang"},
-            {"name" : "Karen Zhao", "role" : "Co-President", "linkedin" : "https://www.linkedin.com/in/karenjyzhao"},
-            {"name" : "Michelle Lin", "role" : "Managing Director", "linkedin" : "https://www.linkedin.com/in/m-ichellelin"},
-            {"name" : "Baker Jackson", "role" : "VP External", "linkedin" : "https://www.linkedin.com/in/baker-jackson/"},
-            {"name" : "Alexander Shih", "role" : "VP Internal", "linkedin" : "https://www.linkedin.com/in/alexandershih2022"},
-            {"name" : "Rajvi Rana", "role" : "Director of Projects", "linkedin" : "https://www.linkedin.com/in/rajvirana"}
+            {"name" : "Rajvi Rana", "role" : "President", "linkedin" : "https://www.linkedin.com/in/rajvirana"},
+            {"name" : "Michelle Lin", "role" : "Vice-President", "linkedin" : "https://www.linkedin.com/in/m-ichellelin"},
+            {"name" : "Alamgir Khan", "role" : "VP Projects", "linkedin" : "https://www.linkedin.com/in/kalamgir/"},
+            {"name" : "Emily Zhou", "role" : "VP Events", "linkedin" : "https://www.linkedin.com/in/emily-fz/"},
+            {"name" : "Chloe Zhao", "role" : "Director of Design", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
+            {"name" : "Divya Gupta", "role" : "Director of Partnerships", "linkedin" : "https://www.linkedin.com/in/dgdivyagupta/"}
         ]
     },
     {

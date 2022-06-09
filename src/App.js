@@ -1,9 +1,9 @@
 import logo from "./logo.svg";
 import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	Redirect,
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
 } from "react-router-dom";
 import "./App.css";
 import Homepage from "./Pages/Homepage/Homepage";
@@ -19,40 +19,40 @@ import Footer from "./Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
-	return (
-		<div className="page">
-			<div className="content">
-				<Navbar />
-				<Switch>
-					<Route exact path="/">
-						<Homepage />
-					</Route>
-					<Route exact path="/team">
-						<Team />
-					</Route>
-					<Route path="/chapters">
-						<Chapters />
-					</Route>
-					<Route path="/projects">
-						<Projects />
-					</Route>
-					<Route exact path="/apply">
-						<Apply />
-					</Route>
-					<Route path="/apply/students">
-						<Students />
-					</Route>
-					<Route path="/apply/nonprofits">
-						<Nonprofits />
-					</Route>
-					<Route path="/team/alumni">
-						<Alumni />
-					</Route>
-				</Switch>
-			</div>
-			{window.innerWidth > 480 ? <Footer /> : null}
-		</div>
-	);
+  return (
+    <div className="page">
+      <div className="content">
+        <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route exact path="/team">
+            <Team />
+          </Route>
+          <Route path="/chapters">
+            <Chapters />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/apply">
+            <Apply />
+          </Route>
+          <Route path="/apply/students">
+            <Students />
+          </Route>
+          <Route path="/apply/nonprofits">
+            <Nonprofits />
+          </Route>
+          <Route path="/team/alumni">
+            <Alumni />
+          </Route>
+        </Switch>
+      </div>
+      {window.innerWidth > 480 ? <Footer /> : null}
+    </div>
+  );
 }
 
 export default App;

@@ -1,16 +1,5 @@
 [
     {
-        "team name" : "EXECUTIVE TEAM", 
-        "members" : [
-            {"name" : "Rajvi Rana", "role" : "President", "linkedin" : "https://www.linkedin.com/in/rajvirana"},
-            {"name" : "Michelle Lin", "role" : "Vice-President", "linkedin" : "https://www.linkedin.com/in/m-ichellelin"},
-            {"name" : "Alamgir Khan", "role" : "VP Projects", "linkedin" : "https://www.linkedin.com/in/kalamgir/"},
-            {"name" : "Emily Zhou", "role" : "VP Events", "linkedin" : "https://www.linkedin.com/in/emily-fz/"},
-            {"name" : "Chloe Zhao", "role" : "Director of Design", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
-            {"name" : "Divya Gupta", "role" : "Director of Partnerships", "linkedin" : "https://www.linkedin.com/in/dgdivyagupta/"}
-        ]
-    },
-    {
         "team name" : "INTERNAL", 
         "members" : [
             {"name" : "Azamat Khamidov", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/azamat-khamidov"},

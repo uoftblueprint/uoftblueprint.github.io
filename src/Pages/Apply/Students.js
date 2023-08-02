@@ -20,17 +20,11 @@ const Criteria = ({ title, description, image }) => {
   );
 };
 
-const ApplyButton = ({ desc, link }) => {
+const ApplyButton = ({ desc, link, isDisabled=false }) => {
   return (
     <div className='my-2'>
-      {/* <h5 style={{ padding: "25px 0 5px 0", "font-size": "1rem", color: '#FFFFFF' }}  className={"text-responsive"}>
-          <button onClick={executeScroll}>What do we look for?</button>
-        </h5> */}
-      <button>
-        {/* <Link activeClass="active" to="requirements" spy={true} smooth={true} duration={1000} style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}>
-            What we look for
-          </Link> */}
-        <a href={link} style={{ color: 'white' }}>{desc}</a>
+      <button style={{backgroundColor: isDisabled && "gray"}} disabled={isDisabled} onClick={() => { window.open(link)} }>
+          {desc}
       </button>
     </div>
   )
@@ -69,11 +63,14 @@ const Students = () => {
                         Our application for developers and designers are now closed for the 2020-2021 academic year. We will be recruiting again in Fall 2021!
                       </h5>
                   </div> */}
-                <ApplyButton desc='Director of Software Engineering' link='http://bit.ly/uoftbp-app-form' />
+                <ApplyButton desc='Director of Software Engineering' link='https://airtable.com/appJt53wy097SuDN6/shrdpgRi0EMwekHha' />
                 <ApplyButton desc='Director of Design' link='http://bit.ly/uoftbp-app-form' />
                 <ApplyButton desc='Director of Events' link='http://bit.ly/uoftbp-app-form' />
                 <ApplyButton desc='Director of Industry Relations' link='http://bit.ly/uoftbp-app-form' />
                 <ApplyButton desc='Director of Finance' link='http://bit.ly/uoftbp-app-form' />
+                <ApplyButton desc='Product Designer - coming in early September!' link='http://bit.ly/uoftbp-app-form' isDisabled/>
+                <ApplyButton desc='Project Developer - coming in early September' link='http://bit.ly/uoftbp-app-form' isDisabled/>
+                <ApplyButton desc='Project Lead - coming in early September' link='http://bit.ly/uoftbp-app-form' isDisabled/>
               </div>
             </Col>
             <Col md='5' style={{ paddingLeft: '4em' }}>

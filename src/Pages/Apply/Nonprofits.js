@@ -42,7 +42,7 @@ const Nonprofits = () => {
                   </div>
                   <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>
                       <h5 style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}  className={"text-responsive"}>
-                        We are no longer accepting nonprofit applications for the 2020-2021 academic year. Please contact us if you are interested in partnering with us in the future! 
+                        Let's talk about how we can help you! Reach out to us at contact@uoftblueprint.org or on any of our social media accounts.
                       </h5>
                   </div>
                   <button>

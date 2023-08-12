@@ -16,7 +16,7 @@ export const canadaChapters = [
   {
     title: 'Carleton University',
     description: 'The third Blueprint chapter in Canada 🍂',
-    link: 'https://cublueprint.org/',
+    link: 'https://linktr.ee/cublueprint',
     image: blueprint,
   },
 ];

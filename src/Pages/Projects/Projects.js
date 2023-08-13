@@ -166,7 +166,7 @@ export default function ProjectsPage() {
           </Col>
         </Row>
         <Row>
-          <Col className={'Year'}>
+          <Col style={{paddingTop: '2em'}} className={'Year'}>
             <h5>2021 - 2022</h5>
           </Col>
         </Row>
@@ -203,7 +203,7 @@ export default function ProjectsPage() {
           </Col>
         </Row>
         <Row>
-          <Col className={'Year'}>
+          <Col style={{paddingTop: '2em'}} className={'Year'}>
             <h5>2020 - 2021</h5>
           </Col>
         </Row>

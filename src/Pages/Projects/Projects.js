@@ -9,7 +9,9 @@ import { Jumbotron } from 'react-bootstrap';
 import shelter_movers from '../../assets/shelter_movers.png';
 import merit_award from '../../assets/merit_award.png';
 import hfh from '../../assets/hfh.png';
+import sistema from '../../assets/sistema.png';
 import period_purse from '../../assets/period_purse.png';
+import tces from '../../assets/TCES.png'
 import blueprint from '../../assets/mission-globe.svg';
 import './Projects.css';
 
@@ -128,6 +130,43 @@ export default function ProjectsPage() {
       >
         <Row>
           <Col className={'Year'}>
+            <h5>2022 - 2023</h5>
+          </Col>
+        </Row>
+        <Row style={{ paddingTop: '2em', paddingLeft: '5%' }}>
+          <Col>
+            <ProjectCard
+              website={'https://www.sistema-toronto.ca/'}
+              project_image={sistema}
+              project_title={'Sistema'}
+              project_description={
+                'Sistema Toronto provides musical and intellectual opportunities to children in vulnerable communities, with the goal of transformative social change. They are collaborating with us this year to create a mobile application that will help with their mission.'
+              }
+            />
+          </Col>
+          <Col>
+            <ProjectCard
+              website={'https://www.theperiodpurse.com/'}
+              project_image={period_purse}
+              project_title={'Period Purse'}
+              project_description={
+                'The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy.'
+              }
+            />
+          </Col>
+          <Col>
+            <ProjectCard
+              website={'https://toronto-jobs.org/'}
+              project_image={tces}
+              project_title={'Toronto Community Employment Services'}
+              project_description={
+                'Toronto Community Employment Services (TCES) is a non-profit charitable organization offering no cost employment services, such as skill assessments, resume building, career counselling, workshops and more. We will be helping them build an internal-use CRM application.'
+              }
+            />
+          </Col>
+        </Row>
+        <Row>
+          <Col className={'Year'}>
             <h5>2021 - 2022</h5>
           </Col>
         </Row>
@@ -200,11 +239,6 @@ export default function ProjectsPage() {
             />
           </Col>
         </Row>
-        {/* <Row>
-                    <Col className="Col">
-                        <ProjectCard website={"http://uoftveep.herokuapp.com/"} project_image={veep} project_title={"VEEP - Collaboration Project"} project_description={"The Volunteer Engineering Experience Program (VEEP) is an undergraduate club based at the University of Toronto that pairs local, community oriented organizations with student teams who have technical expertise to create a product that will improve our partner organizations’ impact on their community."} />
-                    </Col>
-                </Row> */}
       </Container>
     </>
   );

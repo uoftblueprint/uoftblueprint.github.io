@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.63ff0b58.chunk.css",
-    "main.js": "./static/js/main.5d35e545.chunk.js",
-    "main.js.map": "./static/js/main.5d35e545.chunk.js.map",
+    "main.js": "./static/js/main.d1057531.chunk.js",
+    "main.js.map": "./static/js/main.d1057531.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.9fdc9ac8.js",
     "runtime-main.js.map": "./static/js/runtime-main.9fdc9ac8.js.map",
     "static/css/2.2ea28d2f.chunk.css": "./static/css/2.2ea28d2f.chunk.css",
-    "static/js/2.98355be9.chunk.js": "./static/js/2.98355be9.chunk.js",
-    "static/js/2.98355be9.chunk.js.map": "./static/js/2.98355be9.chunk.js.map",
+    "static/js/2.9e3cf30d.chunk.js": "./static/js/2.9e3cf30d.chunk.js",
+    "static/js/2.9e3cf30d.chunk.js.map": "./static/js/2.9e3cf30d.chunk.js.map",
     "static/js/3.87172cf2.chunk.js": "./static/js/3.87172cf2.chunk.js",
     "static/js/3.87172cf2.chunk.js.map": "./static/js/3.87172cf2.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.2ea28d2f.chunk.css.map": "./static/css/2.2ea28d2f.chunk.css.map",
     "static/css/main.63ff0b58.chunk.css.map": "./static/css/main.63ff0b58.chunk.css.map",
-    "static/js/2.98355be9.chunk.js.LICENSE.txt": "./static/js/2.98355be9.chunk.js.LICENSE.txt",
+    "static/js/2.9e3cf30d.chunk.js.LICENSE.txt": "./static/js/2.9e3cf30d.chunk.js.LICENSE.txt",
     "static/media/AlamgirKhan.jpg": "./static/media/AlamgirKhan.77fef379.jpg",
     "static/media/AlexanderShih.jpg": "./static/media/AlexanderShih.8d4295da.jpg",
     "static/media/AmyPeng.jpg": "./static/media/AmyPeng.12a04cbe.jpg",
@@ -62,6 +62,7 @@
     "static/media/SongYou.jpg": "./static/media/SongYou.c16b119e.jpg",
     "static/media/StellaCai.jpg": "./static/media/StellaCai.1a7f5870.jpg",
     "static/media/SunghyounKim.jpg": "./static/media/SunghyounKim.f45a30af.jpg",
+    "static/media/TCES.88ecb8ba.png": "./static/media/TCES.88ecb8ba.png",
     "static/media/TammyTaabassum.jpg": "./static/media/TammyTaabassum.b9f723da.jpg",
     "static/media/TrudieCheung.jpg": "./static/media/TrudieCheung.c183f4d8.jpg",
     "static/media/VarunLodaya.jpg": "./static/media/VarunLodaya.6a6f4d13.jpg",
@@ -83,6 +84,7 @@
     "static/media/mission-globe.6ad148d9.svg": "./static/media/mission-globe.6ad148d9.svg",
     "static/media/pharmacy.b05c7910.png": "./static/media/pharmacy.b05c7910.png",
     "static/media/placeholder.15ad07f8.JPG": "./static/media/placeholder.15ad07f8.JPG",
+    "static/media/sistema.d444d9db.png": "./static/media/sistema.d444d9db.png",
     "static/media/standing 8.0de4b146.png": "./static/media/standing 8.0de4b146.png",
     "static/media/standing-7.ed9f3b2d.png": "./static/media/standing-7.ed9f3b2d.png",
     "static/media/team-build2.83af5658.png": "./static/media/team-build2.83af5658.png",
@@ -93,8 +95,8 @@
   "entrypoints": [
     "static/js/runtime-main.9fdc9ac8.js",
     "static/css/2.2ea28d2f.chunk.css",
-    "static/js/2.98355be9.chunk.js",
+    "static/js/2.9e3cf30d.chunk.js",
     "static/css/main.63ff0b58.chunk.css",
-    "static/js/main.5d35e545.chunk.js"
+    "static/js/main.d1057531.chunk.js"
   ]
 }

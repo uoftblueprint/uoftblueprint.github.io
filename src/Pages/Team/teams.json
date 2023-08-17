@@ -1,24 +1,17 @@
 [
     {
-        "team name" : "INTERNAL", 
+        "team name" : "SISTEMA TORONTO", 
         "members" : [
-            {"name" : "Azamat Khamidov", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/azamat-khamidov"},
-            {"name" : "Jordan Janakievski", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jordan-janakievski"},
-            {"name" : "Mishaal Kandapath", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/mishaal-kandapath"}
-        ]
-    },
-    {
-        "team name" : "HOMES FOR HEROES", 
-        "members" : [
-            {"name" : "Raymond Chen", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/raycxn"},
-            {"name" : "Mesbah Rafin", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/mesbah-rafin/"},
+            {"name" : "Emily Yu", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/raycxn"},
+            {"name" : "Ramy Zhang", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/mesbah-rafin/"},
             {"name" : "Anita Xu", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/anita-xu"},
-            {"name" : "Jeffery Zhan", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jeffery-zhan"},
-            {"name" : "Youssef Soliman", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/youssefsoliman"},
-            {"name" : "Nancy Li", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/nancy-li-557106181/"},
-            {"name" : "Siddarth Dagar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/siddarth-dagar/"},
-            {"name" : "Sunghyoun Kim", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"},
-            {"name" : "Yvonne Rao", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/yvonne-rao/"}
+            {"name" : "Serena Tran", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/serena-tran-/"},
+            {"name" : "Baker Jackson", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jeffery-zhan"},
+            {"name" : "Harmit Goswami", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/youssefsoliman"},
+            {"name" : "Helena Glowacki", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/nancy-li-557106181/"},
+            {"name" : "Kurtis Law", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/siddarth-dagar/"},
+            {"name" : "Min Gi Kwon", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"},
+            {"name" : "Sarah Xu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"}
         ]
     },
     {

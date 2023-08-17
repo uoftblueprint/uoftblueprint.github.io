@@ -1,4 +1,40 @@
 {
+	"Raymond Chen": {
+		"role" : "Project Lead", 
+		"image": "./Alumni_Images/RaymondChen.jpg",
+		"linkedin" : "https://www.linkedin.com/in/raycxn"
+	},
+	"Mesbah Rafin": {
+		"role" : "Project Lead", 
+		"image": "./Alumni_Images/MesbahRafin.jpg",
+		"linkedin" : "https://www.linkedin.com/in/mesbah-rafin/"
+	},
+	"Jeffery Zhan": {
+		"role" : "Developer", 
+		"image": "./Alumni_Images/JeffreyZhan.jpg",
+		"linkedin" : "https://www.linkedin.com/in/jeffery-zhan"
+	},
+	"Youssef Soliman": {
+		"role" : "Developer", 
+		"image": "./Alumni_Images/YoussefSoliman.jpg",
+		"linkedin" : "https://www.linkedin.com/in/youssefsoliman"
+	},
+	"Nancy Li": {
+		"role" : "Developer", 
+		"linkedin" : "https://www.linkedin.com/in/nancy-li-557106181/"
+	},
+	"Siddarth Dagar": {
+		"role" : "Developer", 
+		"linkedin" : "https://www.linkedin.com/in/siddarth-dagar/"
+	},
+	"Sunghyoun Kim": {
+		"role" : "Developer", 
+		"linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"
+	},
+	"Yvonne Rao": {
+		"role" : "Developer", 
+		"linkedin" : "https://www.linkedin.com/in/yvonne-rao/"
+	},
 	"Angela Bi": {
 		"role": "VP External",
 		"image": "./Alumni_Images/angela.jpg",
@@ -68,6 +104,21 @@
 		"role": "Director of Design",
 		"image": "./Alumni_Images/Ling.jpg",
 		"linkedin": "https://www.linkedin.com/in/ling-l-b4982288/"
+	},
+	"Azamat Khamidov": {
+		"role" : "Developer", 
+		"image": "./Alumni_Images/AzamatKhamidov.jpg",
+		"linkedin" : "https://www.linkedin.com/in/azamat-khamidov"
+	},
+	"Jordan Janakievski": {
+		"role" : "Developer", 
+		"image": "./Alumni_Images/JordanJanakievski.jpg",
+		"linkedin" : "https://www.linkedin.com/in/jordan-janakievski"
+	},
+	"Mishaal Kandapath": {
+		"role" : "Developer", 
+		"image": "./Alumni_Images/Mishaal.jpg",
+		"linkedin" : "https://www.linkedin.com/in/mishaal-kandapath"
 	},
 	"Rishab Luthra": {
 		"role": "Project Lead",

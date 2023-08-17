@@ -78,7 +78,7 @@ const ProjectCard = (props) => {
 export default function ProjectsPage() {
   return (
     <>
-      <Jumbotron fluid style={{ 'background-color': '#3E9CF3' }}>
+      <Jumbotron fluid style={{ 'background-color': '#0078e8' }}>
         <Container fluid="md" className={'justify-content-center'}>
           <div
             style={{

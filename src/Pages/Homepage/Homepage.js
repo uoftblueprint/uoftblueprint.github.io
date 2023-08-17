@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './Homepage.css'
-import main from '../../assets/main.svg'
+import main from '../../assets/main2.svg'
 import missionIcon from "../../assets/mission-globe.svg"
 import innovationIcon from '../../assets/innovation-box.svg'
 import communityIcon from '../../assets/community-hands.svg'
@@ -46,7 +46,7 @@ export default function Homepage() {
         </div>
         {window.innerWidth > 700 ? (
           <div id="main-image">
-            <img src={main} alt="UofT Blueprint Girl" id="main-photo"/>
+            <img src={main} style={{paddingLeft: '6em', paddingTop: '10em', scale: '130%'}} alt="UofT Blueprint Girl" id="main-photo"/>
           </div>
         ) : null}
         {window.innerWidth < 700 ? (

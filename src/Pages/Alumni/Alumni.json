@@ -1,4 +1,9 @@
 {
+	"Faye Tan": {
+		"role" : "Project Lead", 
+		"image": "./Alumni_Images/FayeTan.jpg",
+		"linkedin" : "https://www.linkedin.com/in/faye-tan/"
+	},
 	"Raymond Chen": {
 		"role" : "Project Lead", 
 		"image": "./Alumni_Images/RaymondChen.jpg",
@@ -21,19 +26,33 @@
 	},
 	"Nancy Li": {
 		"role" : "Developer", 
+		"image": "./Alumni_Images/NancyLi.jpg",
 		"linkedin" : "https://www.linkedin.com/in/nancy-li-557106181/"
 	},
 	"Siddarth Dagar": {
 		"role" : "Developer", 
+		"image": "./Alumni_Images/SiddarthDagar.jpg",
 		"linkedin" : "https://www.linkedin.com/in/siddarth-dagar/"
 	},
 	"Sunghyoun Kim": {
 		"role" : "Developer", 
+		"image": "./Alumni_Images/SunghyounKim.jpg",
 		"linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"
 	},
 	"Yvonne Rao": {
 		"role" : "Developer", 
+		"image": "./Alumni_Images/YvonneRao.jpg",
 		"linkedin" : "https://www.linkedin.com/in/yvonne-rao/"
+	},
+	"Roy Lin": {
+		"role" : "Developer", 
+		"image": "./Alumni_Images/RoyLin.jpg",
+		"linkedin" : "https://www.linkedin.com/in/roylin2000/"
+	},
+	"Karen Zhao": {
+		"role": "President",
+		"image": "./Alumni_Images/karen.jpg",
+		"linkedin": "https://www.linkedin.com/in/karenjyzhao"
 	},
 	"Angela Bi": {
 		"role": "VP External",
@@ -184,11 +203,6 @@
 		"role": "Developer",
 		"image": "./Alumni_Images/sheree.jpg",
 		"linkedin": "https://www.linkedin.com/in/shereezhang/"
-	},
-	"Karen Zhao": {
-		"role": "President",
-		"image": "./Alumni_Images/karen.jpg",
-		"linkedin": "https://www.linkedin.com/in/karenjyzhao"
 	},
 	"Kevin Zhu": {
 		"role": "Developer",

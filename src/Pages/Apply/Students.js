@@ -63,14 +63,9 @@ const Students = () => {
                         Our application for developers and designers are now closed for the 2020-2021 academic year. We will be recruiting again in Fall 2021!
                       </h5>
                   </div> */}
-                <ApplyButton desc='VP Software Engineering' link='https://airtable.com/appJt53wy097SuDN6/shrdpgRi0EMwekHha' />
-                <ApplyButton desc='VP Design' link='https://airtable.com/appKIR6GGlz9XLciK/shrcQiqLAI1nFG36s' />
-                <ApplyButton desc='VP Events' link='https://airtable.com/appY4fH9dwv3PbQDV/shrdvMzP2UAdZd6xh' />
-                <ApplyButton desc='VP Industry Relations' link='https://airtable.com/appdAq7c7qZ5WmU1o/shrUDz6uhqdhay6Q7' />
-                <ApplyButton desc='VP Finance' link='https://airtable.com/appFodJDeVAfshabk/shrlU5le3OKofBHQd' />
-                <ApplyButton desc='Product Designer - coming in early September!' link='' isDisabled/>
+                <ApplyButton desc='Product Designer' link='https://airtable.com/appFJA0UkIo2Y4JVg/shrNXkGspkMh8f2tr' />
+                <ApplyButton desc='Project Lead' link='https://airtable.com/appk4lRNk2rN0Sv9j/shrWJIsNpVt0EvZq1' />
                 <ApplyButton desc='Project Developer - coming in early September' link='' isDisabled/>
-                <ApplyButton desc='Project Lead - coming in early September' link='' isDisabled/>
               </div>
             </Col>
             <Col md='5' style={{ paddingLeft: '4em' }}>

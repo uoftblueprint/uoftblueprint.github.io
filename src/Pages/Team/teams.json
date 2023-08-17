@@ -2,16 +2,16 @@
     {
         "team name" : "SISTEMA TORONTO", 
         "members" : [
-            {"name" : "Emily Yu", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/raycxn"},
-            {"name" : "Ramy Zhang", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/mesbah-rafin/"},
+            {"name" : "Emily Yu", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/emily-yu24/"},
+            {"name" : "Ramy Zhang", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/ramyzhang/"},
             {"name" : "Anita Xu", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/anita-xu"},
             {"name" : "Serena Tran", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/serena-tran-/"},
-            {"name" : "Baker Jackson", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jeffery-zhan"},
-            {"name" : "Harmit Goswami", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/youssefsoliman"},
-            {"name" : "Helena Glowacki", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/nancy-li-557106181/"},
-            {"name" : "Kurtis Law", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/siddarth-dagar/"},
-            {"name" : "Min Gi Kwon", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"},
-            {"name" : "Sarah Xu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/sunghyoun-kim/"}
+            {"name" : "Baker Jackson", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/baker-jackson/"},
+            {"name" : "Harmit Goswami", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/harmit-goswami-773123217/"},
+            {"name" : "Helena Glowacki", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/helena-g-2527a922b/"},
+            {"name" : "Kurtis Law", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kurtislaw/"},
+            {"name" : "Lucas Kwon", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/mingikwon/"},
+            {"name" : "Sarah Xu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/sarahyixu/"}
         ]
     },
     {

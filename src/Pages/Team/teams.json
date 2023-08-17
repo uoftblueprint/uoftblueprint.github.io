@@ -33,15 +33,15 @@
     {
         "team name" : "The Period Purse",
         "members" : [
-            {"name" : "Leo Liu", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
-            {"name" : "Elena Wang", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/faye-tan/"},
-            {"name" : "Yuwei Jiang", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/jing-tey/"},
-            {"name" : "Kevin Le", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/helenli28"},
-            {"name" : "Madeline Ahn", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kenneth-miura/"},
-            {"name" : "Manpreet Bhatti", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/liuzr-annie/"},
-            {"name" : "Manya Mittal", "role" : "Developer", "linkedin" : "https://www.linkedin.com"},
-            {"name" : "Michael Ng", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"},
-            {"name" : "Pierre-William Lessard", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"}
+            {"name" : "Leo Liu", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/siqiliu-/"},
+            {"name" : "Elena Wang", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/elenawzy/"},
+            {"name" : "Yuwei Jiang", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/yuwei-linda-jiang/"},
+            {"name" : "Kevin Le", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kevinle623/"},
+            {"name" : "Madeline Ahn", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/madelahn/"},
+            {"name" : "Manpreet Bhatti", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/manpreet1bhatti/"},
+            {"name" : "Manya Mittal", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/manya-mittal-b6461a235/"},
+            {"name" : "Michael Ng", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/ng-michael/"},
+            {"name" : "Pierre-William Lessard", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/pierre-william-lessard/"}
         ]
     }
 ]

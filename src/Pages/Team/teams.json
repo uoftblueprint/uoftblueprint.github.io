@@ -15,17 +15,19 @@
         ]
     },
     {
-        "team name" : "THE PERIOD PURSE",
+        "team name" : "Toronto Community Employment Services",
         "members" : [
-            {"name" : "Chloe Zhao", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
-            {"name" : "Faye Tan", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/faye-tan/"},
-            {"name" : "Jing Tey", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/jing-tey/"},
-            {"name" : "Edward Han", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/edwardhuahan"},
+            {"name" : "Kenneth Miura", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
+            {"name" : "Edward Han", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/faye-tan/"},
+            {"name" : "Emily Gazo", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/jing-tey/"},
+            {"name" : "Ananmay Sharan", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/edwardhuahan"},
             {"name" : "Helen Li", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/helenli28"},
-            {"name" : "Kenneth Miura", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kenneth-miura/"},
+            {"name" : "Ganesh Asapu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kenneth-miura/"},
             {"name" : "Annie Liu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/liuzr-annie/"},
-            {"name" : "Roy Lin", "role" : "Developer", "linkedin" : "https://www.linkedin.com"},
-            {"name" : "Emily Yu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"}
+            {"name" : "Jordan Janakievski", "role" : "Developer", "linkedin" : "https://www.linkedin.com"},
+            {"name" : "MJ Munkhbayar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"},
+            {"name" : "Siddarth Dagar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"},
+            {"name" : "Thardchi Ganesalingam", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"}
         ]
     }
 ]

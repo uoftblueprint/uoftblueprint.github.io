@@ -66,8 +66,7 @@ const Banner = () => {
       <img src={banner} width="1280" id="banner" />
       {/* <p id="banner-subheading">Meet our Team</p> */}
       <p id="banner-text">
-        This is us! We're a group of students passionate about building tech for
-        the greater good.
+        We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2022-2023 project teams!
       </p>
     </div>
   );

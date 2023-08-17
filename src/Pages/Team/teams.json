@@ -19,15 +19,15 @@
         "members" : [
             {"name" : "Kenneth Miura", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
             {"name" : "Edward Han", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/faye-tan/"},
-            {"name" : "Emily Gazo", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/jing-tey/"},
-            {"name" : "Ananmay Sharan", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/edwardhuahan"},
+            {"name" : "Emily Gazo", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/emilygazo/"},
+            {"name" : "Ananmay Sharan", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/ananmay-sharan-762222160/"},
             {"name" : "Helen Li", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/helenli28"},
-            {"name" : "Ganesh Asapu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kenneth-miura/"},
+            {"name" : "Ganesh Asapu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/gasapu/"},
             {"name" : "Annie Liu", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/liuzr-annie/"},
-            {"name" : "Jordan Janakievski", "role" : "Developer", "linkedin" : "https://www.linkedin.com"},
-            {"name" : "MJ Munkhbayar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"},
-            {"name" : "Siddarth Dagar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"},
-            {"name" : "Thardchi Ganesalingam", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"}
+            {"name" : "Jordan Janakievski", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/jordan-janakievski/"},
+            {"name" : "MJ Munkhbayar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/manaljav-munkhbayar-8169001b9/"},
+            {"name" : "Siddarth Dagar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/siddarth-dagar/"},
+            {"name" : "Thardchi Ganesalingam", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/thardchi/"}
         ]
     },
     {

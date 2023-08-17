@@ -29,5 +29,19 @@
             {"name" : "Siddarth Dagar", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"},
             {"name" : "Thardchi Ganesalingam", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"}
         ]
+    },
+    {
+        "team name" : "The Period Purse",
+        "members" : [
+            {"name" : "Leo Liu", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/chloe-yichen-zhao/"},
+            {"name" : "Elena Wang", "role" : "Project Lead", "linkedin" : "https://www.linkedin.com/in/faye-tan/"},
+            {"name" : "Yuwei Jiang", "role" : "Designer", "linkedin" : "https://www.linkedin.com/in/jing-tey/"},
+            {"name" : "Kevin Le", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/helenli28"},
+            {"name" : "Madeline Ahn", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/kenneth-miura/"},
+            {"name" : "Manpreet Bhatti", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/liuzr-annie/"},
+            {"name" : "Manya Mittal", "role" : "Developer", "linkedin" : "https://www.linkedin.com"},
+            {"name" : "Michael Ng", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"},
+            {"name" : "Pierre-William Lessard", "role" : "Developer", "linkedin" : "https://www.linkedin.com/in/emily-yu24"}
+        ]
     }
 ]

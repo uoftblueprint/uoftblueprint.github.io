@@ -55,7 +55,7 @@ const Students = () => {
                     }}
                     className={'text-responsive'}>
                     Joining Blueprint is the perfect way to use your skills to give back to the
-                    community. We are now recruiting executives for the 2023-2024 academic year!
+                    community. We are now recruiting Project Leads & Product Designers for the 2023-2024 academic year!
                   </h4>
                 </div>
                 {/* <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>

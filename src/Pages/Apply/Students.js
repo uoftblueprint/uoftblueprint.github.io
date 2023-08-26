@@ -63,9 +63,9 @@ const Students = () => {
                         Our application for developers and designers are now closed for the 2020-2021 academic year. We will be recruiting again in Fall 2021!
                       </h5>
                   </div> */}
-                <ApplyButton desc='Product Designer' link='https://airtable.com/appFJA0UkIo2Y4JVg/shrNXkGspkMh8f2tr' />
-                <ApplyButton desc='Project Lead' link='https://airtable.com/appk4lRNk2rN0Sv9j/shrWJIsNpVt0EvZq1' />
-                <ApplyButton desc='Project Developer - coming in early September' link='' isDisabled/>
+                <ApplyButton desc='Project Developer' link='https://airtable.com/appueSFbKhU3Q3V7E/shrSqOSB2smapTKkp'/>
+                <ApplyButton desc='Product Designer' link='https://airtable.com/appFJA0UkIo2Y4JVg/shrNXkGspkMh8f2tr' isDisabled/>
+                <ApplyButton desc='Project Lead' link='https://airtable.com/appk4lRNk2rN0Sv9j/shrWJIsNpVt0EvZq1' isDisabled/>
               </div>
             </Col>
             <Col md='5' style={{ paddingLeft: '4em' }}>

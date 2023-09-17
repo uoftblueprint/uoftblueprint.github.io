@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Jumbotron, Container } from 'react-bootstrap';
+import { Row, Col, Jumbotron, Container, Image } from 'react-bootstrap';
 import standing from '../../assets/standing 8.png';
 import team from '../../assets/team-build2.png';
 import { CriteriaList } from './applyData';
@@ -63,10 +63,10 @@ const Students = () => {
               </div>
             </Col>
             <Col md='5' style={{ paddingLeft: '4em' }}>
-              <img
+              <Image
                 className='jumboImage'
                 src={team}
-                style={{ paddingTop: '4em', paddingBottom: '4em', width: '30em', height: 'auto' }}
+                fluid
               />
             </Col>
           </Row>

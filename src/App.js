@@ -21,36 +21,38 @@ import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className='page'>
-      <Navbar />
-      <Switch>
-        <Route exact path='/'>
-          <Homepage />
-        </Route>
-        <Route exact path='/team'>
-          <Team />
-        </Route>
-        <Route path='/chapters'>
-          <Chapters />
-        </Route>
-        <Route path='/projects'>
-          <Projects />
-        </Route>
-        <Route exact path='/apply'>
-          <Apply />
-        </Route>
-        <Route path='/apply/students'>
-          <Students />
-        </Route>
-        <Route path='/apply/nonprofits'>
-          <Nonprofits />
-        </Route>
-        <Route path='/team/alumni'>
-          <Alumni />
-        </Route>
-      </Switch>
+    <>
+      <div className='page'>
+        <Navbar />
+        <Switch>
+          <Route exact path='/'>
+            <Homepage />
+          </Route>
+          <Route exact path='/team'>
+            <Team />
+          </Route>
+          <Route path='/chapters'>
+            <Chapters />
+          </Route>
+          <Route path='/projects'>
+            <Projects />
+          </Route>
+          <Route exact path='/apply'>
+            <Apply />
+          </Route>
+          <Route path='/apply/students'>
+            <Students />
+          </Route>
+          <Route path='/apply/nonprofits'>
+            <Nonprofits />
+          </Route>
+          <Route path='/team/alumni'>
+            <Alumni />
+          </Route>
+        </Switch>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 }
 

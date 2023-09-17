@@ -129,9 +129,12 @@ body {
 }
 
 #banner-container {
-  position: relative;
-	width: 100%;
-	margin-bottom: 40px;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: center;
+  background-image: url(../../assets/teamPageBanner.png);
+  background-size: cover;
+  min-height: 30rem;
 }
 
 #banner-subheading {
@@ -153,12 +156,6 @@ body {
 }
 
 #banner-text {
-  position: absolute;
-  width: 600px;
-  height: 90px;
-  left: 220px;
-  top: 30%;
-
   text-align: left;
 
   font-family: 'Poppins', sans-serif;

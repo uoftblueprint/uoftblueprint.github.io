@@ -1,8 +1,8 @@
 import React from "react";
 import About from "./Components/About";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import placeholder from "./Images/placeholder.JPG";
-import banner from "../../assets/teamPageBanner.png";
+import { ContactSection } from "../Homepage/Homepage";
 
 const teams = require("./teams.json");
 
@@ -62,12 +62,17 @@ const Footer = () => {
 
 const Banner = () => {
   return (
-    <div id="banner-container">
-      <img src={banner} width="1280" id="banner" />
-      {/* <p id="banner-subheading">Meet our Team</p> */}
-      <p id="banner-text">
-        We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2022-2023 project teams!
-      </p>
+    <div id='banner-container'>
+      <Container>
+        <Row>
+          <Col xs={12} md={6}>
+            <p id='banner-text'>
+              We're aiming to change our surrounding community, one Blueprint at a time! Meet the
+              2022-2023 project teams!
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
@@ -125,7 +130,7 @@ const Team = () => {
     <div>
       <Banner />
       <div className="container">{create_teams()}</div>
-      <Footer />
+      <ContactSection />
     </div>
   );
 };

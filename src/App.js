@@ -17,40 +17,39 @@ import Alumni from "./Pages/Alumni/Alumni";
 import Navbar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.css";
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
-    <div className="page">
-      <div className="content">
-        <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Homepage />
-          </Route>
-          <Route exact path="/team">
-            <Team />
-          </Route>
-          <Route path="/chapters">
-            <Chapters />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route exact path="/apply">
-            <Apply />
-          </Route>
-          <Route path="/apply/students">
-            <Students />
-          </Route>
-          <Route path="/apply/nonprofits">
-            <Nonprofits />
-          </Route>
-          <Route path="/team/alumni">
-            <Alumni />
-          </Route>
-        </Switch>
-      </div>
-      {window.innerWidth > 480 ? <Footer /> : null}
+    <div className='page'>
+      <Navbar />
+      <Switch>
+        <Route exact path='/'>
+          <Homepage />
+        </Route>
+        <Route exact path='/team'>
+          <Team />
+        </Route>
+        <Route path='/chapters'>
+          <Chapters />
+        </Route>
+        <Route path='/projects'>
+          <Projects />
+        </Route>
+        <Route exact path='/apply'>
+          <Apply />
+        </Route>
+        <Route path='/apply/students'>
+          <Students />
+        </Route>
+        <Route path='/apply/nonprofits'>
+          <Nonprofits />
+        </Route>
+        <Route path='/team/alumni'>
+          <Alumni />
+        </Route>
+      </Switch>
+      <Footer />
     </div>
   );
 }

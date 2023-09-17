@@ -7,104 +7,109 @@ import communityIcon from '../../assets/community-hands.svg'
 import waveBottom from '../../assets/aboutUsWaveBottom.svg'
 import waveTop from '../../assets/aboutUsWaveTop.svg'
 import ValueCard from "./ValueCard";
-
+import { Container, Row, Col } from 'react-bootstrap';
+import Image from 'react-bootstrap/Image';
 
 export default function Homepage() {
-
-  const [offset, setOffset] = useState(0)
-  useEffect(() => {
-    function handleScroll() {
-      setOffset(window.pageYOffset)
-    }
-
-    window.addEventListener("scroll", handleScroll)
-    return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  }, [])
-
   return (
     <div>
-      {/*
-            <div id="nav-bar">
-              <a href="./index.html"><img src={banner} id="logo" /></a>
-                       <div id="nav-links">
-              <a href="./projects.html" class="nav-menu" style="text-decoration: none;">Projects</a>
-              <a href="./meet_team.html" class="nav-menu" style="text-decoration: none;">Team</a>
-  
-          </div> 
-            </div> */}
-      <div id="landing-container">
-        <div id="main-text">
-          <div id="text-container" style={{transform: `translateY(${offset * -0.1}px)`}}>
-            <p id="text1"><span style={{display: "inline-block"}}>Tech for&nbsp;</span><span
-              style={{display: "inline-block"}}>Social Good</span></p>
-            <p id="text2">We are a team of students at the University of Toronto that provide software solutions for
-              nonprofits.</p>
-            {/* <a href="mailto:contact@uoftblueprint.org"><button className="apply-button">Contact us!</button></a> */}
-          </div>
-        </div>
-        {window.innerWidth > 700 ? (
-          <div id="main-image">
-            <img src={main} style={{paddingLeft: '6em', paddingTop: '10em', scale: '130%'}} alt="UofT Blueprint Girl" id="main-photo"/>
-          </div>
-        ) : null}
-        {window.innerWidth < 700 ? (
-          <div id="main-image">
-            <img src={main} alt="UofT Blueprint Girl" id="main-photo" style={{paddingTop: '2em', width: '70vw', height: 'auto'}}/>
-          </div>) : null}
-      </div>
+      <Container>
+        <Row className='justify-content-md-center align-items-center'>
+          <Col xs={12} md={6}>
+            <p className='text1 text-left'>Tech for Social Good</p>
+            <p className='text2 text-left'>
+              We are a team of students at the University of Toronto that provide software solutions
+              for nonprofits.
+            </p>
+          </Col>
+          <Col xs={12} md={6}>
+            <div>
+              <Image src={main} fluid />
+            </div>
+          </Col>
+        </Row>
+      </Container>
 
       {/* About Us */}
       <div id='waves'>
-        <img src={waveBottom} alt="UofT Blueprint Bottom Wave" id='bottom-wave' style={{transform: `translateY(${offset * 0.1}px)`}}/>
-        <img src={waveTop} alt="UofT Blueprint Top Wave" id='top-wave'/>
+        <img src={waveBottom} alt='UofT Blueprint Bottom Wave' id='bottom-wave' />
+        <img src={waveTop} alt='UofT Blueprint Top Wave' id='top-wave' />
       </div>
-      <div id="about-container" className="text-center">
-        <p className="sub-heading">About Us</p>
-        <div style={{width: '50vw'}} className="text-center">
-          {window.innerWidth > 480 ? (
-            <p id="about-text">Blueprint strives to make technology accessible and useful for those who assist
-              communities and promote public welfare.</p>
-          ) : (
-            <p style={{fontSize: '18px'}} id="about-text">Blueprint strives to make technology accessible and useful for
-              those who assist communities and promote public welfare.</p>
-          )}
-        </div>
+
+      <div id='about-container' className='text-center section'>
+        <Container>
+          <h2 className='sub-heading'>About Us</h2>
+          <p id='about-text'>
+            Blueprint strives to make technology accessible and useful for those who assist
+            communities and promote public welfare.
+          </p>
+        </Container>
       </div>
 
       {/* Values */}
-      <div id="values-section">
-        <p className="sub-heading" style={{textAlign: 'center', color: '#0078E8', paddingBottom: '20px'}}>Our Values</p>
-        <div id='values-grid'>
-          <ValueCard image={missionIcon} title={"Mission First"}>
-            <p>We will always prioritize the mission first. Our main priority is doing professional work for social good
-              and public welfare.</p>
-          </ValueCard>
-          <ValueCard image={innovationIcon} title={"Innovation"}>
-            <p>We will continue to push the boundaries by combining the expertise of our developers and the nonprofit to
-              guarantee the best possible solution.</p>
-          </ValueCard>
-          <ValueCard image={communityIcon} title={"Community"}>
-            <p>We strive to develop a tight-knit community both within our club and as part of a network of
-              nonprofits.</p>
-          </ValueCard>
-        </div>
+      <div className='section'>
+        <Container>
+          <h2 className='text-center mb-5'>Our Values</h2>
+          <Row>
+            <Col>
+              <ValueCard image={missionIcon} title={'Mission First'}>
+                <p>
+                  We will always prioritize the mission first. Our main priority is doing
+                  professional work for social good and public welfare.
+                </p>
+              </ValueCard>
+            </Col>
+            <Col>
+              <ValueCard image={innovationIcon} title={'Innovation'}>
+                <p>
+                  We will continue to push the boundaries by combining the expertise of our
+                  developers and the nonprofit to guarantee the best possible solution.
+                </p>
+              </ValueCard>
+            </Col>
+            <Col>
+              <ValueCard image={communityIcon} title={'Community'}>
+                <p>
+                  We strive to develop a tight-knit community both within our club and as part of a
+                  network of nonprofits.
+                </p>
+              </ValueCard>
+            </Col>
+          </Row>
+        </Container>
       </div>
 
       {/* Contact */}
-      <div id="contact-section">
-        <div id="contact-container" className='horizontal'>
-          <div id="contact-text">
-            <h2>Contact Us!</h2>
-            <p>We are looking for nonprofits who are in need of technological solutions, as well as partners interested
-              in supporting us and our cause.</p>
-          </div>
-          <a href="mailto:contact@uoftblueprint.org">
-            <button className="contact-button">contact@uoftblueprint.org</button>
-          </a>
-        </div>
-      </div>
+      <ContactSection />
+    </div>
+  );
+}
+
+export function ContactSection() {
+  return (
+    <div id='contact-section' className='section'>
+      <Container>
+        <Row className='align-items-center'>
+          <Col className='text-left' xs={12} sm={6}>
+            <div id='contact-text'>
+              <h2>Contact Us!</h2>
+              <p>
+                We are looking for nonprofits who are in need of technological solutions, as well as
+                partners interested in supporting us and our cause.
+              </p>
+            </div>
+          </Col>
+          <Col xs={12} sm={6}>
+            <button
+              className='contact-button'
+              onClick={() => {
+                window.open('mailto:contact@uoftblueprint.org');
+              }}>
+              contact@uoftblueprint.org
+            </button>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

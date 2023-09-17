@@ -207,6 +207,9 @@ span {
   /* clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%); */
   background-color: #3E9CF3;
   color: white;
+  min-height: 30rem;
+  display: flex;
+  align-items: center;
 }
 #contact-container {
   display: grid;
@@ -250,6 +253,8 @@ button {
 }
 
 .section {
+  display: flex;
+  align-items: center;
   min-height: 50rem;
 }
 

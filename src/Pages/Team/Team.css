@@ -82,18 +82,10 @@ body {
   color: #FFFFFF;
 }
 
-.Header {
-  background: #c7e3ff;
-  /* background: linear-gradient(to top, #c7e3ff 60%, transparent 60%); */
-  padding: 0 10px;
-  color: #0078e8;
-}
-
 .HeaderStyle {
   text-align: center;
+  padding-bottom: 1rem;
   border-bottom: 1px solid #e4e4e4;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
 }
 
 .HeartIcon {

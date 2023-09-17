@@ -105,11 +105,9 @@ function create_teams() {
   var teamsArr = [];
   for (let i = 0; i < teams.length; i++) {
     teamsArr.push(
-      <div className="TeamContainer">
-        <h5 className="HeaderStyle">
-          <span className="Header">{teams[i]["team name"]}</span>
-        </h5>
-        <Row>{create_members(i)}</Row>
+      <div>
+        <h5 className='HeaderStyle'>{teams[i]['team name']}</h5>
+        <Row className="py-5">{create_members(i)}</Row>
       </div>
     );
   }

@@ -140,7 +140,6 @@ span {
 #about-container {
   background-color: #3e9cf3;
   color: white;
-  min-height: 30rem;
   text-align: center;
 }
 
@@ -208,8 +207,6 @@ span {
   background-color: #3E9CF3;
   color: white;
   min-height: 30rem;
-  display: flex;
-  align-items: center;
 }
 #contact-container {
   display: grid;
@@ -255,7 +252,7 @@ button {
 .section {
   display: flex;
   align-items: center;
-  min-height: 50rem;
+  min-height: 45rem;
 }
 
 .MobileFooterTitle {

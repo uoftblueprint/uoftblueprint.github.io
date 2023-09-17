@@ -36,7 +36,7 @@ export default function Homepage() {
         <img src={waveTop} alt='UofT Blueprint Top Wave' id='top-wave' />
       </div>
 
-      <div id='about-container' className='text-center'>
+      <div id='about-container' className='text-center section'>
         <Container>
           <h2 className='sub-heading'>About Us</h2>
           <p id='about-text'>
@@ -87,7 +87,7 @@ export default function Homepage() {
 
 export function ContactSection() {
   return (
-    <div id='contact-section'>
+    <div id='contact-section' className='section'>
       <Container>
         <Row className='align-items-center'>
           <Col className='text-left' xs={12} sm={6}>

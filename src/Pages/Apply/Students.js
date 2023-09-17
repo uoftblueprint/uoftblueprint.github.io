@@ -54,18 +54,12 @@ const Students = () => {
                       fontWeight: '200',
                     }}
                     className={'text-responsive'}>
-                    Joining Blueprint is the perfect way to use your skills to give back to the
-                    community. We are now recruiting executives for the 2023-2024 academic year!
+                      Thank you for your interest in joining Blueprint! Applications for 2023-2024 positions are now closed.
                   </h4>
                 </div>
-                {/* <div style={{ minWidth: '30vw', width: '35em', maxWidth: '75vw', paddingBottom: '1em' }}>
-                      <h5 style={{ padding: "25px 0 5px 0", "font-size": "1.2rem", color: '#FFFFFF' }}  className={"text-responsive"}>
-                        Our application for developers and designers are now closed for the 2020-2021 academic year. We will be recruiting again in Fall 2021!
-                      </h5>
-                  </div> */}
-                <ApplyButton desc='Project Developer' link='https://airtable.com/appueSFbKhU3Q3V7E/shrSqOSB2smapTKkp'/>
+                {/* <ApplyButton desc='Project Developer' link='https://airtable.com/appueSFbKhU3Q3V7E/shrSqOSB2smapTKkp'isDisabled/>
                 <ApplyButton desc='Product Designer' link='https://airtable.com/appFJA0UkIo2Y4JVg/shrNXkGspkMh8f2tr' isDisabled/>
-                <ApplyButton desc='Project Lead' link='https://airtable.com/appk4lRNk2rN0Sv9j/shrWJIsNpVt0EvZq1' isDisabled/>
+                <ApplyButton desc='Project Lead' link='https://airtable.com/appk4lRNk2rN0Sv9j/shrWJIsNpVt0EvZq1' isDisabled/> */}
               </div>
             </Col>
             <Col md='5' style={{ paddingLeft: '4em' }}>

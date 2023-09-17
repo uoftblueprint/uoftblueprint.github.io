@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.8585c88a.chunk.css",
-    "main.js": "./static/js/main.b6faf09d.chunk.js",
-    "main.js.map": "./static/js/main.b6faf09d.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.5b877015.js",
-    "runtime-main.js.map": "./static/js/runtime-main.5b877015.js.map",
+    "main.css": "./static/css/main.1ac6b37c.chunk.css",
+    "main.js": "./static/js/main.07e96f87.chunk.js",
+    "main.js.map": "./static/js/main.07e96f87.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.16f7175e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.16f7175e.js.map",
     "static/css/2.2ea28d2f.chunk.css": "./static/css/2.2ea28d2f.chunk.css",
-    "static/js/2.4f35eebe.chunk.js": "./static/js/2.4f35eebe.chunk.js",
-    "static/js/2.4f35eebe.chunk.js.map": "./static/js/2.4f35eebe.chunk.js.map",
-    "static/js/3.5efc7ab3.chunk.js": "./static/js/3.5efc7ab3.chunk.js",
-    "static/js/3.5efc7ab3.chunk.js.map": "./static/js/3.5efc7ab3.chunk.js.map",
+    "static/js/2.9cc998ea.chunk.js": "./static/js/2.9cc998ea.chunk.js",
+    "static/js/2.9cc998ea.chunk.js.map": "./static/js/2.9cc998ea.chunk.js.map",
+    "static/js/3.eb429d24.chunk.js": "./static/js/3.eb429d24.chunk.js",
+    "static/js/3.eb429d24.chunk.js.map": "./static/js/3.eb429d24.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.2ea28d2f.chunk.css.map": "./static/css/2.2ea28d2f.chunk.css.map",
-    "static/css/main.8585c88a.chunk.css.map": "./static/css/main.8585c88a.chunk.css.map",
-    "static/js/2.4f35eebe.chunk.js.LICENSE.txt": "./static/js/2.4f35eebe.chunk.js.LICENSE.txt",
+    "static/css/main.1ac6b37c.chunk.css.map": "./static/css/main.1ac6b37c.chunk.css.map",
+    "static/js/2.9cc998ea.chunk.js.LICENSE.txt": "./static/js/2.9cc998ea.chunk.js.LICENSE.txt",
     "static/media/AlexanderShih.jpg": "./static/media/AlexanderShih.8d4295da.jpg",
     "static/media/AmyPeng.jpg": "./static/media/AmyPeng.12a04cbe.jpg",
     "static/media/AnanmaySharan.jpg": "./static/media/AnanmaySharan.725b7304.jpg",
@@ -95,15 +95,15 @@
     "static/media/standing 8.0de4b146.png": "./static/media/standing 8.0de4b146.png",
     "static/media/standing-7.ed9f3b2d.png": "./static/media/standing-7.ed9f3b2d.png",
     "static/media/team-build2.83af5658.png": "./static/media/team-build2.83af5658.png",
-    "static/media/teamPageBanner.bf0ba365.png": "./static/media/teamPageBanner.bf0ba365.png",
+    "static/media/Team.css": "./static/media/teamPageBanner.bf0ba365.png",
     "static/media/toronto.8603759a.png": "./static/media/toronto.8603759a.png",
     "static/media/work-together.49fc71a8.png": "./static/media/work-together.49fc71a8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b877015.js",
+    "static/js/runtime-main.16f7175e.js",
     "static/css/2.2ea28d2f.chunk.css",
-    "static/js/2.4f35eebe.chunk.js",
-    "static/css/main.8585c88a.chunk.css",
-    "static/js/main.b6faf09d.chunk.js"
+    "static/js/2.9cc998ea.chunk.js",
+    "static/css/main.1ac6b37c.chunk.css",
+    "static/js/main.07e96f87.chunk.js"
   ]
 }

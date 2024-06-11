@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.6fcbedd7.chunk.css",
-    "main.js": "./static/js/main.37679d6a.chunk.js",
-    "main.js.map": "./static/js/main.37679d6a.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.740689f1.js",
-    "runtime-main.js.map": "./static/js/runtime-main.740689f1.js.map",
-    "static/css/2.6a3a1c90.chunk.css": "./static/css/2.6a3a1c90.chunk.css",
-    "static/js/2.97047c87.chunk.js": "./static/js/2.97047c87.chunk.js",
-    "static/js/2.97047c87.chunk.js.map": "./static/js/2.97047c87.chunk.js.map",
-    "static/js/3.d3f4c2c3.chunk.js": "./static/js/3.d3f4c2c3.chunk.js",
-    "static/js/3.d3f4c2c3.chunk.js.map": "./static/js/3.d3f4c2c3.chunk.js.map",
+    "main.js": "./static/js/main.c0c0eef9.chunk.js",
+    "main.js.map": "./static/js/main.c0c0eef9.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.16f7175e.js",
+    "runtime-main.js.map": "./static/js/runtime-main.16f7175e.js.map",
+    "static/css/2.2ea28d2f.chunk.css": "./static/css/2.2ea28d2f.chunk.css",
+    "static/js/2.9cc998ea.chunk.js": "./static/js/2.9cc998ea.chunk.js",
+    "static/js/2.9cc998ea.chunk.js.map": "./static/js/2.9cc998ea.chunk.js.map",
+    "static/js/3.eb429d24.chunk.js": "./static/js/3.eb429d24.chunk.js",
+    "static/js/3.eb429d24.chunk.js.map": "./static/js/3.eb429d24.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/2.6a3a1c90.chunk.css.map": "./static/css/2.6a3a1c90.chunk.css.map",
+    "static/css/2.2ea28d2f.chunk.css.map": "./static/css/2.2ea28d2f.chunk.css.map",
     "static/css/main.6fcbedd7.chunk.css.map": "./static/css/main.6fcbedd7.chunk.css.map",
-    "static/js/2.97047c87.chunk.js.LICENSE.txt": "./static/js/2.97047c87.chunk.js.LICENSE.txt",
+    "static/js/2.9cc998ea.chunk.js.LICENSE.txt": "./static/js/2.9cc998ea.chunk.js.LICENSE.txt",
     "static/media/AlexanderShih.jpg": "./static/media/AlexanderShih.8d4295da.jpg",
     "static/media/AmyPeng.jpg": "./static/media/AmyPeng.12a04cbe.jpg",
     "static/media/AnanmaySharan.jpg": "./static/media/AnanmaySharan.725b7304.jpg",
@@ -100,10 +100,10 @@
     "static/media/work-together.49fc71a8.png": "./static/media/work-together.49fc71a8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.740689f1.js",
-    "static/css/2.6a3a1c90.chunk.css",
-    "static/js/2.97047c87.chunk.js",
+    "static/js/runtime-main.16f7175e.js",
+    "static/css/2.2ea28d2f.chunk.css",
+    "static/js/2.9cc998ea.chunk.js",
     "static/css/main.6fcbedd7.chunk.css",
-    "static/js/main.37679d6a.chunk.js"
+    "static/js/main.c0c0eef9.chunk.js"
   ]
 }

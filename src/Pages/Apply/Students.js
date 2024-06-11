@@ -54,12 +54,13 @@ const Students = () => {
                       fontWeight: '200',
                     }}
                     className={'text-responsive'}>
-                      Joining Blueprint is the perfect way to use your skills to give back to the community. We are now recruiting members for the Winter 2024 school term!
-                  </h4>
+                      Joining Blueprint is the perfect way to use your skills to give back to the community.
+                  </h4><nl></nl>
+                  <h5 style={{color: '#FFF'}}> We are now recruiting an executive team for 2024-2025!</h5>
                 </div>
-                <ApplyButton desc='Project Developer' link='https://airtable.com/appVX12gJq3Cgn9r6/shrog1GAdj6TxtkSS'/>
-                <ApplyButton desc='Product Manager' link='https://airtable.com/appI9b8gfMeEzTpGx/shrH22QBohQx2tq16' />
-                <ApplyButton desc='Project Lead' link='https://airtable.com/appkea7gX6JaUHgLR/shr7Vx0hiD7h0kcRD' />
+                <ApplyButton desc='Exec Applications' link='https://airtable.com/app9d7cs12rSj81zz/shrWcHPsUSVDkI6mL'/>
+                {/* <ApplyButton desc='Product Manager' link='https://airtable.com/appI9b8gfMeEzTpGx/shrH22QBohQx2tq16' />
+                <ApplyButton desc='Project Lead' link='https://airtable.com/appkea7gX6JaUHgLR/shr7Vx0hiD7h0kcRD' /> */}
               </div>
             </Col>
             <Col md='5' style={{ paddingLeft: '4em' }}>

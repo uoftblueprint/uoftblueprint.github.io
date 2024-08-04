@@ -20,11 +20,11 @@ const Criteria = ({ title, description, image }) => {
   );
 };
 
-const ApplyButton = ({ desc, link, isDisabled=false }) => {
+const ApplyButton = ({ desc, link, isDisabled = false }) => {
   return (
     <div className='my-2'>
-      <button style={{backgroundColor: isDisabled && "gray"}} disabled={isDisabled} onClick={() => { window.open(link)} }>
-          {desc}
+      <button style={{ backgroundColor: isDisabled && "gray" }} disabled={isDisabled} onClick={() => { window.open(link) }}>
+        {desc}
       </button>
     </div>
   )
@@ -54,13 +54,14 @@ const Students = () => {
                       fontWeight: '200',
                     }}
                     className={'text-responsive'}>
-                      Joining Blueprint is the perfect way to use your skills to give back to the community.
+                    Joining Blueprint is the perfect way to use your skills to give back to the community.
                   </h4><nl></nl>
-                  <h5 style={{color: '#FFF'}}> We are now recruiting an executive team for 2024-2025!</h5>
+                  <h5 style={{ color: '#FFF' }}> We are now recruiting our project leads, product managers, and designers for 2024-2025!</h5>
                 </div>
-                <ApplyButton desc='Exec Applications' link='https://airtable.com/app9d7cs12rSj81zz/shrWcHPsUSVDkI6mL'/>
-                {/* <ApplyButton desc='Product Manager' link='https://airtable.com/appI9b8gfMeEzTpGx/shrH22QBohQx2tq16' />
-                <ApplyButton desc='Project Lead' link='https://airtable.com/appkea7gX6JaUHgLR/shr7Vx0hiD7h0kcRD' /> */}
+                {/* <ApplyButton desc='Exec Applications' link='https://airtable.com/app9d7cs12rSj81zz/shrWcHPsUSVDkI6mL'/> */}
+                  <ApplyButton desc='Project Lead' link='https://airtable.com/appTrKdv00sTHQRLh/pagBUSxGENpZXOZkc/form' />
+                  <ApplyButton desc='Product Manager' link='https://airtable.com/appLCSWat7JgnLciC/pagfKdkn6qtuxGeh2/form' />
+                  <ApplyButton desc='Designer' link='https://airtable.com/appssx6eU9Qg2Fs41/pagecJ5PpwoaTCqRs/form' />
               </div>
             </Col>
             <Col md='5' style={{ paddingLeft: '4em' }}>

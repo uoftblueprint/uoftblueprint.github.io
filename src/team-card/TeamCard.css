@@ -1,0 +1,12 @@
+.team-grid {
+  align-items: start;
+}
+
+.team-title {
+  font-size: clamp(20px, 20px + 1vw, 48px);
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");

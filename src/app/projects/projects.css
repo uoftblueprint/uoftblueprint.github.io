@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+h1.project-years-header {
+  color: #0078e8;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.projects-page-main {
+  padding: 48px 50px;
+}
+
+@media (max-width: 576px) {
+  h1.project-years-header {
+    font-size: 26px;
+  }
+}

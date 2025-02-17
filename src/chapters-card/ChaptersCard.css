@@ -1,0 +1,41 @@
+.mantine-Card-root {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  box-shadow: 0vw 0.5vw 0.5vw 0vw rgba(0, 0, 0, 0.25);
+  border-radius: 2vw;
+}
+
+.link-container {
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+}
+
+@media (max-width: 768px) {
+  .mantine-Card-root {
+    --card-padding: var(--mantine-spacing-xs);
+  }
+}
+
+.mantine-Card-section {
+  margin: 0.5vw;
+}
+
+.card-font {
+  font-size: clamp(10px, 1.5vw, 1.5rem);
+  font-weight: 500;
+}
+
+.chapter-name {
+  font-size: clamp(15px, 2vw, 2rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.chapter-description {
+  font-size: clamp(10px, 1.2vw, 1.2rem);
+  font-weight: 400;
+  flex-grow: 1;
+}

@@ -1,0 +1,114 @@
+.mantine-Card-root {
+    flex-shrink: 0;
+    align-items: center;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  
+  .mantine-Card-section {
+    margin: 0;
+  }
+  
+  .image-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .image {
+    height: 250px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  
+  .project-name {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .project-description {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .read-more-button {
+    margin-bottom: 10px;
+    width: 160px;
+  }
+  
+  .chevron {
+    height: 25px;
+    width: 25px;
+  }
+  
+  @media (max-width: 992px) {
+    .mantine-Card-root {
+      padding: 20px;
+      box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 27px;
+    }
+  
+    .image {
+      height: 175px;
+    }
+  
+    .project-name {
+      padding-top: 7px;
+      font-size: 32px;
+    }
+  
+    .project-description {
+      padding-bottom: 22px;
+      font-size: 18px;
+    }
+  
+    .read-more-button {
+      height: 35px;
+      width: 125px;
+      margin: 2px 0;
+      font-size: 12px;
+    }
+
+    .chevron {
+      height: 15px;
+      width: 15px;
+    }
+  
+  }
+  
+  @media (max-width: 576px) {
+    .mantine-Card-root {
+      padding: 10px;
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+    }
+  
+    .image {
+      height: 100px;
+    }
+  
+    .project-name {
+      padding-top: 5px;
+      font-size: 20px;
+    }
+  
+    .project-description {
+      padding-bottom: 15px;
+      font-size: 14px;
+    }
+  
+    .read-more-button {
+      height: 25px;
+      width: 100px;
+      margin-bottom: 2px;
+      font-size: 8px;
+    }
+    
+    .chevron {
+      height: 10px;
+      width: 10px;
+    }
+  }

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.center-container {
+  flex-direction: column;
+}
+
+.profile-text {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  max-width: 140px;
+}
+
+#name {
+  font-size: clamp(15px, 12px + 0.7vw, 18px);
+  color: #000;
+  padding-top: 15px;
+}
+
+#role {
+  padding-bottom: 5px;
+  font-size: clamp(12px, 10px + 0.5vw, 15px);
+  color: #c4c4c4;
+}

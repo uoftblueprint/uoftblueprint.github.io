@@ -1,0 +1,41 @@
+.whyjoin {
+  --clr-hl1: #0078e8;
+}
+
+.whyjoin-text {
+  color: var(--clr-hl1);
+  text-align: right;
+  font-size: calc(4px + 1vw);
+  max-width: 500px;
+}
+
+.whyjoin-text > h2 {
+  font-size: calc(25px + 1vw);
+}
+
+@media (max-width: 1200px) {
+  .whyjoin-text {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .whyjoin-text > h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .whyjoin {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1280px) {
+  .whyjoin-text {
+    font-size: 20px;
+  }
+
+  .whyjoin-text > h2 {
+    font-size: 48px;
+  }
+}

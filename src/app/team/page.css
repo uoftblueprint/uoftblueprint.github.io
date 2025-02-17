@@ -1,0 +1,12 @@
+.alumni-button {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .alumni-button {
+    flex-direction: column;
+  }
+  
+}

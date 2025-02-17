@@ -1,0 +1,68 @@
+.mantine-Modal-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: space-start;
+  flex-direction: column;
+  flex: 1;
+  height: 500px;
+}
+
+.title,
+.years,
+.section-header,
+.section-description,
+.member-name,
+.member-role {
+  color: #0078e8;
+  font-style: normal;
+  line-height: normal;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.header {
+  align-items: start;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.years {
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 4px;
+}
+
+.section-header {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.section-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.section {
+  padding-bottom: 8px;
+}
+
+.member-name {
+  font-size: 10px;
+  font-weight: 600;
+  padding-bottom: 2px;
+}
+
+.member-role {
+  font-size: 9px;
+  font-weight: 400;
+}

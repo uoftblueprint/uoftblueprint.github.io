@@ -1,0 +1,56 @@
+.alumni {
+  border-radius: 0px 0px 10rem 10rem;
+  background-color: #e7f3ff;
+  color: #0078e8;
+  padding: 3vw 0vw 3vw 0vw;
+}
+
+.alumni-title {
+  padding: 0px 0px 2vw 0px;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.company-grid {
+  width: 50%;
+}
+
+.company-logo {
+  padding: 5px;
+}
+
+@media (max-width: 1300px) {
+  .alumni {
+    border-radius: 0px 0px 5rem 5rem;
+  }
+
+  .company-grid {
+    width: 65%;
+  }
+}
+
+@media (max-width: 900px) {
+  .alumni {
+    border-radius: 0px 0px 3rem 3rem;
+  }
+
+  .company-logo {
+    padding: 5px;
+  }
+
+  .company-grid {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .alumni-title {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 500px) {
+  .alumni-title {
+    font-size: 25px;
+  }
+}

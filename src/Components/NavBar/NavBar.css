@@ -1,80 +1,77 @@
-.NavBarItems {
-  height: 80px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.nav {
+  height: 96px;
+  width: 100%;
+  background-color: var(--clr-hl1);
   display: flex;
-  justify-content: center;
-  align-self: center;
-  font-size: 1.2 rem;
-}
-
-.banner {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
   padding-left: 20px;
-  margin-top: 14px;
-  height: auto;
+  padding-right: 20px;
+  position: fixed;
+  top: 0;
+
+  --clr-light: #ffffff;
+  --clr-hl1: #0078e8;
+  font-family: "Poppins", sans-serif;
 }
 
-.navbar-logo {
-  width: 36px;
-  height: 36px;
-  height: auto;
-  transition: transform 0.55s;
-}
-
-.navbar-logo:hover {
-  transform: rotate(360deg);
-}
-
-.navbar-title {
-  width: 150px;
-  height: auto;
-  margin-top: 3px;
-  margin-left: 5px;
-}
-
-.navlink {
-  font-weight: 500;
+.nav-link {
+  text-decoration: underline 1px rgba(255, 255, 255, 0);
+  text-underline-offset: 0.2em;
+  transition:
+    text-decoration-color 0.2s,
+    text-underline-offset 0.2s;
   font-size: 18px;
-  color: #333333;
-  font-style: normal;
-  padding: 0.5rem 1rem;
+  font-weight: 400;
 }
 
-.navlink:hover {
-  background-color: #e4f1ff;
-  border-radius: 4px;
-  transition: all 0.2s ease-out;
+.nav-link:hover {
+  text-decoration: underline 1px var(--clr-light);
+  text-underline-offset: 0.4em;
 }
 
-.nav-menu {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 30px;
-  list-style: none;
-  text-align: center;
-  width: 80vw;
-  justify-content: end;
-  margin-right: 1rem;
+.nav-logo_tag {
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
-.mobile-nav-menu {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 30px;
-  list-style: none;
-  text-align: center;
-  width: 80vw;
-  padding-top: 7%;
-  justify-content: end;
-  margin-right: 1rem;
+.nav-menu_container {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
-.nav-links {
-  color: black;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
+.nav-join-btn {
+  --button-radius: 26px;
+  --button-height: 52px;
+  background-color: var(--clr-light);
+  color: var(--clr-hl1);
+  transition:
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
-.nav-links:hover {
-  background-color: #e4f1ff;
-  border-radius: 4px;
-  transition: all 0.2s ease-out;
+.nav-join-link {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--clr-hl1);
+}
+
+.nav-join-link:hover {
+  color: var(--clr-light);
+}
+
+.nav-join-btn:hover .nav-join-link {
+  color: var(--clr-light);
+}
+
+/* Add style specifically for a "filled" button */
+.nav-join-btn[data-variant="filled"]:hover {
+  background-color: var(--clr-hl1);
+  color: var(--clr-light);
 }

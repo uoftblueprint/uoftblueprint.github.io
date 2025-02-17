@@ -1,20 +1,64 @@
-## Available Scripts
+<p align="center">
+  <img src="./public/bp_logo_white.svg" alt="Blueprint Logo" width="200"/>
+</p>
 
-In the project directory, you can run:
+# UofT Blueprint Website | 2024-2025
 
-### `npm run start`
+## Installation and Set Up
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### First clone the repository and move into the directory
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+git clone https://github.com/uoftblueprint/uoftblueprint.github.io.git
 
-### `npm run build`
+cd uoftblueprint.github.io
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance. Run this command from the master branch.
+### Install Node.js
 
-### `npm run deploy`
+Make sure you have `node.js` installed with at least `v18.20`. If not, install `node.js` (Recommended latest `v22.9`)
 
-Deploys the above build to https://uoftblueprint.org/#/. Run 'npm run build' then 'npm run deploy' from the master branch once you have all the most recent changes merged in and all the changes should appear shortly thereafter.
+**Install for any operating systems**
+
+Follow the prompts for your system
+
+https://nodejs.org/en/download/package-manager
+
+### Install packages
+
+After you have `node` installed, run the following in the project root directory
+
+```
+npm install
+```
+
+All packages should now be installed
+
+### Run the Project
+
+The following will create a development instance of the website
+
+```
+npm run dev
+```
+
+## Contributors
+
+### 2023-2024 Team
+
+- Gabriel Vainer (PL)
+- Marco Mai (PM)
+- Elsie Zhu
+- Sarah Wang
+- Han Xheng Chew
+- Jack Fan
+- Michelle Huang
+
+### 2024-2025 Team
+
+- Jordan Janakievski (PL/PM)
+- Saleh Yasin (PL/PM)
+- Lily Phan
+- Enaya Amir
+- Eleonora Scognamiglio
+- Alex Lewis

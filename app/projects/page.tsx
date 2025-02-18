@@ -145,7 +145,11 @@ export default function ProjectsPage() {
                   role: "Developer",
                   imageSrc: "team/current/Fred.jpg",
                 },
-                { name: "Sataphon Obra", role: "Developer", imageSrc: "team/current/Sataphon.png" },
+                {
+                  name: "Sataphon Obra",
+                  role: "Developer",
+                  imageSrc: "team/current/Sataphon.png",
+                },
               ]}
               webLink="https://www.theperiodpurse.com/"
               githubLink="https://github.com/uoftblueprint/the-period-purse-ios"

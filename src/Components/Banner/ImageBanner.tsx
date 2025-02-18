@@ -1,7 +1,7 @@
 import { Container } from "@mantine/core";
 import "@/components/Banner/Banner.css";
 
-export default function TheImageBanner({ src }) {
+export default function ImageBanner({ src }) {
   return (
     <Container
       fluid

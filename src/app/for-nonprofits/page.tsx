@@ -9,7 +9,7 @@ import {
   Stack,
 } from "@mantine/core";
 import { useMediaQuery } from "@mantine/hooks";
-import Banner from "@/components/Banner/TheDefaultBanner";
+import Banner from "@/components/Banner/Banner";
 import "@mantine/core/styles.css";
 import { CriteriaCard } from "../../criteria-card/CriteriaCard";
 import "./for-nonprofits.css";

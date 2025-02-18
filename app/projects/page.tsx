@@ -145,7 +145,7 @@ export default function ProjectsPage() {
                   role: "Developer",
                   imageSrc: "team/current/Fred.jpg",
                 },
-                { name: "Sataphon Obra", role: "Developer", imageSrc: "" },
+                { name: "Sataphon Obra", role: "Developer", imageSrc: "team/current/Sataphon.png" },
               ]}
               webLink="https://www.theperiodpurse.com/"
               githubLink="https://github.com/uoftblueprint/the-period-purse-ios"
@@ -520,7 +520,7 @@ export default function ProjectsPage() {
                 {
                   name: "Sataphon Obra",
                   role: "Developer",
-                  imageSrc: "team/alumni/sataphon.jpg",
+                  imageSrc: "team/current/Sataphon.png",
                 },
                 {
                   name: "York Hay Ng",
@@ -583,7 +583,7 @@ export default function ProjectsPage() {
                 {
                   name: "Sataphon Obra",
                   role: "Developer",
-                  imageSrc: "team/alumni/sataphon.jpg",
+                  imageSrc: "team/current/Sataphon.png",
                 },
                 {
                   name: "York Hay Ng",

@@ -1,8 +1,8 @@
 import { Card, CardSection, Image, Button } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import "@mantine/core/styles.css";
-import "../projects-card/ProjectCardWModal.css";
-import ProjectOverlay, { TeamMember } from "@/project-overlay/ProjectOverlay";
+import "./ProjectCardWModal.css";
+import ProjectOverlay, { TeamMember } from "@/components/project-overlay/ProjectOverlay";
 
 type ProjectsCardProps = {
   name: string;

@@ -1,6 +1,6 @@
 import { Card, CardSection, Image, Button } from "@mantine/core";
 import "@mantine/core/styles.layer.css";
-import "../projects-card/ProjectsCard.css";
+import "./ProjectsCard.css";
 
 interface ProjectsCardProps {
   name: string;

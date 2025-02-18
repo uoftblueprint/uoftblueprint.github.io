@@ -1,5 +1,5 @@
 import { Container, Flex, Image } from "@mantine/core";
-import "@/for-students-whyjoin/WhyJoin.css";
+import "@/components/for-students-whyjoin/WhyJoin.css";
 
 function WhyJoin({ img }) {
   return (

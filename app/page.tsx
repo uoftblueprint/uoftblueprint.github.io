@@ -1,8 +1,8 @@
 "use client";
-import TopSection from "./home-page-top-section/TopSection.tsx";
-import BottomSection from "./home-page-top-section/BottomSection.tsx";
-import ProjectCardsGrid from "./home-page-top-section/ProjectCardsGrid.tsx";
-import HeroBanner from "@/components/Banner/HeroBanner";
+import TopSection from "../components/home-page-sections/TopSection.tsx";
+import BottomSection from "../components/home-page-sections/BottomSection.tsx";
+import ProjectCardsGrid from "../components/home-page-sections/ProjectCardsGrid.tsx";
+import HeroBanner from "@/components/Banner/HeroBanner.tsx";
 
 const cards_info = [
   {

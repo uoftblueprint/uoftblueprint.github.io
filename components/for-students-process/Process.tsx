@@ -1,4 +1,4 @@
-import "@/for-students-process/Process.css";
+import "@/components/for-students-process/Process.css";
 import { Image, Title, Center, Container, SimpleGrid } from "@mantine/core";
 
 function Process({

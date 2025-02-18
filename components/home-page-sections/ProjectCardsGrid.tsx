@@ -1,5 +1,5 @@
 import { Container, SimpleGrid, Title } from "@mantine/core";
-import { ProjectsCard } from "src/projects-card/ProjectsCard.tsx";
+import { ProjectsCard } from "@/components/projects-card/ProjectsCard.tsx";
 
 function CardGrid({ cards_info }) {
   // card_info consists of objects which contain the following properties:

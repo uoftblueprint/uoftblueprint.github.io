@@ -1,7 +1,7 @@
 "use client";
 import "@/app/chapters/chapters.css";
 import Banner from "@/components/Banner/Banner";
-import { ChaptersCard } from "@/chapters-card/ChaptersCard";
+import { ChaptersCard } from "@/components/chapters-card/ChaptersCard";
 import { Container, SimpleGrid, Stack } from "@mantine/core";
 
 //CANADA

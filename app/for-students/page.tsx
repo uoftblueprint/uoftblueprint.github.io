@@ -1,12 +1,12 @@
 "use client";
 
 import Banner from "@/components/Banner/Banner";
-import Process from "@/for-students-process/Process";
-import WhyJoin from "@/for-students-whyjoin/WhyJoin";
-import FaqCard from "@/for-students-FAQ/FaqCard";
+import Process from "@/components/for-students-process/Process";
+import WhyJoin from "@/components/for-students-whyjoin/WhyJoin";
+import FaqCard from "@/components/for-students-FAQ/FaqCard";
 import { Container, Divider } from "@mantine/core";
-import Alumni from "@/for-students-alumni/Alumni";
-import Roles from "@/for-students-roles/Roles";
+import Alumni from "@/components/for-students-alumni/Alumni";
+import Roles from "@/components/for-students-roles/Roles";
 import Link from "next/link";
 
 const faqData = [

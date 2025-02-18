@@ -1,5 +1,5 @@
 "use client";
-import "@/criteria-card/CriteriaCard";
+import "@/components/criteria-card/CriteriaCard";
 import {
   Container,
   Image,
@@ -11,7 +11,7 @@ import {
 import { useMediaQuery } from "@mantine/hooks";
 import Banner from "@/components/Banner/Banner";
 import "@mantine/core/styles.css";
-import { CriteriaCard } from "../../criteria-card/CriteriaCard";
+import { CriteriaCard } from "../../components/criteria-card/CriteriaCard";
 import "./for-nonprofits.css";
 
 export default function NonProfitsPage() {

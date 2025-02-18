@@ -1,5 +1,5 @@
 import { Card, Anchor } from "@mantine/core";
-import "../chapters-card/ChaptersCard.css";
+import "./ChaptersCard.css";
 
 export function ChaptersCard({ name, description, link }) {
   return (

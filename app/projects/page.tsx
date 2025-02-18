@@ -1,5 +1,5 @@
 "use client";
-import ProjectsCardWModal from "@/projects-card/ProjectsCardWModal";
+import ProjectsCardWModal from "@/components/projects-card/ProjectsCardWModal";
 import { Container, SimpleGrid, Stack, Title } from "@mantine/core";
 import Banner from "@/components/Banner/Banner";
 import "@mantine/core/styles.css";

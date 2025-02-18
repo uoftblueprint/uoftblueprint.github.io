@@ -8,7 +8,8 @@ const links = [
   { link: "/projects", label: "Projects" },
   { link: "/team", label: "Team" },
   { link: "/chapters", label: "Chapters" },
-  { link: "/join", label: "Join" },
+  { link: "/for-students", label: "Join" },
+  { link: "/for-nonprofits", label: "Connect" },
 ];
 
 const Footer = () => {
@@ -17,7 +18,6 @@ const Footer = () => {
       c="white"
       key={link.label}
       href={link.link}
-      onClick={(event) => event.preventDefault()}
       size="sm"
       className="footer-link"
     >

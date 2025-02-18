@@ -9,7 +9,6 @@ import Alumni from "@/for-students-alumni/Alumni";
 import Roles from "@/for-students-roles/Roles";
 import Link from "next/link";
 
-// TODO: ACTUALLY ADD FAQ DATA
 const faqData = [
   {
     key: 1,

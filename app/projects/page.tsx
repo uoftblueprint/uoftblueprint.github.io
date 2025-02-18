@@ -299,7 +299,7 @@ export default function ProjectsPage() {
                 {
                   name: "Daniel Dervishi",
                   role: "Project Lead",
-                  imageSrc: "team/current/daniel.jpg",
+                  imageSrc: "team/current/Daniel.jpg",
                 },
                 {
                   name: "Ryan Li",
@@ -510,7 +510,7 @@ export default function ProjectsPage() {
                 {
                   name: "Valerie Yip",
                   role: "Developer",
-                  imageSrc: "team/alumni/valerieyip.png",
+                  imageSrc: "team/alumni/ValerieYip.png",
                 },
                 {
                   name: "Caesar Saleh",

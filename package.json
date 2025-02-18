@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "format": "prettier --write \"src/**/*.{js,jsx,tsx,ts}\"",
+    "format": "prettier --write \"app/**/*.{js,jsx,ts,tsx}\" \"components/**/*.{js,jsx,ts,tsx}\"",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint \"src/**/*.{js,jsx,tsx,ts}\" --quiet"
+    "lint": "eslint \"app/**/*.{js,jsx,ts,tsx}\" \"components/**/*.{js,jsx,ts,tsx}\" --quiet"
   },
   "dependencies": {
     "@mantine/core": "^7.13.1",

@@ -1,6 +1,13 @@
 "use client";
 import RoleCard from "../RoleCard/RoleCard";
-import { Center, Container, Divider, SimpleGrid, Title, Text } from "@mantine/core";
+import {
+  Center,
+  Container,
+  Divider,
+  SimpleGrid,
+  Title,
+  Text,
+} from "@mantine/core";
 import "./Roles.css";
 
 // Role information
@@ -30,7 +37,7 @@ export default function Roles() {
         </Title>
       </Center>
       <Divider w="30%" color="#e7f3ff" size={"1px"} mx="auto" />
-      
+
       {hasRoles ? (
         <SimpleGrid
           cols={{ base: 1, sm: 2, lg: 3 }}

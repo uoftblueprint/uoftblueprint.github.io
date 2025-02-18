@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --corner-radius: calc(30px + 10vw);
+}
+
+.bottom-section {
+  padding: 5% 10% 10% 10%;
+  border-radius: var(--corner-radius) var(--corner-radius) 0px 0px;
+  background: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.impact-facts > * {
+  margin: 50px auto;
+  flex: 1;
+}
+
+.impact-number {
+  font-size: calc(50px + 5vw);
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  line-height: 1;
+  padding: 0;
+  z-index: 1;
+}
+
+.impact-text {
+  font-size: calc(20px + 1vw);
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+}
+
+.grey-blue-text {
+  color: #508abf;
+}
+
+.about-title {
+  color: #0078e8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: calc(30px + 1vw);
+  z-index: 1;
+}
+
+.heading-text {
+  color: #4b7dac;
+  max-width: 80%;
+  align-self: center;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(10px + 1vw);
+  z-index: 1;
+}
+
+.image-wrapper {
+  position: relative;
+  margin: 50px 0 80px 0;
+  align-items: center;
+}
+
+.top-wrapper {
+  margin: 150px 0 150px 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.star {
+  transform: translate(-50%, -37%);
+}
+
+.medal-img {
+  width: calc(100px + 12vw);
+}
+
+.mission-image {
+  width: 75%;
+  z-index: 1;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e7f3ff;
+  text-align: center;
+}
+
+.top-title {
+  padding: 10% 0 2%;
+}
+
+.top-image {
+  margin-top: 2%;
+}
+
+.sponsor-image {
+  width: max(250px, 40%);
+}
+
+.arrow {
+  height: 20px;
+  width: 20px;
+}

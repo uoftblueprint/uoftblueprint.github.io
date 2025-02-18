@@ -1,0 +1,50 @@
+.roleCard {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+  font-weight: 500;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.roleTitle {
+  font-size: 30px;
+  line-height: normal;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.apply-button {
+  height: 45px;
+  width: 160px;
+  margin-bottom: 10px;
+  width: 160px;
+}
+
+.chevron {
+  height: 20px;
+  width: 20px;
+}
+
+.moniter {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 1350px) {
+  .roleTitle {
+    font-size: 20px;
+  }
+
+  .apply-button {
+    height: 45px;
+    width: 160px;
+    margin-bottom: 10px;
+    width: 160px;
+  }
+
+  .chevron {
+    height: 16px;
+    width: 16px;
+  }
+}

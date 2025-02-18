@@ -1,0 +1,45 @@
+.process {
+  margin: 20px 4vw 20px 4vw;
+}
+
+.process-title {
+  color: #0078e8;
+  padding: 0px 0px 2vw 0px;
+  font-size: calc(25px + 1vw);
+}
+
+.heading-text {
+  color: #0078e8;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: calc(5px + 1vw);
+}
+
+.text {
+  color: #0078e8;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: calc(5px + 1vw);
+  padding-top: 1vw;
+}
+
+@media (max-width: 1440px) {
+  .process-title {
+    font-size: 52px;
+  }
+
+  .heading-text {
+    font-size: 18px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .process-title {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,23 @@
+.open-roles-title {
+  padding: 0px 0px 2vw 0px;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  .open-roles-title {
+    font-size: 52px;
+  }
+}
+
+@media (max-width: 500px) {
+  .open-roles-title {
+    font-size: 25px;
+  }
+}

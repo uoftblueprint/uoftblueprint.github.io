@@ -1,0 +1,492 @@
+{
+  "alumni": [
+
+
+    {
+      "name": "Antoine Finot",
+      "role": "President", 
+      "profilePicture": "team/alumni/antoine.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/antoine-f/"
+    },
+    {
+      "name": "Karen Zhao",
+      "role": "Co-President",
+      "profilePicture": "team/alumni/karen.jpg", 
+      "linkedinLink": "https://www.linkedin.com/in/karenjyzhao"
+    },
+    {
+      "name": "Leo Liu",
+      "role": "President",
+      "profilePicture": "team/alumni/leo.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/siqiliu-/"
+    },
+    {
+      "name": "Rajvi Rana",
+      "role": "President",
+      "profilePicture": "team/alumni/rajvi.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/rajvirana/"
+    },
+    {
+      "name": "Windsor Huang",
+      "role": "Co-President",
+      "profilePicture": "team/alumni/windsor.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/windsorhuang/"
+    },
+    {
+      "name": "Chloe Zhao",
+      "role": "Vice President",
+      "profilePicture": "team/alumni/chloe.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/chloeyzhao/"
+    },
+
+
+    {
+      "name": "Angela Bi",
+      "role": "VP External",
+      "profilePicture": "team/alumni/angela.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/angela-bi-/"
+    },
+    {
+      "name": "Alexander Shih",
+      "role": "VP Internal",
+      "profilePicture": "team/alumni/alexander.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/alexanderchshih/"
+    },
+    {
+      "name": "Avril Brigden",
+      "role": "VP Events",
+      "profilePicture": "team/alumni/avril.png",
+      "linkedinLink": "https://www.linkedin.com/in/avril-brigden-a32a64264"
+    },
+    {
+      "name": "Baker Jackson", 
+      "role": "VP External",
+      "profilePicture": "team/alumni/baker.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/baker-jackson/"
+    },
+    {
+      "name": "Justin Li",
+      "role": "VP Software",
+      "profilePicture": "team/alumni/justin.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/justinwli930/"
+    },
+    {
+      "name": "Vhea He",
+      "role": "VP External",
+      "profilePicture": "team/alumni/vhea.png",
+      "linkedinLink": "https://www.linkedin.com/in/vhea-he/"
+    },
+
+
+    {
+      "name": "Ling Lu",
+      "role": "Director of Design",
+      "profilePicture": "team/alumni/Ling.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/ling-l-b4982288/"
+    },
+    {
+      "name": "Olivia Li",
+      "role": "Director of Projects",
+      "profilePicture": "team/alumni/olivia.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/oliviaoli/"
+    },
+
+
+    {
+      "name": "Edward Han",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/edward.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/edwardhuahan/"
+    },
+    {
+      "name": "Emily Yu",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/EmilyYu.jpg",
+      "linkedinLink": ""
+    },
+    {
+      "name": "Faye Tan",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/faye.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/faye-tan/"
+    },
+    {
+      "name": "Gabriel Vainer",
+      "role": "Project Lead", 
+      "profilePicture": "team/alumni/gab.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/vai9er/"
+    },
+    {
+      "name": "Ganesh Asapu",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/ganesh.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/gasapu/"
+    },
+    {
+      "name": "Kenneth Miura",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/kenneth.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/kenneth-miura"
+    },
+    {
+      "name": "Mesbah Rafin",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/mesbah.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/mesbah-rafin/"
+    },
+    {
+      "name": "Pierre-William Lessard",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/Pierre.jpg",
+      "linkedinLink": ""
+    },
+    {
+      "name": "Ramy Zhang",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/RamyZhang.jpg",
+      "linkedinLink": ""
+    },
+    {
+      "name": "Raymond Chen",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/raymond.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/raycxn"
+    },
+    {
+      "name": "Rishab Luthra",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/rishab.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/rishabluthra/"
+    },
+    {
+      "name": "Youssef Soliman",
+      "role": "Project Lead",
+      "profilePicture": "team/alumni/youssef.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/youssefsoliman/"
+    },
+
+
+    {
+      "name": "Marco Mai",
+      "role": "Product Manager",
+      "profilePicture": "team/alumni/marco.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/marco-mai/"
+    },
+    {
+      "name": "Michael Jia",
+      "role": "Project Manager",
+      "profilePicture": "team/alumni/michael.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/michaelzcjia/"
+    },
+    {
+      "name": "Trudie Cheung",
+      "role": "Project Manager",
+      "profilePicture": "team/alumni/trudie.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/trudiecheung/"
+    },
+
+
+    {
+      "name": "Ananmay Sharan",
+      "role": "Designer",
+      "profilePicture": "team/alumni/AnanmaySharan.jpg",
+      "linkedinLink": ""
+    },
+    {
+      "name": "Anita Xu",
+      "role": "Designer",
+      "profilePicture": "team/alumni/anita.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/anita-xu/"
+    },
+    {
+      "name": "Emily Gazo",
+      "role": "Designer",
+      "profilePicture": "team/alumni/EmilyGazo.jpg",
+      "linkedinLink": ""
+    },
+    {
+      "name": "Fiza Mehta",
+      "role": "Designer",
+      "profilePicture": "team/alumni/fiza.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/fizamehta/"
+    },
+    {
+      "name": "Jake Gu",
+      "role": "Designer",
+      "profilePicture": "team/alumni/jake.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/jake-gu/"
+    },
+    {
+      "name": "Jing Tey",
+      "role": "Designer",
+      "profilePicture": "team/alumni/jing.jpg",
+      "linkedinLink": ""
+    },
+    {
+      "name": "Tammy Taabassum",
+      "role": "Designer",
+      "profilePicture": "team/alumni/tammy.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/taamannae/"
+    },
+    {
+      "name": "Yuet Ming Wong",
+      "role": "Designer",
+      "profilePicture": "team/alumni/yuet.png",
+      "linkedinLink": "https://www.linkedin.com/in/yuet-ming-wong-041619150/"
+    },
+    {
+      "name": "Yuwei Jiang",
+      "role": "Designer",
+      "profilePicture": "team/alumni/YuweiJiang.jpg",
+      "linkedinLink": ""
+    },
+
+
+    {
+      "name": "Amy Peng",
+      "role": "Developer",
+      "profilePicture": "team/alumni/amy.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/amy-p/"
+    },
+    {
+      "name": "Annie Liu",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/liuzr-annie/",
+      "profilePicture": "team/alumni/annie.jpg"
+    },
+    {
+      "name": "Azamat Khamidov",
+      "role": "Developer",
+      "profilePicture": "team/alumni/AzamatKhamidov.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/azamat-khamidov"
+    },
+    {
+      "name": "Chi-Hong Cheung",
+      "role": "Developer",
+      "profilePicture": "team/alumni/chihong.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/cheung-chihong/"
+    },
+    {
+      "name": "Dane Gledhill",
+      "role": "Developer",
+      "profilePicture": "team/alumni/dane.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/danegledhill/"
+    },
+    {
+      "name": "Elena Wang",
+      "role": "Developer",
+      "profilePicture": "team/alumni/elena.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/elenawzy/"
+    },
+    {
+      "name": "Han Xheng Chew",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/hanxheng/",
+      "profilePicture": "team/alumni/han.jpg"
+    },
+    {
+      "name": "Harmit Goswami",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/HarmitGoswami.jpg"
+    },
+    {
+      "name": "Helen Li",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/helenli28",
+      "profilePicture": "team/alumni/helen.jpg"
+    },
+    {
+      "name": "Helena Glowacki",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/helena-g-2527a922b/",
+      "profilePicture": "team/alumni/helena.jpeg"
+    },
+    {
+      "name": "Jacky Yang",
+      "role": "Developer",
+      "profilePicture": "team/alumni/jacky.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/jyangcs/"
+    },
+    {
+      "name": "Jason Wang",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/jasonfyw/",
+      "profilePicture": "team/alumni/jason.jpg"
+    },
+    {
+      "name": "Jeffery Zhan",
+      "role": "Developer",
+      "profilePicture": "team/alumni/JeffreyZhan.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/jeffery-zhan"
+    },
+    {
+      "name": "Kevin Le",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/kevinle623/",
+      "profilePicture": "team/alumni/kevinle.png"
+    },
+    {
+      "name": "Kevin Zhu",
+      "role": "Developer",
+      "profilePicture": "team/alumni/kevin.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/kevin-zhu-732019175/"
+    },
+    {
+      "name": "Kurtis Law",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/KurtisLaw.jpg"
+    },
+    {
+      "name": "Madeline Ahn",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MadelineAhn.jpg"
+    },
+    {
+      "name": "Manpreet Bhatti",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/ManpreetBhatti.jpg"
+    },
+    {
+      "name": "Manya Mittal",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/ManyaMittal.jpg"
+    },
+    {
+      "name": "Michael Ng",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MichaelNg.jpg"
+    },
+    {
+      "name": "Min Gi Kwon",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MinGiKwon.jpg"
+    },
+    {
+      "name": "Minh Le",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/nm-le/",
+      "profilePicture": "team/alumni/minhle.png"
+    },
+    {
+      "name": "Mishaal Kandapath",
+      "role": "Developer",
+      "profilePicture": "team/alumni/Mishaal.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/mishaal-kandapath"
+    },
+    {
+      "name": "MJ Munkhbayar",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/MJMunkhbayar.jpg"
+    },
+    {
+      "name": "Nancy Li",
+      "role": "Developer",
+      "profilePicture": "team/alumni/NancyLi.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/nancy-li-557106181/"
+    },
+    {
+      "name": "Ram Ragahv Sharma",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/ram-raghav-sharma/",
+      "profilePicture": "team/alumni/ram.jpg"
+    },
+    {
+      "name": "Rayyana Kambris",
+      "role": "Developer",
+      "profilePicture": "team/alumni/rayyana.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/raykambris/"
+    },
+    {
+      "name": "Roy Lin",
+      "role": "Developer",
+      "profilePicture": "team/alumni/roy.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/roylin2000/"
+    },
+    {
+      "name": "Samuel Moor-Smith",
+      "role": "Developer",
+      "profilePicture": "team/alumni/samuel.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/samuel-moor-smith/"
+    },
+    {
+      "name": "Sarah Wang",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/sarah-wang4/",
+      "profilePicture": "team/alumni/sarah.jpg"
+    },
+    {
+      "name": "Sarah Xu",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/SarahXu.jpg"
+    },
+    {
+      "name": "Serena Tran",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/SerenaTran.jpg"
+    },
+    {
+      "name": "Sheree Zhang",
+      "role": "Developer",
+      "profilePicture": "team/alumni/sheree.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/shereezhang/"
+    },
+    {
+      "name": "Siddarth Dagar",
+      "role": "Developer",
+      "profilePicture": "team/alumni/siddarth.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/siddarth-dagar/"
+    },
+    {
+      "name": "Song You",
+      "role": "Developer",
+      "profilePicture": "team/alumni/song.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/songeunyou/"
+    },
+    {
+      "name": "Stella Cai",
+      "role": "Developer",
+      "profilePicture": "team/alumni/stella.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/stella-cai-77a526181/"
+    },
+    {
+      "name": "Sunghyoun Kim",
+      "role": "Developer",
+      "profilePicture": "team/alumni/sunghyoun.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/sunghyoun-kim/"
+    },
+    {
+      "name": "Thardchi Ganesalingam",
+      "role": "Developer",
+      "linkedinLink": "",
+      "profilePicture": "team/alumni/ThardchiGanesalingam.jpg"
+    },
+    {
+      "name": "Valerie Yip",
+      "role": "Developer",
+      "linkedinLink": "https://www.linkedin.com/in/valerie-yip-fh/",
+      "profilePicture": "team/alumni/ValerieYip.png"
+    },
+    {
+      "name": "Varun Lodaya",
+      "role": "Developer",
+      "profilePicture": "team/alumni/varun.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/varun-lodaya/"
+    },
+    {
+      "name": "Yvonne Rao",
+      "role": "Developer",
+      "profilePicture": "team/alumni/yvonne.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/yvonne-rao/"
+    }
+  ]
+}

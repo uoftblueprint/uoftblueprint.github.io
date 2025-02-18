@@ -1,0 +1,58 @@
+:root {
+  --regFont: clamp(15px, 13px + 0.7vw, 36px);
+  --questionFont: clamp(20px, 15px + 0.9vw, 48px);
+}
+
+.faq-title {
+  font-size: 48px;
+}
+
+.faq-container {
+  text-align: center;
+  font-size: var(--regFont);
+  background-color: #e7f3ff;
+  padding: 5% 7%;
+}
+
+.faq-container * {
+  background-color: #e7f3ff;
+  color: #0078e8;
+}
+
+.mantine-Accordion-item {
+  border: none;
+  position: relative;
+  z-index: 0;
+  transition: transform 300ms ease;
+}
+
+.mantine-Accordion-item[data-active] {
+  transform: scale(1);
+  z-index: 1;
+}
+
+.chevron {
+  width: var(--questionFont);
+  height: var(--questionFont);
+}
+
+.mantine-Accordion-chevron[data-rotate] {
+  transform: rotateX(-180deg);
+}
+
+.divider {
+  border-color: #0078e8 !important;
+  height: 2px;
+  width: 200px;
+  margin: auto;
+}
+
+.question {
+  text-align: left;
+  font-size: var(--questionFont);
+}
+
+.answer {
+  text-align: left;
+  font-size: var(--regFont);
+}

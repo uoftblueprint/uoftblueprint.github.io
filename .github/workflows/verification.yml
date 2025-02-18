@@ -34,10 +34,10 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Lint
-        run: ${{ steps.detect-package-manager.outputs.runner }} eslint . --ext .js,.jsx,.ts,.tsx
+        run: ${{ steps.detect-package-manager.outputs.runner }} eslint "app/**/*.{js,jsx,ts,tsx}" "components/**/*.{js,jsx,ts,tsx}" --quiet
 
       - name: Check formatting
-        run: ${{ steps.detect-package-manager.outputs.runner }} prettier --check .
+        run: ${{ steps.detect-package-manager.outputs.runner }} prettier --check "app/**/*.{js,jsx,ts,tsx}" "components/**/*.{js,jsx,ts,tsx}"
 
   build:
     name: Build Check

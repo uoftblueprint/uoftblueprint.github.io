@@ -129,7 +129,7 @@ export default function NonProfitsPage() {
                 marginTop: "10%",
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "bolder",
-                fontSize: "calc(12px + 2vw)",
+                fontSize: "calc(12px + 1vw)",
               }}
             >
               Ready to make an impact?
@@ -139,7 +139,7 @@ export default function NonProfitsPage() {
             <Text
               style={{
                 fontFamily: "Poppins, sans-serif",
-                fontSize: "calc(10px + 1vw)",
+                fontSize: "calc(5px + 1vw)",
                 margin: "0 0 5vw 0",
                 textAlign: "left",
               }}

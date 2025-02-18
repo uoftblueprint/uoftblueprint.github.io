@@ -1,6 +1,6 @@
 "use client";
 
-import Banner from "@/components/Banner/Banner";
+import Banner from "@/components/Banner/TheDefaultBanner";
 import Process from "@/for-students-process/Process";
 import WhyJoin from "@/for-students-whyjoin/WhyJoin";
 import FaqCard from "@/for-students-FAQ/FaqCard";

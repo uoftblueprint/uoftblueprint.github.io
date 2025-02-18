@@ -3,7 +3,7 @@ import { Container, Flex, Button } from "@mantine/core";
 import "@mantine/core/styles.layer.css";
 import "@/components/Banner/Banner.css";
 
-export default function Banner({
+export default function TheDefaultBanner({
   title,
   text,
   button = { text: null, link: null },

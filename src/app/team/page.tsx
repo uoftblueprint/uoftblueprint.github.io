@@ -1,6 +1,6 @@
 "use client";
 
-import Banner from "@/components/Banner/Banner";
+import Banner from "@/components/Banner/TheDefaultBanner";
 import TeamCard from "@/team-card/TeamCard";
 import { Button, Container, Divider, Flex, Text, Title } from "@mantine/core";
 import membersData from "@/data/current_members.json";

@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <ColorSchemeScript defaultColorScheme="light" />
+        <ColorSchemeScript defaultColorScheme="light" />
         <MantineProvider defaultColorScheme="light">
           <AppShell
             header={{ height: "96px" }}

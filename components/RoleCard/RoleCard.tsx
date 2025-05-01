@@ -5,7 +5,7 @@ export default function RoleCard({ role, link }) {
   return (
     <Card className="roleCard" shadow="lg" radius="xl" p="xl">
       <Center>
-        <Image className="moniter" src="/monitor.svg" />
+        <Image className="monitor" src="/monitor.svg" />
       </Center>
       <Center my="xs">
         <Text c="#0078E8" fw={500} className="roleTitle">
@@ -19,7 +19,7 @@ export default function RoleCard({ role, link }) {
           className="apply-button"
           variant="filled"
           color="#228BE6"
-          ref={link}
+          href={link}
           component="a"
           rightSection={<Image className="chevron" src="/chevron-right.svg" />}
         >

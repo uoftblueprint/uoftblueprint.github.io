@@ -17,7 +17,32 @@ import "./Roles.css";
 //     link: "<Link to application>",
 //   }
 // ];
-const info = [];
+const info = [
+  {
+    role: "VP Software",
+    link: "https://bit.ly/bpexec2025",
+  },
+  {
+    role: "VP Product",
+    link: "https://bit.ly/bpexec2025",
+  },
+  {
+    role: "VP Design",
+    link: "https://bit.ly/bpexec2025",
+  },
+  {
+    role: "VP External",
+    link: "https://bit.ly/bpexec2025",
+  },
+  {
+    role: "VP Events",
+    link: "https://bit.ly/bpexec2025",
+  },
+  {
+    role: "VP Finance",
+    link: "https://bit.ly/bpexec2025",
+  },
+];
 
 export default function Roles() {
   const hasRoles = info.length > 0;

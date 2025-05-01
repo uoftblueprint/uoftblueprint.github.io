@@ -4,9 +4,6 @@ import "./RoleCard.css";
 export default function RoleCard({ role, link }) {
   return (
     <Card className="roleCard" shadow="lg" radius="xl" p="xl">
-      <Center>
-        <Image className="monitor" src="/monitor.svg" />
-      </Center>
       <Center my="xs">
         <Text c="#0078E8" fw={500} className="roleTitle">
           {role}

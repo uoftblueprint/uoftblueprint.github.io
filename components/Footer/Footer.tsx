@@ -39,7 +39,7 @@ const Footer = () => {
         </a>
         <Group className="footer-text">{items}</Group>
       </Container>
-      <h5 className="copyright-text"> &copy; Blueprint 2023</h5>
+      <h5 className="copyright-text"> &copy; Blueprint 2025</h5>
     </footer>
   );
 };

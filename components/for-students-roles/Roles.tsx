@@ -20,27 +20,7 @@ import "./Roles.css";
 const info = [
   {
     role: "VP Software",
-    link: "https://bit.ly/bpexec2025",
-  },
-  {
-    role: "VP Product",
-    link: "https://bit.ly/bpexec2025",
-  },
-  {
-    role: "VP Design",
-    link: "https://bit.ly/bpexec2025",
-  },
-  {
-    role: "VP External",
-    link: "https://bit.ly/bpexec2025",
-  },
-  {
-    role: "VP Events",
-    link: "https://bit.ly/bpexec2025",
-  },
-  {
-    role: "VP Finance",
-    link: "https://bit.ly/bpexec2025",
+    link: "https://bit.ly/bpsoft2025",
   },
 ];
 

@@ -26,11 +26,6 @@
   width: 20px;
 }
 
-.monitor {
-  width: 40px;
-  height: 40px;
-}
-
 @media (max-width: 1350px) {
   .roleTitle {
     font-size: 20px;

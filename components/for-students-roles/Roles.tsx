@@ -18,10 +18,6 @@ import "./Roles.css";
 //   }
 // ];
 const info = [
-  {
-    role: "VP Software",
-    link: "https://bit.ly/bpsoft2025",
-  },
 ];
 
 export default function Roles() {

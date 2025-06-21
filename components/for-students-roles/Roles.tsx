@@ -17,8 +17,7 @@ import "./Roles.css";
 //     link: "<Link to application>",
 //   }
 // ];
-const info = [
-];
+const info = [];
 
 export default function Roles() {
   const hasRoles = info.length > 0;

@@ -17,7 +17,16 @@ import "./Roles.css";
 //     link: "<Link to application>",
 //   }
 // ];
-const info = [];
+const info = [
+  {
+    role: "Project Lead",
+    link: "https://bit.ly/bppl2025",
+  },
+  {
+    role: "Product Manager",
+    link: "https://bit.ly/bpproduct2025",
+  },
+];
 
 export default function Roles() {
   const hasRoles = info.length > 0;

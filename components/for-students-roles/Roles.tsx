@@ -19,12 +19,8 @@ import "./Roles.css";
 // ];
 const info = [
   {
-    role: "Project Lead",
-    link: "https://bit.ly/bppl2025",
-  },
-  {
-    role: "Product Manager",
-    link: "https://bit.ly/bpproduct2025",
+    role: "Project Designer",
+    link: "https://bit.ly/bpdesign2025",
   },
 ];
 

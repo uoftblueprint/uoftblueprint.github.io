@@ -19,8 +19,8 @@ import "./Roles.css";
 // ];
 const info = [
   {
-    role: "Project Designer",
-    link: "https://bit.ly/bpdesign2025",
+    role: "Developer",
+    link: "https://airtable.com/appibWFen3m2zIGMg/pag8wrvOPBXau7GVU/form",
   },
 ];
 

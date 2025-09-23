@@ -17,12 +17,7 @@ import "./Roles.css";
 //     link: "<Link to application>",
 //   }
 // ];
-const info = [
-  {
-    role: "Developer",
-    link: "https://airtable.com/appibWFen3m2zIGMg/pag8wrvOPBXau7GVU/form",
-  },
-];
+const info = [];
 
 export default function Roles() {
   const hasRoles = info.length > 0;

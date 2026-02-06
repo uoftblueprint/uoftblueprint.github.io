@@ -5,15 +5,7 @@ import TeamCard from "@/components/team-card/TeamCard";
 import { Button, Container, Divider, Flex, Text, Title } from "@mantine/core";
 import membersData from "@/data/current_members.json";
 
-const {
-  members_btq,
-  members_cfd,
-  members_tces,
-  members_tpp,
-  members_int,
-  members_osc,
-  members_exec,
-} = membersData;
+const { members_inga, members_trcc, members_made, members_exec } = membersData;
 
 export default function TeamPage() {
   return (
@@ -21,7 +13,7 @@ export default function TeamPage() {
       <Banner
         title={"Meet our Team"}
         text={
-          "We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2024-2025 project teams!"
+          "We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2025-2026 project teams!"
         }
       />
       <Flex
@@ -32,42 +24,24 @@ export default function TeamPage() {
         pos={"relative"}
       >
         <Container m={"10vh 0 10vh 0"} w="100%" fluid>
-          <TeamCard title="City of Brampton" team_members={members_btq} />
-        </Container>
-
-        <Divider w="40%" color="#0078E8" size={"2px"} />
-
-        <Container m={"10vh 0 10vh 0"} w="100%" fluid>
-          <TeamCard title="Center for Dreams" team_members={members_cfd} />
+          <TeamCard title="The Inga Foundation" team_members={members_inga} />
         </Container>
 
         <Divider w="40%" color="#0078E8" size={"2px"} />
 
         <Container m={"10vh 0 10vh 0"} w="100%" fluid>
           <TeamCard
-            title="Toronto Community Employment Services"
-            team_members={members_tces}
+            title="Toronto Rape Crisis Centre"
+            team_members={members_trcc}
           />
         </Container>
 
         <Divider w="40%" color="#0078E8" size={"2px"} />
 
         <Container m={"10vh 0 10vh 0"} w="100%" fluid>
-          <TeamCard title="The Period Purse" team_members={members_tpp} />
-        </Container>
-
-        <Divider w="40%" color="#0078E8" size={"2px"} />
-
-        <Container m={"10vh 0 10vh 0"} w="100%" fluid>
-          <TeamCard title="Internal" team_members={members_int} />
-        </Container>
-
-        <Divider w="40%" color="#0078E8" size={"2px"} />
-
-        <Container m={"10vh 0 10vh 0"} w="100%" fluid>
           <TeamCard
-            title="Open-Source Contributors x Mozilla"
-            team_members={members_osc}
+            title="The Museum of Art and Digital Entertainment (MADE)"
+            team_members={members_made}
           />
         </Container>
 

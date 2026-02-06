@@ -16,6 +16,257 @@ export default function ProjectsPage() {
       <Container size="xl">
         <Stack className="projects-page-main" gap="lg">
           {/* ************** */}
+          {/* YEAR 2025-2026 */}
+          {/* ************** */}
+          <Title order={1} className="project-years-header">
+            2025-2026
+          </Title>
+          <SimpleGrid
+            cols={{ base: 1, sm: 2 }}
+            spacing={"xl"}
+            verticalSpacing={{ base: "md", sm: "xl" }}
+          >
+            <ProjectsCardWModal
+              name="The Inga Foundation"
+              description="Coming Soon!"
+              image={"projects/inga.jpg"}
+              hasOverlay={true}
+              years={["2025-2026"]}
+              projectDescription="Coming Soon!"
+              nonprofitDescription="Coming Soon!"
+              team={[
+                {
+                  name: "Pranav Rao",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Yianni Culmone",
+                  role: "Project Lead",
+                  imageSrc: "members/yianni_culmore.jpg",
+                },
+                {
+                  name: "Ali Elbadrawy",
+                  role: "Product Manager",
+                  imageSrc: "members/ali_elbadrawy.jpeg",
+                },
+                {
+                  name: "June Vo",
+                  role: "Product Manager",
+                  imageSrc: "members/june_vo.jpeg",
+                },
+                {
+                  name: "Amish Mamtani",
+                  role: "Designer",
+                  imageSrc: "members/amish_mamtani.jpg",
+                },
+                {
+                  name: "Janice Li",
+                  role: "Designer",
+                  imageSrc: "",
+                },
+                {
+                  name: "John Fitzgerald",
+                  role: "Developer",
+                  imageSrc: "members/john_fitzgerald.jpg",
+                },
+                {
+                  name: "Ali Khan",
+                  role: "Developer",
+                  imageSrc: "members/ali_khan.jpg",
+                },
+                {
+                  name: "Yan Luk",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Steven Lin",
+                  role: "Developer",
+                  imageSrc: "members/steven_lin.png",
+                },
+                {
+                  name: "Harry Xu",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Praneeth Suryadevara",
+                  role: "Developer",
+                  imageSrc: "members/praneeth_suryadevara.jpeg",
+                },
+                {
+                  name: "Alec Jiang",
+                  role: "Developer",
+                  imageSrc: "members/alex_jiang.jpg",
+                },
+                {
+                  name: "Rashu Sharda",
+                  role: "Developer",
+                  imageSrc: "members/rashu_sharda.png",
+                },
+              ]}
+              webLink="https://www.ingafoundation.org/"
+              githubLink="https://github.com/uoftblueprint/inga"
+            />
+            <ProjectsCardWModal
+              name="Toronto Rape Crisis Centre"
+              description="Coming Soon!"
+              image={"projects/trcc.jpg"}
+              hasOverlay={true}
+              years={["2025-2026"]}
+              projectDescription="Coming Soon!"
+              nonprofitDescription="Coming Soon!"
+              team={[
+                {
+                  name: "Jack Le",
+                  role: "Project Lead",
+                  imageSrc: "members/jack_le.jpeg",
+                },
+                {
+                  name: "Leandro Hamaguchi Brasil",
+                  role: "Project Lead",
+                  imageSrc: "members/leandro_brasil.jpg",
+                },
+                {
+                  name: "Helen Zhao",
+                  role: "Product Manager",
+                  imageSrc: "members/helen_zhao.png",
+                },
+                {
+                  name: "Lala Leung",
+                  role: "Designer",
+                  imageSrc: "members/lala_leung.jpg",
+                },
+                {
+                  name: "Rosha Abooali",
+                  role: "Designer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Patricia Wong",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Alan Su",
+                  role: "Developer",
+                  imageSrc: "members/alan_su.jpg",
+                },
+                {
+                  name: "Michelle Huang",
+                  role: "Developer",
+                  imageSrc: "members/michelle_huang.jpg",
+                },
+                {
+                  name: "Jonathan Qiao",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Dimural Murat",
+                  role: "Developer",
+                  imageSrc: "members/dimural_murat.jpeg",
+                },
+                {
+                  name: "Janice Lam",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Brandon Tai",
+                  role: "Developer",
+                  imageSrc: "members/brandon_tai.jpg",
+                },
+                {
+                  name: "Fred He",
+                  role: "Developer",
+                  imageSrc: "members/fred_he.jpg",
+                },
+              ]}
+              webLink="https://trccmwar.ca/"
+              githubLink="https://github.com/uoftblueprint/trcc"
+            />
+            <ProjectsCardWModal
+              name="The Museum of Art and Digital Entertainment (MADE)"
+              description="Coming Soon!"
+              image={"projects/made.jpg"}
+              hasOverlay={true}
+              years={["2025-2026"]}
+              projectDescription="Coming Soon!"
+              nonprofitDescription="Coming Soon!"
+              team={[
+                {
+                  name: "Vivian Deng",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Ethan Qiu",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Sofia Carrillo",
+                  role: "Product Manager",
+                  imageSrc: "members/sofia_carrillo.jpg",
+                },
+                {
+                  name: "Efan Song",
+                  role: "Designer",
+                  imageSrc: "members/efan_song.jpeg",
+                },
+                {
+                  name: "Alex Lewis",
+                  role: "Developer",
+                  imageSrc: "members/alex_lewis.jpg",
+                },
+                {
+                  name: "Lily Phan",
+                  role: "Developer",
+                  imageSrc: "members/lily_phan.jpg",
+                },
+                {
+                  name: "Dhruv Patel",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Raymond Chan",
+                  role: "Developer",
+                  imageSrc: "members/raymond_chan.jpeg",
+                },
+                {
+                  name: "Anthony Zhao",
+                  role: "Developer",
+                  imageSrc: "members/anthony_zhao.JPG",
+                },
+                {
+                  name: "Caellum Yip Hoi - Lee",
+                  role: "Developer",
+                  imageSrc: "members/caellum_yip_hoi-lee.png",
+                },
+                {
+                  name: "Edwin Zeng",
+                  role: "Developer",
+                  imageSrc: "members/edwin_zeng.png",
+                },
+                {
+                  name: "Tharjiha Suthekara",
+                  role: "Developer",
+                  imageSrc: "members/tharjiha_suthekara.png",
+                },
+                {
+                  name: "Victor Li",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+              ]}
+              webLink="https://www.themade.org/"
+              githubLink="https://github.com/uoftblueprint/made"
+            />
+          </SimpleGrid>
+          {/* ************** */}
           {/* YEAR 2024-2025 */}
           {/* ************** */}
           <Title order={1} className="project-years-header">
@@ -38,42 +289,42 @@ export default function ProjectsPage() {
                 {
                   name: "Sarina Li",
                   role: "Project Lead",
-                  imageSrc: "team/current/Sarina.png",
+                  imageSrc: "members/sarina_li.png",
                 },
                 {
                   name: "Emily Zhou",
                   role: "Product Manager",
-                  imageSrc: "team/current/Emily.jpeg",
+                  imageSrc: "members/emily_zhou.jpeg",
                 },
                 {
                   name: "Amish Mamtani",
                   role: "Designer",
-                  imageSrc: "team/current/Amish.png",
+                  imageSrc: "members/amish_mamtani.png",
                 },
                 {
                   name: "Elsie Zhou",
                   role: "Developer",
-                  imageSrc: "team/current/Elsie.jpg",
+                  imageSrc: "members/elsie_zhou.jpg",
                 },
                 {
                   name: "Jeff Huang",
                   role: "Developer",
-                  imageSrc: "team/current/Jeff.jpg",
+                  imageSrc: "members/jeff_huang.jpg",
                 },
                 {
                   name: "Carlos Solares",
                   role: "Developer",
-                  imageSrc: "team/current/Carlos.jpg",
+                  imageSrc: "members/carlos_solares.jpg",
                 },
                 {
                   name: "Eric Lu",
                   role: "Developer",
-                  imageSrc: "team/current/Eric.png",
+                  imageSrc: "members/eric_lu.png",
                 },
                 {
                   name: "Nolawi Teklehaimanot",
                   role: "Developer",
-                  imageSrc: "team/current/Nolawi.jpg",
+                  imageSrc: "members/nolawi_teklehaimanot.jpg",
                 },
                 {
                   name: "Daniel Xu",
@@ -83,7 +334,7 @@ export default function ProjectsPage() {
                 {
                   name: "Girik Setya",
                   role: "Developer",
-                  imageSrc: "team/current/Girik.jpeg",
+                  imageSrc: "members/girik_setya.jpeg",
                 },
               ]}
               webLink="https://www.centrefordreams.ca/"
@@ -101,54 +352,54 @@ export default function ProjectsPage() {
                 {
                   name: "Merrick Liu",
                   role: "Project Lead",
-                  imageSrc: "team/current/Merrick.jpg",
+                  imageSrc: "members/merrick_liu.jpg",
                 },
                 {
                   name: "Paridhi Goel",
                   role: "Product Manager",
-                  imageSrc: "team/current/Paridhi.jpg",
+                  imageSrc: "members/paridhi_goel.jpg",
                 },
                 { name: "Patricia Santos", role: "Designer", imageSrc: "" },
                 {
                   name: "Helen Zhao",
                   role: "Developer",
-                  imageSrc: "team/current/HelenZhao.jpg",
+                  imageSrc: "members/helen_zhao.jpg",
                 },
                 {
                   name: "Jack Fan",
                   role: "Developer",
-                  imageSrc: "team/current/Jack.jpg",
+                  imageSrc: "members/jack_fan.jpg",
                 },
                 {
                   name: "Taewoong Oh",
                   role: "Developer",
-                  imageSrc: "team/current/Taewoong.jpg",
+                  imageSrc: "members/taewoong_oh.jpg",
                 },
                 { name: "Joel Lawrence", role: "Developer", imageSrc: "" },
                 {
                   name: "Muhtasim Khan",
                   role: "Developer",
-                  imageSrc: "team/current/Muhtasim.jpg",
+                  imageSrc: "members/muhtasim_khan.jpg",
                 },
                 {
                   name: "Harpuneet Singh",
                   role: "Developer",
-                  imageSrc: "team/current/Harpuneet.jpg",
+                  imageSrc: "members/harpuneet_singh.jpg",
                 },
                 {
                   name: "Brandon Tai",
                   role: "Developer",
-                  imageSrc: "team/current/Brandon.jpg",
+                  imageSrc: "members/brandon_tai.jpg",
                 },
                 {
                   name: "Fred He",
                   role: "Developer",
-                  imageSrc: "team/current/Fred.jpg",
+                  imageSrc: "members/fred_he.jpg",
                 },
                 {
                   name: "Sataphon Obra",
                   role: "Developer",
-                  imageSrc: "team/current/Sataphon.png",
+                  imageSrc: "members/sataphon_obra.png",
                 },
               ]}
               webLink="https://www.theperiodpurse.com/"
@@ -166,58 +417,58 @@ export default function ProjectsPage() {
                 {
                   name: "Kashish Mittal",
                   role: "Project Lead",
-                  imageSrc: "team/current/Kashish.jpg",
+                  imageSrc: "members/kashish_mittal.jpg",
                 },
                 {
                   name: "Mieko Yao",
                   role: "Product Manager",
-                  imageSrc: "team/current/Mieko.jpg",
+                  imageSrc: "members/mieko_yao.jpg",
                 },
                 {
                   name: "Olya Jaworsky",
                   role: "Designer",
-                  imageSrc: "team/current/Olya.jpeg",
+                  imageSrc: "members/olya_jaworsky.jpeg",
                 },
                 {
                   name: "William Lam",
                   role: "Developer",
-                  imageSrc: "team/current/William.jpg",
+                  imageSrc: "members/william_lam.jpg",
                 },
                 {
                   name: "Harshith Latchupatula",
                   role: "Developer",
-                  imageSrc: "team/current/Harshith.jpeg",
+                  imageSrc: "members/harshith_latchupatula.jpeg",
                 },
                 {
                   name: "Jamie Yi",
                   role: "Developer",
-                  imageSrc: "team/current/Jamie.jpg",
+                  imageSrc: "members/jamie_yi.jpg",
                 },
                 {
                   name: "Shahmeer Khan",
                   role: "Developer",
-                  imageSrc: "team/current/Shahmeer.jpg",
+                  imageSrc: "members/shahmeer_khan.jpg",
                 },
                 {
                   name: "Dhairya Thakkar",
                   role: "Developer",
-                  imageSrc: "team/current/Dhairya.jpg",
+                  imageSrc: "members/dhairya_thakkar.jpg",
                 },
                 {
                   name: "Lana Wehbeh",
                   role: "Developer",
-                  imageSrc: "team/current/Lana.png",
+                  imageSrc: "members/lana_wehbeh.png",
                 },
                 {
                   name: "Michelle Huang",
                   role: "Developer",
-                  imageSrc: "team/current/Michelle.jpg",
+                  imageSrc: "members/michelle_huang.jpg",
                 },
                 { name: "Houman Ebrahimi", role: "Developer", imageSrc: "" },
                 {
                   name: "Alex Lewis",
                   role: "Developer",
-                  imageSrc: "team/current/Alex.jpg",
+                  imageSrc: "members/alex_lewis.jpg",
                 },
               ]}
               webLink="https://toronto-jobs.org/"
@@ -235,57 +486,57 @@ export default function ProjectsPage() {
                 {
                   name: "Raunak Madan",
                   role: "Project Lead",
-                  imageSrc: "team/current/raunak.jpeg",
+                  imageSrc: "members/raunak_madan.jpeg",
                 },
                 {
                   name: "Christie Ko",
                   role: "Product Manager",
-                  imageSrc: "team/current/Christie.png",
+                  imageSrc: "members/christie_ko.png",
                 },
                 {
                   name: "Steven Lin",
                   role: "Designer",
-                  imageSrc: "team/current/Steven.png",
+                  imageSrc: "members/steven_lin.png",
                 },
                 {
                   name: "Ron Varshavsky",
                   role: "Developer",
-                  imageSrc: "team/current/Ron.jpg",
+                  imageSrc: "members/ron_varshavsky.jpg",
                 },
                 {
                   name: "Aina Merchant",
                   role: "Developer",
-                  imageSrc: "team/current/Aina.jpeg",
+                  imageSrc: "members/aina_merchant.jpeg",
                 },
                 {
                   name: "Divyansh Kachchhava",
                   role: "Developer",
-                  imageSrc: "team/current/Divyansh.jpg",
+                  imageSrc: "members/divyansh_kachchhava.jpg",
                 },
                 {
                   name: "Alan Su",
                   role: "Developer",
-                  imageSrc: "team/current/Alan.jpg",
+                  imageSrc: "members/alan_su.jpg",
                 },
                 {
                   name: "Riyad Valiyev",
                   role: "Developer",
-                  imageSrc: "team/current/Riyad.png",
+                  imageSrc: "members/riyad_valiyev.png",
                 },
                 {
                   name: "Stephanie Lu",
                   role: "Developer",
-                  imageSrc: "team/current/Stephanie.jpg",
+                  imageSrc: "members/stephanie_lu.jpg",
                 },
                 {
-                  name: "Jamie Han",
+                  name: "James Han",
                   role: "Developer",
-                  imageSrc: "team/current/Jamie.png",
+                  imageSrc: "members/james_han.png",
                 },
                 {
                   name: "Leandro Brasil",
                   role: "Developer",
-                  imageSrc: "team/current/Leandro.jpg",
+                  imageSrc: "members/leandro_brasil.jpg",
                 },
               ]}
               webLink="https://www.brampton.ca/EN/pages/Welcome.aspx"
@@ -303,37 +554,37 @@ export default function ProjectsPage() {
                 {
                   name: "Daniel Dervishi",
                   role: "Project Lead",
-                  imageSrc: "team/current/Daniel.jpg",
+                  imageSrc: "members/daniel_dervishi.jpg",
                 },
                 {
                   name: "Ryan Li",
                   role: "Developer",
-                  imageSrc: "team/current/Ryan.jpeg",
+                  imageSrc: "members/ryan_li.jpeg",
                 },
                 {
                   name: "Scott Angelides",
                   role: "Developer",
-                  imageSrc: "team/current/Scott.jpg",
+                  imageSrc: "members/scott_angelides.jpg",
                 },
                 {
                   name: "Enaya Amir",
                   role: "Developer",
-                  imageSrc: "team/current/Enaya.jpg",
+                  imageSrc: "members/enaya_amir.jpg",
                 },
                 {
                   name: "Lily Phan",
                   role: "Developer",
-                  imageSrc: "team/current/Lily.jpg",
+                  imageSrc: "members/lily_phan.jpg",
                 },
                 {
                   name: "Max Nguyen",
                   role: "Developer",
-                  imageSrc: "team/current/Max.png",
+                  imageSrc: "members/max_nguyen.png",
                 },
                 {
                   name: "Raine Yang",
                   role: "Developer",
-                  imageSrc: "team/current/Raine.jpg",
+                  imageSrc: "members/raine_yang.jpg",
                 },
               ]}
               webLink="https://www.mozilla.org/en-US/"
@@ -363,12 +614,12 @@ export default function ProjectsPage() {
                 {
                   name: "Baker Jackson",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/baker.jpg",
+                  imageSrc: "members/baker_jackson.jpg",
                 },
                 {
                   name: "Ganesh Asapu",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/ganesh.jpg",
+                  imageSrc: "members/ganesh_asapu.jpg",
                 },
                 {
                   name: "Julie Nguyen",
@@ -378,32 +629,32 @@ export default function ProjectsPage() {
                 {
                   name: "Yuet Ming Wong",
                   role: "Designer",
-                  imageSrc: "team/alumni/yuet.png",
+                  imageSrc: "members/yuet_ming_wong.png",
                 },
                 {
                   name: "Ryan Li",
                   role: "Developer",
-                  imageSrc: "team/current/ryan.jpeg",
+                  imageSrc: "members/ryan_li.jpeg",
                 },
                 {
                   name: "Sarina Li",
                   role: "Developer",
-                  imageSrc: "team/current/sarina.png",
+                  imageSrc: "members/sarina_li.png",
                 },
                 {
                   name: "Jason Wang",
                   role: "Developer",
-                  imageSrc: "team/alumni/jason.jpg",
+                  imageSrc: "members/jason_wang.jpg",
                 },
                 {
                   name: "Helen Zhao",
                   role: "Developer",
-                  imageSrc: "team/current/helenzhao.jpg",
+                  imageSrc: "members/helen_zhao.jpg",
                 },
                 {
                   name: "Helena Glowacki",
                   role: "Developer",
-                  imageSrc: "team/alumni/helena.jpeg",
+                  imageSrc: "members/helena_glowacki.jpeg",
                 },
                 {
                   name: "Levent Ozay",
@@ -413,12 +664,12 @@ export default function ProjectsPage() {
                 {
                   name: "Minh Le",
                   role: "Developer",
-                  imageSrc: "team/alumni/MinhLe.png",
+                  imageSrc: "members/minh_le.png",
                 },
                 {
                   name: "Ram Raghav Sharma",
                   role: "Developer",
-                  imageSrc: "team/alumni/ram.jpg",
+                  imageSrc: "members/ram_ragahv_sharma.jpg",
                 },
               ]}
               webLink="https://www.centrefordreams.ca/"
@@ -436,32 +687,32 @@ export default function ProjectsPage() {
                 {
                   name: "Daniel Dervishi",
                   role: "Project Lead",
-                  imageSrc: "team/current/daniel.jpg",
+                  imageSrc: "members/daniel_dervishi.jpg",
                 },
                 {
                   name: "Jordan Janakievski",
                   role: "Project Lead",
-                  imageSrc: "team/current/jordan.png",
+                  imageSrc: "members/jordan_janakievski.png",
                 },
                 {
                   name: "Jake Gu",
                   role: "Designer",
-                  imageSrc: "team/alumni/jakegu.jpeg",
+                  imageSrc: "members/jake_gu.jpeg",
                 },
                 {
                   name: "Kevin Le",
                   role: "Developer",
-                  imageSrc: "team/alumni/kevinle.png",
+                  imageSrc: "members/kevin_le.png",
                 },
                 {
                   name: "Ron Varshavsky",
                   role: "Developer",
-                  imageSrc: "team/current/ron.jpg",
+                  imageSrc: "members/ron_varshavsky.jpg",
                 },
                 {
                   name: "Emily Zhou",
                   role: "Developer",
-                  imageSrc: "team/current/emily.jpeg",
+                  imageSrc: "members/emily_zhou.jpeg",
                 },
                 {
                   name: "Selen Tasman",
@@ -489,12 +740,12 @@ export default function ProjectsPage() {
                 {
                   name: "Youssef Soliman",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/youssef.jpg",
+                  imageSrc: "members/youssef_soliman.jpg",
                 },
                 {
                   name: "Marco Mai",
                   role: "Product Manager",
-                  imageSrc: "team/alumni/marco.jpg",
+                  imageSrc: "members/marco_mai.jpg",
                 },
                 {
                   name: "Rebecca Hsiung",
@@ -504,17 +755,17 @@ export default function ProjectsPage() {
                 {
                   name: "Jeff Huang",
                   role: "Developer",
-                  imageSrc: "team/current/jeff.jpg",
+                  imageSrc: "members/jeff_huang.jpg",
                 },
                 {
                   name: "Sarah Xu",
                   role: "Developer",
-                  imageSrc: "team/alumni/sarahxu.jpg",
+                  imageSrc: "members/sarah_xu.jpg",
                 },
                 {
                   name: "Valerie Yip",
                   role: "Developer",
-                  imageSrc: "team/alumni/ValerieYip.png",
+                  imageSrc: "members/valerie_yip.png",
                 },
                 {
                   name: "Caesar Saleh",
@@ -524,7 +775,7 @@ export default function ProjectsPage() {
                 {
                   name: "Sataphon Obra",
                   role: "Developer",
-                  imageSrc: "team/current/Sataphon.png",
+                  imageSrc: "members/sataphon_obra.png",
                 },
                 {
                   name: "York Hay Ng",
@@ -534,7 +785,7 @@ export default function ProjectsPage() {
                 {
                   name: "Min Gi Kwon",
                   role: "Developer",
-                  imageSrc: "team/alumni/MinGiKwon.jpg",
+                  imageSrc: "members/min_gi_kwon.jpg",
                 },
               ]}
               webLink="https://foodshare.net/"
@@ -552,12 +803,12 @@ export default function ProjectsPage() {
                 {
                   name: "Youssef Soliman",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/youssef.jpg",
+                  imageSrc: "members/youssef_soliman.jpg",
                 },
                 {
                   name: "Pierre-William Lessard",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/pierre.jpg",
+                  imageSrc: "members/pierrewilliam_lessard.jpg",
                 },
                 {
                   name: "Rebecca Hsiung",
@@ -567,17 +818,17 @@ export default function ProjectsPage() {
                 {
                   name: "Jeff Huang",
                   role: "Developer",
-                  imageSrc: "team/current/jeff.jpg",
+                  imageSrc: "members/jeff_huang.jpg",
                 },
                 {
                   name: "Sarah Xu",
                   role: "Developer",
-                  imageSrc: "team/alumni/sarahxu.jpg",
+                  imageSrc: "members/sarah_xu.jpg",
                 },
                 {
                   name: "Valerie Yip",
                   role: "Developer",
-                  imageSrc: "team/alumni/valerie.jpg",
+                  imageSrc: "members/valerie_yip.png",
                 },
                 {
                   name: "Caesar Saleh",
@@ -587,7 +838,7 @@ export default function ProjectsPage() {
                 {
                   name: "Sataphon Obra",
                   role: "Developer",
-                  imageSrc: "team/current/Sataphon.png",
+                  imageSrc: "members/sataphon_obra.png",
                 },
                 {
                   name: "York Hay Ng",
@@ -597,7 +848,7 @@ export default function ProjectsPage() {
                 {
                   name: "Min Gi Kwon",
                   role: "Developer",
-                  imageSrc: "team/alumni/mingikwon.jpg",
+                  imageSrc: "members/min_gi_kwon.jpg",
                 },
               ]}
               webLink="https://tfss.ca/"
@@ -627,47 +878,47 @@ export default function ProjectsPage() {
                 {
                   name: "Elena Wang",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/elena.jpg",
+                  imageSrc: "members/elena_wang.jpg",
                 },
                 {
                   name: "Leo Liu",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/leo.jpeg",
+                  imageSrc: "members/leo_liu.jpeg",
                 },
                 {
                   name: "Yuwei Jiang",
                   role: "Designer",
-                  imageSrc: "team/alumni/yuweijiang.jpg",
+                  imageSrc: "members/yuwei_jiang.jpg",
                 },
                 {
                   name: "Kevin Le",
                   role: "Developer",
-                  imageSrc: "team/alumni/kevinle.png",
+                  imageSrc: "members/kevin_le.png",
                 },
                 {
                   name: "Madeline Ahn",
                   role: "Developer",
-                  imageSrc: "team/alumni/MadelineAhn.jpg",
+                  imageSrc: "members/madeline_ahn.jpg",
                 },
                 {
                   name: "Manpreet Bhatti",
                   role: "Developer",
-                  imageSrc: "team/alumni/ManpreetBhatti.jpg",
+                  imageSrc: "members/manpreet_bhatti.jpg",
                 },
                 {
                   name: "Manya Mittal",
                   role: "Developer",
-                  imageSrc: "team/alumni/ManyaMittal.jpg",
+                  imageSrc: "members/manya_mittal.jpg",
                 },
                 {
                   name: "Michael Ng",
                   role: "Developer",
-                  imageSrc: "team/alumni/MichaelNg.jpg",
+                  imageSrc: "members/michael_ng.jpg",
                 },
                 {
                   name: "Pierre-William Lessard",
                   role: "Developer",
-                  imageSrc: "team/alumni/Pierre.jpg",
+                  imageSrc: "members/pierrewilliam_lessard.jpg",
                 },
               ]}
               webLink="https://www.theperiodpurse.com/"
@@ -685,57 +936,57 @@ export default function ProjectsPage() {
                 {
                   name: "Emily Yu",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/emilyyu.jpg",
+                  imageSrc: "members/emily_yu.jpg",
                 },
                 {
                   name: "Ramy Zhang",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/ramyzhang.jpg",
+                  imageSrc: "members/ramy_zhang.jpg",
                 },
                 {
                   name: "Anita Xu",
                   role: "Designer",
-                  imageSrc: "team/alumni/anita.jpg",
+                  imageSrc: "members/anita_xu.jpg",
                 },
                 {
                   name: "Serena Tran",
                   role: "Designer",
-                  imageSrc: "team/alumni/serenatran.jpg",
+                  imageSrc: "members/serena_tran.jpg",
                 },
                 {
                   name: "Harmit Goswami",
                   role: "Developer",
-                  imageSrc: "team/alumni/harmitgoswami.jpg",
+                  imageSrc: "members/harmit_goswami.jpg",
                 },
                 {
                   name: "Sarah Xu",
                   role: "Developer",
-                  imageSrc: "team/alumni/sarahxu.jpg",
+                  imageSrc: "members/sarah_xu.jpg",
                 },
                 {
                   name: "Baker Jackson",
                   role: "Developer",
-                  imageSrc: "team/alumni/baker.jpg",
+                  imageSrc: "members/baker_jackson.jpg",
                 },
                 {
                   name: "Min Gi Kwon",
                   role: "Developer",
-                  imageSrc: "team/alumni/mingikwon.jpg",
+                  imageSrc: "members/min_gi_kwon.jpg",
                 },
                 {
                   name: "Kurtis Law",
                   role: "Developer",
-                  imageSrc: "team/alumni/kurtislaw.jpg",
+                  imageSrc: "members/kurtis_law.jpg",
                 },
                 {
                   name: "Helena Glowacki",
                   role: "Developer",
-                  imageSrc: "team/alumni/helena.jpeg",
+                  imageSrc: "members/helena_glowacki.jpeg",
                 },
                 {
                   name: "Azamat Khamidov",
                   role: "Developer",
-                  imageSrc: "team/alumni/azamatkhamidov.jpg",
+                  imageSrc: "members/azamat_khamidov.jpg",
                 },
               ]}
               webLink=""
@@ -753,57 +1004,57 @@ export default function ProjectsPage() {
                 {
                   name: "Kenneth Miura",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/kenneth.jpg",
+                  imageSrc: "members/kenneth_miura.jpg",
                 },
                 {
                   name: "Edward Han",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/edward.jpg",
+                  imageSrc: "members/edward_han.jpg",
                 },
                 {
                   name: "Emily Gazo",
                   role: "Designer",
-                  imageSrc: "team/alumni/emilygazo.jpg",
+                  imageSrc: "members/emily_gazo.jpg",
                 },
                 {
                   name: "Ananmay Sharan",
                   role: "Designer",
-                  imageSrc: "team/alumni/ananmaysharan.jpg",
+                  imageSrc: "members/ananmay_sharan.jpg",
                 },
                 {
                   name: "Siddarth Dagar",
                   role: "Developer",
-                  imageSrc: "team/alumni/siddarth.jpg",
+                  imageSrc: "members/siddarth_dagar.jpg",
                 },
                 {
                   name: "Annie Liu",
                   role: "Developer",
-                  imageSrc: "team/alumni/annie.jpg",
+                  imageSrc: "members/annie_liu.jpg",
                 },
                 {
                   name: "Ganesh Asapu",
                   role: "Developer",
-                  imageSrc: "team/alumni/ganesh.jpg",
+                  imageSrc: "members/ganesh_asapu.jpg",
                 },
                 {
                   name: "Jordan Janakievski",
                   role: "Developer",
-                  imageSrc: "team/current/jordan.png",
+                  imageSrc: "members/jordan_janakievski.png",
                 },
                 {
                   name: "Helen Li",
                   role: "Developer",
-                  imageSrc: "team/alumni/helen.jpg",
+                  imageSrc: "members/helen_li.jpg",
                 },
                 {
                   name: "MJ Munkhbayar",
                   role: "Developer",
-                  imageSrc: "team/alumni/mjmunkhbayar.jpg",
+                  imageSrc: "members/mj_munkhbayar.jpg",
                 },
                 {
                   name: "Thardchi Ganesalingam",
                   role: "Developer",
-                  imageSrc: "team/alumni/thardchiganesalingam.jpg",
+                  imageSrc: "members/thardchi_ganesalingam.jpg",
                 },
               ]}
               webLink="https://toronto-jobs.org/"
@@ -833,42 +1084,42 @@ export default function ProjectsPage() {
                 {
                   name: "Raymond Chen",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/raymond.jpg",
+                  imageSrc: "members/raymond_chen.jpg",
                 },
                 {
                   name: "Mesbah Rafin",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/mesbah.jpg",
+                  imageSrc: "members/mesbah_rafin.jpg",
                 },
                 {
                   name: "Anita Xu",
                   role: "Designer",
-                  imageSrc: "team/alumni/anita.jpg",
+                  imageSrc: "members/anita_xu.jpg",
                 },
                 {
                   name: "Yvonne Rao",
                   role: "Developer",
-                  imageSrc: "team/alumni/yvonne.jpg",
+                  imageSrc: "members/yvonne_rao.jpg",
                 },
                 {
                   name: "Jeffery Zhan",
                   role: "Developer",
-                  imageSrc: "team/alumni/jeffery.jpg",
+                  imageSrc: "members/jeffery_zhan.jpg",
                 },
                 {
                   name: "Siddarth Dagar",
                   role: "Developer",
-                  imageSrc: "team/alumni/siddarth.jpg",
+                  imageSrc: "members/siddarth_dagar.jpg",
                 },
                 {
                   name: "Sunghyoun Kim",
                   role: "Developer",
-                  imageSrc: "team/alumni/sunghyoun.jpg",
+                  imageSrc: "members/sunghyoun_kim.jpg",
                 },
                 {
                   name: "Youssef Soliman",
                   role: "Developer",
-                  imageSrc: "team/alumni/youssef.jpg",
+                  imageSrc: "members/youssef_soliman.jpg",
                 },
               ]}
               webLink=""
@@ -886,47 +1137,47 @@ export default function ProjectsPage() {
                 {
                   name: "Chloe Zhao",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/chloe.jpg",
+                  imageSrc: "members/chloe_zhao.jpg",
                 },
                 {
                   name: "Faye Tan",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/faye.jpg",
+                  imageSrc: "members/faye_tan.jpg",
                 },
                 {
                   name: "Jing Tey",
                   role: "Designer",
-                  imageSrc: "team/alumni/jing.jpg",
+                  imageSrc: "members/jing_tey.jpg",
                 },
                 {
                   name: "Annie Liu",
                   role: "Developer",
-                  imageSrc: "team/alumni/annie.jpg",
+                  imageSrc: "members/annie_liu.jpg",
                 },
                 {
                   name: "Emily Yu",
                   role: "Developer",
-                  imageSrc: "team/alumni/emilyyu.jpg",
+                  imageSrc: "members/emily_yu.jpg",
                 },
                 {
                   name: "Roy Lin",
                   role: "Developer",
-                  imageSrc: "team/alumni/roy.jpg",
+                  imageSrc: "members/roy_lin.jpg",
                 },
                 {
                   name: "Helen Li",
                   role: "Developer",
-                  imageSrc: "team/alumni/helen.jpg",
+                  imageSrc: "members/helen_li.jpg",
                 },
                 {
                   name: "Edward Han",
                   role: "Developer",
-                  imageSrc: "team/alumni/edward.jpg",
+                  imageSrc: "members/edward_han.jpg",
                 },
                 {
                   name: "Kenneth Miura",
                   role: "Developer",
-                  imageSrc: "team/alumni/kenneth.jpg",
+                  imageSrc: "members/kenneth_miura.jpg",
                 },
               ]}
               webLink="https://www.theperiodpurse.com/"
@@ -956,42 +1207,42 @@ export default function ProjectsPage() {
                 {
                   name: "Rishab Luthra",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/rishab.jpg",
+                  imageSrc: "members/rishab_luthra.jpg",
                 },
                 {
                   name: "Trudie Cheung",
                   role: "Product Manager",
-                  imageSrc: "team/alumni/trudie.jpg",
+                  imageSrc: "members/trudie_cheung.jpg",
                 },
                 {
                   name: "Fiza Mehta",
                   role: "Designer",
-                  imageSrc: "team/alumni/fiza.jpg",
+                  imageSrc: "members/fiza_mehta.jpg",
                 },
                 {
                   name: "Baker Jackson",
                   role: "Developer",
-                  imageSrc: "team/alumni/baker.jpg",
+                  imageSrc: "members/baker_jackson.jpg",
                 },
                 {
                   name: "Song You",
                   role: "Developer",
-                  imageSrc: "team/alumni/song.jpg",
+                  imageSrc: "members/song_you.jpg",
                 },
                 {
                   name: "Alexander Shih",
                   role: "Developer",
-                  imageSrc: "team/alumni/alexander.jpg",
+                  imageSrc: "members/alexander_shih.jpg",
                 },
                 {
                   name: "Stella Cai",
                   role: "Developer",
-                  imageSrc: "team/alumni/stella.jpg",
+                  imageSrc: "members/stella_cai.jpg",
                 },
                 {
                   name: "Sheree Zhang",
                   role: "Developer",
-                  imageSrc: "team/alumni/sheree.jpg",
+                  imageSrc: "members/sheree_zhang.jpg",
                 },
               ]}
               webLink="https://www.meritaward.ca/"
@@ -1009,52 +1260,52 @@ export default function ProjectsPage() {
                 {
                   name: "Dakota McInnis",
                   role: "Project Lead",
-                  imageSrc: "team/alumni/dakota.jpg",
+                  imageSrc: "members/dakota_mcinnis.jpg",
                 },
                 {
                   name: "Michael Jia",
                   role: "Product Manager",
-                  imageSrc: "team/alumni/michael.jpg",
+                  imageSrc: "members/michael_jia.jpg",
                 },
                 {
                   name: "Anita Xu",
                   role: "Designer",
-                  imageSrc: "team/alumni/anita.jpg",
+                  imageSrc: "members/anita_xu.jpg",
                 },
                 {
                   name: "Tammy Taabassum",
                   role: "Designer",
-                  imageSrc: "team/alumni/tammy.jpg",
+                  imageSrc: "members/tammy_taabassum.jpg",
                 },
                 {
                   name: "Amy Peng",
                   role: "Developer",
-                  imageSrc: "team/alumni/amy.jpg",
+                  imageSrc: "members/amy_peng.jpg",
                 },
                 {
                   name: "Chi-Hong Cheung",
                   role: "Developer",
-                  imageSrc: "team/alumni/chihong.jpg",
+                  imageSrc: "members/chihong_cheung.jpg",
                 },
                 {
                   name: "Dane Gledhill",
                   role: "Developer",
-                  imageSrc: "team/alumni/dane.jpg",
+                  imageSrc: "members/dane_gledhill.jpg",
                 },
                 {
                   name: "Rayyana Kambris",
                   role: "Developer",
-                  imageSrc: "team/alumni/rayyana.jpg",
+                  imageSrc: "members/rayyana_kambris.jpg",
                 },
                 {
                   name: "Sakina Gadriwala",
                   role: "Developer",
-                  imageSrc: "team/alumni/sakina.jpg",
+                  imageSrc: "members/sakina_gadriwala.jpg",
                 },
                 {
                   name: "Samuel Moor-Smith",
                   role: "Developer",
-                  imageSrc: "team/alumni/samuel.jpg",
+                  imageSrc: "members/samuel_moorsmith.jpg",
                 },
               ]}
               webLink="https://www.sheltermovers.com/"

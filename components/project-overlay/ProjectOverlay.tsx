@@ -110,10 +110,22 @@ function TeamsGrid(team: TeamMember[]) {
   );
 }
 
+const DEFAULT_AVATAR = "members/blu-scarf.png";
+
 function TeamMember(name: string, role: string, imageSrc: string) {
+  const isDefaultAvatar = !imageSrc;
+  const avatarSrc = imageSrc || DEFAULT_AVATAR;
+  const imageProps = isDefaultAvatar
+    ? { style: { objectPosition: "top", objectFit: "cover" as const } }
+    : {};
   return (
     <Flex gap={"4"}>
-      <Avatar variant="light" radius="xs" src={imageSrc} />
+      <Avatar
+        variant="light"
+        radius="xs"
+        src={avatarSrc}
+        imageProps={imageProps}
+      />
       <Flex direction={"column"} justify={"center"}>
         <Text className="member-name">{name}</Text>
         <Text className="member-role">{role}</Text>

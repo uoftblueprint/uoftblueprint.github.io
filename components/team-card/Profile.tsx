@@ -12,6 +12,8 @@ interface ProfileProps {
   linkedinLink?: string;
 }
 
+const DEFAULT_AVATAR = "members/blu-scarf.png";
+
 function Profile({
   name,
   role,
@@ -20,15 +22,20 @@ function Profile({
 }: ProfileProps) {
   const small = useMediaQuery("(max-width: 500px)");
   const avatarSize = small ? "70px" : "120px";
+  const isDefaultAvatar = !profilePicture;
+  const avatarSrc = profilePicture || DEFAULT_AVATAR;
+  const imageProps = isDefaultAvatar
+    ? { style: { objectPosition: "top", objectFit: "cover" as const } }
+    : {};
 
   return (
     <Center className="center-container">
       {linkedinLink ? (
         <Anchor href={linkedinLink} target="_blank">
-          <Avatar size={avatarSize} src={profilePicture} />
+          <Avatar size={avatarSize} src={avatarSrc} imageProps={imageProps} />
         </Anchor>
       ) : (
-        <Avatar size={avatarSize} src={profilePicture} />
+        <Avatar size={avatarSize} src={avatarSrc} imageProps={imageProps} />
       )}
 
       <Text className="profile-text" id="name">

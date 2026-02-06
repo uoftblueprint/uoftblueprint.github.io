@@ -120,7 +120,12 @@ function TeamMember(name: string, role: string, imageSrc: string) {
     : {};
   return (
     <Flex gap={"4"}>
-      <Avatar variant="light" radius="xs" src={avatarSrc} imageProps={imageProps} />
+      <Avatar
+        variant="light"
+        radius="xs"
+        src={avatarSrc}
+        imageProps={imageProps}
+      />
       <Flex direction={"column"} justify={"center"}>
         <Text className="member-name">{name}</Text>
         <Text className="member-role">{role}</Text>

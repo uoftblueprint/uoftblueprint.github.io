@@ -5,12 +5,7 @@ import TeamCard from "@/components/team-card/TeamCard";
 import { Button, Container, Divider, Flex, Text, Title } from "@mantine/core";
 import membersData from "@/data/current_members.json";
 
-const {
-  members_inga,
-  members_trcc,
-  members_made,
-  members_exec,
-} = membersData;
+const { members_inga, members_trcc, members_made, members_exec } = membersData;
 
 export default function TeamPage() {
   return (
@@ -35,7 +30,10 @@ export default function TeamPage() {
         <Divider w="40%" color="#0078E8" size={"2px"} />
 
         <Container m={"10vh 0 10vh 0"} w="100%" fluid>
-          <TeamCard title="Toronto Rape Crisis Centre" team_members={members_trcc} />
+          <TeamCard
+            title="Toronto Rape Crisis Centre"
+            team_members={members_trcc}
+          />
         </Container>
 
         <Divider w="40%" color="#0078E8" size={"2px"} />

@@ -7,16 +7,16 @@
       "linkedinLink": "https://www.linkedin.com/in/antoine-f/"
     },
     {
+      "name": "Windsor Huang",
+      "role": "Co-President",
+      "profilePicture": "members/windsor_huang.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/windsorhuang/"
+    },
+    {
       "name": "Karen Zhao",
       "role": "Co-President",
       "profilePicture": "members/karen_zhao.jpg",
       "linkedinLink": "https://www.linkedin.com/in/karenjyzhao"
-    },
-    {
-      "name": "Leo Liu",
-      "role": "President",
-      "profilePicture": "members/leo_liu.jpeg",
-      "linkedinLink": "https://www.linkedin.com/in/siqiliu-/"
     },
     {
       "name": "Rajvi Rana",
@@ -25,16 +25,22 @@
       "linkedinLink": "https://www.linkedin.com/in/rajvirana/"
     },
     {
-      "name": "Windsor Huang",
-      "role": "Co-President",
-      "profilePicture": "members/windsor_huang.jpg",
-      "linkedinLink": "https://www.linkedin.com/in/windsorhuang/"
+      "name": "Leo Liu",
+      "role": "President",
+      "profilePicture": "members/leo_liu.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/siqiliu-/"
     },
     {
       "name": "Chloe Zhao",
       "role": "Vice President",
       "profilePicture": "members/chloe_zhao.jpg",
       "linkedinLink": "https://www.linkedin.com/in/chloeyzhao/"
+    },
+    {
+      "name": "Saleh Yasin",
+      "role": "Vice President",
+      "profilePicture": "members/saleh_yasin.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/saleh-yasin"
     },
 
     {
@@ -72,6 +78,36 @@
       "role": "VP External",
       "profilePicture": "members/vhea_he.png",
       "linkedinLink": "https://www.linkedin.com/in/vhea-he/"
+    },
+    {
+      "name": "Raunak Madan",
+      "role": "VP Software",
+      "profilePicture": "members/raunak_madan.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/raunak-madan"
+    },
+    {
+      "name": "Micol Altomare",
+      "role": "VP Product",
+      "profilePicture": "members/micol_altomare.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/micol-altomare"
+    },
+    {
+      "name": "Arsal Khan",
+      "role": "VP Design",
+      "profilePicture": "members/arsal_khan.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/arsal--khan"
+    },
+    {
+      "name": "Amelia Wu",
+      "role": "VP Events",
+      "profilePicture": "members/amelia_wu.png",
+      "linkedinLink": "https://www.linkedin.com/in/ameliawu26"
+    },
+    {
+      "name": "Wania Gondal",
+      "role": "VP Events",
+      "profilePicture": "members/wania_gondal.png",
+      "linkedinLink": "https://www.linkedin.com/in/waniagondal"
     },
 
     {
@@ -159,6 +195,24 @@
       "profilePicture": "members/youssef_soliman.jpg",
       "linkedinLink": "https://www.linkedin.com/in/youssefsoliman/"
     },
+    {
+      "name": "Sarina Li",
+      "role": "Project Lead",
+      "profilePicture": "members/sarina_li.png",
+      "linkedinLink": "https://www.linkedin.com/in/sarinali/"
+    },
+    {
+      "name": "Kashish Mittal",
+      "role": "Project Lead",
+      "profilePicture": "members/kashish_mittal.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/kashmitt"
+    },
+    {
+      "name": "Merrick Liu",
+      "role": "Project Lead",
+      "profilePicture": "members/merrick_liu.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/merrick-liu-89206822b/"
+    },
 
     {
       "name": "Marco Mai",
@@ -178,6 +232,31 @@
       "profilePicture": "members/trudie_cheung.jpg",
       "linkedinLink": "https://www.linkedin.com/in/trudiecheung/"
     },
+    {
+      "name": "Christie Ko",
+      "role": "Product Manager",
+      "profilePicture": "members/christie_ko.png",
+      "linkedinLink": "https://www.linkedin.com/in/christieko"
+    },
+    {
+      "name": "Emily Zhou",
+      "role": "Product Manager",
+      "profilePicture": "members/emily_zhou.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/emily-fz/"
+    },
+    {
+      "name": "Mieko Yao",
+      "role": "Product Manager",
+      "profilePicture": "members/mieko_yao.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/miekoyao/"
+    },
+    {
+      "name": "Paridhi Goel",
+      "role": "Product Manager",
+      "profilePicture": "members/paridhi_goel.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/paridhi--/"
+    },
+
     {
       "name": "Ananmay Sharan",
       "role": "Designer",
@@ -232,6 +311,19 @@
       "profilePicture": "members/yuwei_jiang.jpg",
       "linkedinLink": ""
     },
+    {
+      "name": "Olya Jaworsky",
+      "role": "Designer",
+      "profilePicture": "members/olya_jaworsky.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/olyajaworsky"
+    },
+    {
+      "name": "Patricia Santos",
+      "role": "Designer",
+      "profilePicture": "",
+      "linkedinLink": "https://www.linkedin.com/in/ysha-santos/"
+    },
+
     {
       "name": "Amy Peng",
       "role": "Developer",
@@ -477,6 +569,186 @@
       "role": "Developer",
       "profilePicture": "members/yvonne_rao.jpg",
       "linkedinLink": "https://www.linkedin.com/in/yvonne-rao/"
+    },
+    {
+      "name": "Ron Varshavsky",
+      "role": "Developer",
+      "profilePicture": "members/ron_varshavsky.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/ronvarshavsky"
+    },
+    {
+      "name": "Aina Merchant",
+      "role": "Developer",
+      "profilePicture": "members/aina_merchant.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/aina-fatema-merchant-a12295221/"
+    },
+    {
+      "name": "Divyansh Kachchhava",
+      "role": "Developer",
+      "profilePicture": "members/divyansh_kachchhava.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/divyansh-kachchhava-09b265228/"
+    },
+    {
+      "name": "Riyad Valiyev",
+      "role": "Developer",
+      "profilePicture": "members/riyad_valiyev.png",
+      "linkedinLink": "https://www.linkedin.com/in/riyad-valiyev/"
+    },
+    {
+      "name": "Stephanie Lu",
+      "role": "Developer",
+      "profilePicture": "members/stephanie_lu.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/stephanieyflu"
+    },
+    {
+      "name": "Elsie Zhou",
+      "role": "Developer",
+      "profilePicture": "members/elsie_zhou.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/elsie-zhu/"
+    },
+    {
+      "name": "Jeff Huang",
+      "role": "Developer",
+      "profilePicture": "members/jeff_huang.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/jeff-huang-9aa740248/"
+    },
+    {
+      "name": "Carlos Solares",
+      "role": "Developer",
+      "profilePicture": "members/carlos_solares.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/carlos-solares-cs"
+    },
+    {
+      "name": "Eric Lu",
+      "role": "Developer",
+      "profilePicture": "members/eric_lu.png",
+      "linkedinLink": "https://www.linkedin.com/in/eric-l-483375134/"
+    },
+    {
+      "name": "Nolawi Teklehaimanot",
+      "role": "Developer",
+      "profilePicture": "members/nolawi_teklehaimanot.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/nolawi-teklehaimanot/"
+    },
+    {
+      "name": "Daniel Xu",
+      "role": "Developer",
+      "profilePicture": "",
+      "linkedinLink": "https://www.linkedin.com/in/1danielxu/"
+    },
+    {
+      "name": "Girik Setya",
+      "role": "Developer",
+      "profilePicture": "members/girik_setya.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/girik-setya/"
+    },
+    {
+      "name": "William Lam",
+      "role": "Developer",
+      "profilePicture": "members/william_lam.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/william-nhut-lam-b3a8a2213/"
+    },
+    {
+      "name": "Harshith Latchupatula",
+      "role": "Developer",
+      "profilePicture": "members/harshith_latchupatula.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/harshithlatchupatula/"
+    },
+    {
+      "name": "Jamie Yi",
+      "role": "Developer",
+      "profilePicture": "members/jamie_yi.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/jamie-yi/"
+    },
+    {
+      "name": "Shahmeer Khan",
+      "role": "Developer",
+      "profilePicture": "members/shahmeer_khan.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/shahmeerkh/"
+    },
+    {
+      "name": "Dhairya Thakkar",
+      "role": "Developer",
+      "profilePicture": "members/dhairya_thakkar.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/dhairya-t/"
+    },
+    {
+      "name": "Lana Wehbeh",
+      "role": "Developer",
+      "profilePicture": "members/lana_wehbeh.png",
+      "linkedinLink": "https://www.linkedin.com/in/lana-wehbeh/"
+    },
+    {
+      "name": "Houman Ebrahimi",
+      "role": "Developer",
+      "profilePicture": "",
+      "linkedinLink": "https://www.linkedin.com/in/houman-ebrahimi-6a3789213"
+    },
+    {
+      "name": "Jack Fan",
+      "role": "Developer",
+      "profilePicture": "members/jack_fan.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/jackkfan/"
+    },
+    {
+      "name": "Taewoong Oh",
+      "role": "Developer",
+      "profilePicture": "members/taewoong_oh.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/taewoong-oh/"
+    },
+    {
+      "name": "Joel Lawrence",
+      "role": "Developer",
+      "profilePicture": "",
+      "linkedinLink": "https://www.linkedin.com/in/lawrencejoel/"
+    },
+    {
+      "name": "Muhtasim Khan",
+      "role": "Developer",
+      "profilePicture": "members/muhtasim_khan.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/muhtasim-khan/"
+    },
+    {
+      "name": "Harpuneet Singh",
+      "role": "Developer",
+      "profilePicture": "members/harpuneet_singh.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/harpuneet2005/"
+    },
+    {
+      "name": "Sataphon Obra",
+      "role": "Developer",
+      "profilePicture": "members/sataphon_obra.png",
+      "linkedinLink": "https://www.linkedin.com/in/sataphon-obra-88388b290/"
+    },
+    {
+      "name": "Enaya Amir",
+      "role": "Developer",
+      "profilePicture": "members/enaya_amir.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/enaya-amir-b774962b3/"
+    },
+    {
+      "name": "Ryan Li",
+      "role": "Developer",
+      "profilePicture": "members/ryan_li.jpeg",
+      "linkedinLink": "https://www.linkedin.com/in/ryanl423/"
+    },
+    {
+      "name": "Scott Angelides",
+      "role": "Developer",
+      "profilePicture": "members/scott_angelides.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/scott-angelides-21936a262/"
+    },
+    {
+      "name": "Max Nguyen",
+      "role": "Developer",
+      "profilePicture": "members/max_nguyen.png",
+      "linkedinLink": "https://www.linkedin.com/in/max-nguyen1/"
+    },
+    {
+      "name": "Raine Yang",
+      "role": "Developer",
+      "profilePicture": "members/raine_yang.jpg",
+      "linkedinLink": "https://www.linkedin.com/in/raine-yang/"
     }
   ]
 }

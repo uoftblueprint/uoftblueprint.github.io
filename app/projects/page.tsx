@@ -34,7 +34,78 @@ export default function ProjectsPage() {
               years={["2025-2026"]}
               projectDescription="Coming Soon!"
               nonprofitDescription="Coming Soon!"
-              team={[]}
+              team={[
+                {
+                  name: "Pranav Rao",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Yianni Culmone",
+                  role: "Project Lead",
+                  imageSrc: "members/yianni_culmore.jpg",
+                },
+                {
+                  name: "Ali Elbadrawy",
+                  role: "Product Manager",
+                  imageSrc: "members/ali_elbadrawy.jpeg",
+                },
+                {
+                  name: "June Vo",
+                  role: "Product Manager",
+                  imageSrc: "members/june_vo.jpeg",
+                },
+                {
+                  name: "Amish Mamtani",
+                  role: "Designer",
+                  imageSrc: "members/amish_mamtani.jpg",
+                },
+                {
+                  name: "Janice Li",
+                  role: "Designer",
+                  imageSrc: "",
+                },
+                {
+                  name: "John Fitzgerald",
+                  role: "Developer",
+                  imageSrc: "members/john_fitzgerald.jpg",
+                },
+                {
+                  name: "Ali Khan",
+                  role: "Developer",
+                  imageSrc: "members/ali_khan.jpg",
+                },
+                {
+                  name: "Yan Luk",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Steven Lin",
+                  role: "Developer",
+                  imageSrc: "members/steven_lin.png",
+                },
+                {
+                  name: "Harry Xu",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Praneeth Suryadevara",
+                  role: "Developer",
+                  imageSrc: "members/praneeth_suryadevara.jpeg",
+                },
+                {
+                  name: "Alec Jiang",
+                  role: "Developer",
+                  imageSrc: "members/alex_jiang.jpg",
+                },
+                {
+                  name: "Rashu Sharda",
+                  role: "Developer",
+                  imageSrc: "members/rashu_sharda.png",
+                },
+              ]}
               webLink="https://www.ingafoundation.org/"
               githubLink="https://github.com/uoftblueprint/inga"
             />
@@ -46,7 +117,73 @@ export default function ProjectsPage() {
               years={["2025-2026"]}
               projectDescription="Coming Soon!"
               nonprofitDescription="Coming Soon!"
-              team={[]}
+              team={[
+                {
+                  name: "Jack Le",
+                  role: "Project Lead",
+                  imageSrc: "members/jack_le.jpeg",
+                },
+                {
+                  name: "Leandro Hamaguchi Brasil",
+                  role: "Project Lead",
+                  imageSrc: "members/leandro_brasil.jpg",
+                },
+                {
+                  name: "Helen Zhao",
+                  role: "Product Manager",
+                  imageSrc: "members/helen_zhao.png",
+                },
+                {
+                  name: "Lala Leung",
+                  role: "Designer",
+                  imageSrc: "members/lala_leung.jpg",
+                },
+                {
+                  name: "Rosha Abooali",
+                  role: "Designer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Patricia Wong",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Alan Su",
+                  role: "Developer",
+                  imageSrc: "members/alan_su.jpg",
+                },
+                {
+                  name: "Michelle Huang",
+                  role: "Developer",
+                  imageSrc: "members/michelle_huang.jpg",
+                },
+                {
+                  name: "Jonathan Qiao",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Dimural Murat",
+                  role: "Developer",
+                  imageSrc: "members/dimural_murat.jpeg",
+                },
+                {
+                  name: "Janice Lam",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Brandon Tai",
+                  role: "Developer",
+                  imageSrc: "members/brandon_tai.jpg",
+                },
+                {
+                  name: "Fred He",
+                  role: "Developer",
+                  imageSrc: "members/fred_he.jpg",
+                },
+              ]}
               webLink="https://trccmwar.ca/"
               githubLink="https://github.com/uoftblueprint/trcc"
             />
@@ -58,7 +195,73 @@ export default function ProjectsPage() {
               years={["2025-2026"]}
               projectDescription="Coming Soon!"
               nonprofitDescription="Coming Soon!"
-              team={[]}
+              team={[
+                {
+                  name: "Vivian Deng",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Ethan Qiu",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Sofia Carrillo",
+                  role: "Product Manager",
+                  imageSrc: "members/sofia_carrillo.jpg",
+                },
+                {
+                  name: "Efan Song",
+                  role: "Designer",
+                  imageSrc: "members/efan_song.jpeg",
+                },
+                {
+                  name: "Alex Lewis",
+                  role: "Developer",
+                  imageSrc: "members/alex_lewis.jpg",
+                },
+                {
+                  name: "Lily Phan",
+                  role: "Developer",
+                  imageSrc: "members/lily_phan.jpg",
+                },
+                {
+                  name: "Dhruv Patel",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Raymond Chan",
+                  role: "Developer",
+                  imageSrc: "members/raymond_chan.jpeg",
+                },
+                {
+                  name: "Anthony Zhao",
+                  role: "Developer",
+                  imageSrc: "members/anthony_zhao.JPG",
+                },
+                {
+                  name: "Caellum Yip Hoi - Lee",
+                  role: "Developer",
+                  imageSrc: "members/caellum_yip_hoi-lee.png",
+                },
+                {
+                  name: "Edwin Zeng",
+                  role: "Developer",
+                  imageSrc: "members/edwin_zeng.png",
+                },
+                {
+                  name: "Tharjiha Suthekara",
+                  role: "Developer",
+                  imageSrc: "members/tharjiha_suthekara.png",
+                },
+                {
+                  name: "Victor Li",
+                  role: "Developer",
+                  imageSrc: "",
+                },
+              ]}
               webLink="https://www.themade.org/"
               githubLink="https://github.com/uoftblueprint/made"
             />
@@ -326,9 +529,9 @@ export default function ProjectsPage() {
                   imageSrc: "members/stephanie_lu.jpg",
                 },
                 {
-                  name: "Jamie Han",
+                  name: "James Han",
                   role: "Developer",
-                  imageSrc: "members/jamie_han.png",
+                  imageSrc: "members/james_han.png",
                 },
                 {
                   name: "Leandro Brasil",

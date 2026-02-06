@@ -7,19 +7,19 @@ import HeroBanner from "@/components/Banner/HeroBanner.tsx";
 const cards_info = [
   {
     name: "The Inga Foundation",
-    description: "TBD",
+    description: "Coming Soon!",
     image: "projects/inga.jpg",
     link: "/projects",
   },
   {
     name: "Toronto Rape Crisis Centre",
-    description: "TBD",
-    image: "projects/trcc.jpeg",
+    description: "Coming Soon!",
+    image: "projects/trcc.jpg",
     link: "/projects",
   },
   {
     name: "The Museum of Art and Digital Entertainment (MADE)",
-    description: "TBD",
+    description: "Coming Soon!",
     image: "projects/made.jpg",
     link: "/projects",
   },

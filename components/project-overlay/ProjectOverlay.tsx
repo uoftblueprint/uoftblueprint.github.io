@@ -60,7 +60,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
                   href={props.webLink}
                   variant="transparent"
                 >
-                  <Image src="/globe-fill.svg" alt="Web Icon" />
+                  <Image src="/globe-fill.svg" alt="Web Icon" w={28} h={28} />
                 </ActionIcon>
                 <ActionIcon
                   component="a"
@@ -68,7 +68,7 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
                   href={props.githubLink}
                   variant="transparent"
                 >
-                  <Image src="/mark-github-24.svg" alt="GitHub Icon" />
+                  <Image src="/mark-github-24.svg" alt="GitHub Icon" w={28} h={28} />
                 </ActionIcon>
               </Flex>
             </Modal.Header>

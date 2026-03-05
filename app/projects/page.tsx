@@ -10,7 +10,7 @@ export default function ProjectsPage() {
     <div>
       <Banner
         title="Projects"
-        text="Since our founding in 2020, we’ve had the pleasure to work with 10 non-profits!"
+        text="Since our founding in 2020, we’ve had the pleasure to work with 14 non-profits!"
         button={{ text: "Contact us", link: "/for-nonprofits" }}
       />
       <Container size="xl">
@@ -28,12 +28,12 @@ export default function ProjectsPage() {
           >
             <ProjectsCardWModal
               name="The Inga Foundation"
-              description="Coming Soon!"
+              description="A data management and visualization platform tracking environmental impact."
               image={"projects/inga.jpg"}
               hasOverlay={true}
               years={["2025-2026"]}
-              projectDescription="Coming Soon!"
-              nonprofitDescription="Coming Soon!"
+              projectDescription="This project develops a platform to input, organise, and visualize agricultural and environmental impact data from field activities. The system allows staff to manage data more efficiently and generate shareable dashboards that highlight measurable outcomes for donors."
+              nonprofitDescription="The Inga Foundation is working to replace slash-and-burn agriculture with sustainable farming practices using Inga trees. By restoring soil fertility and supporting smallholder farmers, the organization promotes long-term food security while protecting tropical forests."
               team={[
                 {
                   name: "Pranav Rao",
@@ -111,12 +111,12 @@ export default function ProjectsPage() {
             />
             <ProjectsCardWModal
               name="Toronto Rape Crisis Centre"
-              description="Coming Soon!"
+              description="A centralized volunteer management system designed to streamline data and internal operations."
               image={"projects/trcc.jpg"}
               hasOverlay={true}
               years={["2025-2026"]}
-              projectDescription="Coming Soon!"
-              nonprofitDescription="Coming Soon!"
+              projectDescription="We are building a custom membership system to help TRCC efficiently organize, track, and support their volunteer network. This digital infrastructure ensures that those coordinating vital support have the resources they need at their fingertips."
+              nonprofitDescription="Toronto Rape Crisis Centre (TRCC) aims to provide anti-oppressive, feminist peer support to survivors of sexual violence, of all genders and identities, through counselling, group support, education, advocacy, and activism."
               team={[
                 {
                   name: "Jack Le",
@@ -189,12 +189,12 @@ export default function ProjectsPage() {
             />
             <ProjectsCardWModal
               name="The Museum of Art and Digital Entertainment (MADE)"
-              description="Coming Soon!"
+              description="A digital cataloguing and inventory management system to manage thousands of artifacts."
               image={"projects/made.jpg"}
               hasOverlay={true}
               years={["2025-2026"]}
-              projectDescription="Coming Soon!"
-              nonprofitDescription="Coming Soon!"
+              projectDescription="Our team is building a web-based collection management system that allows staff and volunteers to catalogue artifacts, manage storage containers, and review new item submissions. It improves accessibility for volunteers by making it easier to view and update records across devices."
+              nonprofitDescription="The Museum of Art and Digital Entertainment (MADE) is museum dedicated to preserving and celebrating the history of video games and digital creativity. Through exhibitions, education programs, and community events, MADE works to document the cultural impact of games and interactive media."
               team={[
                 {
                   name: "Vivian Deng",

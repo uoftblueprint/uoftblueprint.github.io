@@ -68,7 +68,12 @@ export default function ProjectOverlay(props: ProjectOverlayProps) {
                   href={props.githubLink}
                   variant="transparent"
                 >
-                  <Image src="/mark-github-24.svg" alt="GitHub Icon" w={28} h={28} />
+                  <Image
+                    src="/mark-github-24.svg"
+                    alt="GitHub Icon"
+                    w={28}
+                    h={28}
+                  />
                 </ActionIcon>
               </Flex>
             </Modal.Header>

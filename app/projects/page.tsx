@@ -10,11 +10,306 @@ export default function ProjectsPage() {
     <div>
       <Banner
         title="Projects"
-        text="Since our founding in 2020, we’ve had the pleasure to work with 14 non-profits!"
+        text="Since our founding in 2020, we’ve had the pleasure to work with 16 non-profits!"
         button={{ text: "Contact us", link: "/for-nonprofits" }}
       />
       <Container size="xl">
         <Stack className="projects-page-main" gap="lg">
+          {/* ************** */}
+          {/* YEAR 2026-2027 */}
+          {/* ************** */}
+          <Title order={1} className="project-years-header">
+            2026-2027
+          </Title>
+          <SimpleGrid
+            cols={{ base: 1, sm: 2 }}
+            spacing={"xl"}
+            verticalSpacing={{ base: "md", sm: "xl" }}
+          >
+            <ProjectsCardWModal
+              name="The Inga Foundation"
+              description="A data management and visualization platform tracking environmental impact."
+              image={"projects/inga.jpg"}
+              hasOverlay={true}
+              years={["2025-2026", "2026-2027"]}
+              projectDescription="This project develops a platform to input, organise, and visualize agricultural and environmental impact data from field activities. The system allows staff to manage data more efficiently and generate shareable dashboards that highlight measurable outcomes for donors."
+              nonprofitDescription="The Inga Foundation is working to replace slash-and-burn agriculture with sustainable farming practices using Inga trees. By restoring soil fertility and supporting smallholder farmers, the organization promotes long-term food security while protecting tropical forests."
+              team={[
+                {
+                  name: "Caellum Yip Hoi - Lee",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Eren Aydin",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Arushi Bhatt",
+                  role: "Designer",
+                  imageSrc: "members/arushi_bhatt.jpeg",
+                },
+                {
+                  name: "Aryan Hrishikesh Nair",
+                  role: "Senior Developer",
+                  imageSrc: "members/aryan_hrishikesh_nair.png",
+                },
+                {
+                  name: "Bryan Yee",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Cindy Yang",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Olivia Markow",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "April Sun",
+                  role: "Junior Developer",
+                  imageSrc: "members/april_sun.jpeg",
+                },
+                {
+                  name: "Ethan Diep",
+                  role: "Junior Developer",
+                  imageSrc: "members/ethan_diep.jpeg",
+                },
+                {
+                  name: "Ginni Arun Kumar",
+                  role: "Junior Developer",
+                  imageSrc: "members/ginni_arun_kumar.jpeg",
+                },
+                {
+                  name: "Jasmine Chen",
+                  role: "Junior Developer",
+                  imageSrc: "members/jasmine_chen.jpeg",
+                }
+              ]}
+              webLink="https://www.ingafoundation.org/"
+              githubLink="https://github.com/uoftblueprint/inga"
+            />
+            <ProjectsCardWModal
+              name="The Period Purse"
+              description="A native iOS rebuild of Menstruation Nation with modern tracking and educational content."
+              image={"projects/the-period-purse.jpeg"}
+              hasOverlay={true}
+              years={["2021-2023", "2024-2025", "2026-2027"]}
+              projectDescription="We are rebuilding and updating The Period Purse's native iOS menstrual tracking app, addressing technical debt from the prior React Native implementation. The app focuses on cycle tracking, educational content modules, and improved branding — remaining free with no user data collection."
+              nonprofitDescription="The Period Purse strives to achieve menstrual equity by providing people who menstruate with access to free menstrual products, and to reduce the stigma surrounding periods through public education and advocacy."
+              team={[
+                {
+                  name: "Akshata Kulkarni",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Shaurya Sareen (Rye)",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Vivian Deng",
+                  role: "Designer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Ariel Xie",
+                  role: "Designer",
+                  imageSrc: "members/ariel_xie.jpeg",
+                },
+                {
+                  name: "Daniel Xu",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Krisha Patel",
+                  role: "Senior Developer",
+                  imageSrc: "members/krisha_patel.jpeg",
+                },
+                {
+                  name: "Tharjiha Suthekara",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Myeongjin (Daniel) Wang",
+                  role: "Junior Developer",
+                  imageSrc: "members/myeongjin_(daniel)_wang.png",
+                },
+                {
+                  name: "Jackson Falk",
+                  role: "Junior Developer",
+                  imageSrc: "members/jackson_falk.jpeg",
+                },
+                {
+                  name: "Jadyn Nok Tong Mo",
+                  role: "Junior Developer",
+                  imageSrc: "members/jadyn_nok_tong_mo.png",
+                },
+                {
+                  name: "Kaitlyn Zhu",
+                  role: "Junior Developer",
+                  imageSrc: "members/kaitlyn_zhu.jpeg",
+                },
+                {
+                  name: "Shayan Bhatti",
+                  role: "Junior Developer",
+                  imageSrc: "",
+                }
+              ]}
+              webLink="https://www.theperiodpurse.com/"
+              githubLink="https://github.com/uoftblueprint/the-period-purse-ios"
+            />
+            <ProjectsCardWModal
+              name="Periods for All"
+              description="An accessible period tracking app designed for people with disabilities."
+              image={"projects/periods-for-all.jpg"}
+              hasOverlay={true}
+              years={["2026-2027"]}
+              projectDescription="We are building a period tracking app designed for accessibility, with large UI elements, minimal text, visual symbols, and customizable settings. Core features include cycle and symptom logging, spoon-theory energy tracking, and accessible timers and reminders for routine care."
+              nonprofitDescription="Periods for All makes menstrual health resources available for individuals with disabilities, breaking barriers to menstrual equity through accessible education, tools, and advocacy."
+              team={[
+                {
+                  name: "Jamie Wang",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Janice Lam",
+                  role: "Product Manager",
+                  imageSrc: "",
+                },
+                {
+                  name: "Charlotte Teng",
+                  role: "Designer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Mayumi Chua",
+                  role: "Designer",
+                  imageSrc: "members/mayumi_chua.jpeg",
+                },
+                {
+                  name: "Faiyad Ahmed Masnoon",
+                  role: "Senior Developer",
+                  imageSrc: "members/faiyad_ahmed_masnoon.jpeg",
+                },
+                {
+                  name: "Jiayun Lee",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Rashu Sharda",
+                  role: "Senior Developer",
+                  imageSrc: "members/rashu_sharda.png",
+                },
+                {
+                  name: "Ethan Yang",
+                  role: "Junior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Nicolas Miranda Cantanhede",
+                  role: "Junior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Ryan Tran",
+                  role: "Junior Developer",
+                  imageSrc: "members/ryan_tran.png",
+                },
+                {
+                  name: "Saanvi Tyagi",
+                  role: "Junior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Tan Siru",
+                  role: "Junior Developer",
+                  imageSrc: "members/tan_siru.jpeg",
+                }
+              ]}
+              webLink="https://periodsforall.org/"
+              githubLink=""
+            />
+            <ProjectsCardWModal
+              name="Canada Basketball"
+              description="A live box-score and performance analytics platform for youth camps and coaching staff."
+              image={"projects/canada-basketball.jpg"}
+              hasOverlay={true}
+              years={["2026-2027"]}
+              projectDescription="We are building a web platform for live box-score tracking, camp roster management, centralized multi-court data storage, and report generation. The system helps performance analysts record stats court-side and gives coaches clearer practice and camp reports without fragile CSV and Tableau workflows."
+              nonprofitDescription="Canada Basketball is the National Sporting Organization for basketball in Canada. Recognized by FIBA and the Government of Canada, it oversees national teams and domestic programming to grow the sport across the country."
+              team={[
+                {
+                  name: "Haolin Harry Xu",
+                  role: "Project Lead",
+                  imageSrc: "members/haolin_harry_xu.png",
+                },
+                {
+                  name: "Kriish Kanwar",
+                  role: "Project Lead",
+                  imageSrc: "",
+                },
+                {
+                  name: "Amish Mamtani",
+                  role: "Designer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Hrithik Shah",
+                  role: "Senior Developer",
+                  imageSrc: "members/hrithik_shah.png",
+                },
+                {
+                  name: "Ingrid Florea",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Jennifer Huang",
+                  role: "Senior Developer",
+                  imageSrc: "",
+                },
+                {
+                  name: "Parthiv Paul",
+                  role: "Senior Developer",
+                  imageSrc: "members/parthiv_paul.jpeg",
+                },
+                {
+                  name: "Edwin Zeng",
+                  role: "Junior Developer",
+                  imageSrc: "members/edwin_zeng.jpeg",
+                },
+                {
+                  name: "Katelyn Wong",
+                  role: "Junior Developer",
+                  imageSrc: "members/katelyn_wong.jpeg",
+                },
+                {
+                  name: "Rayaan Wasay Iftikhar",
+                  role: "Junior Developer",
+                  imageSrc: "members/rayaan_wasay_iftikhar.jpeg",
+                },
+                {
+                  name: "Taimoor Khawaja",
+                  role: "Junior Developer",
+                  imageSrc: "members/taimoor_khawaja.jpeg",
+                }
+              ]}
+              webLink="https://www.basketball.ca/"
+              githubLink=""
+            />
+          </SimpleGrid>
+
           {/* ************** */}
           {/* YEAR 2025-2026 */}
           {/* ************** */}

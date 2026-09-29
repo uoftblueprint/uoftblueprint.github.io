@@ -285,16 +285,16 @@
   ],
   "members_operations": [
     {
+      "name": "Leandro Brasil",
+      "role": "Co-President",
+      "linkedinLink": "https://www.linkedin.com/in/leandrohamaguchi/",
+      "profilePicture": "members/leandro_brasil.png"
+    },
+    {
       "name": "Helen Zhao",
       "role": "Co-President",
       "linkedinLink": "https://www.linkedin.com/in/1zhaohel/",
       "profilePicture": "members/helen_zhao.png"
-    },
-    {
-      "name": "Leandro Hamaguchi Brasil",
-      "role": "Co-President",
-      "linkedinLink": "https://www.linkedin.com/in/leandrohamaguchi/",
-      "profilePicture": "members/leandro_brasil.png"
     },
     {
       "name": "PF (Sataphon Obra)",
@@ -307,6 +307,12 @@
       "role": "VP of Product",
       "linkedinLink": "https://www.linkedin.com/in/carlos-solares-cs/",
       "profilePicture": "members/carlos_solares.png"
+    },
+    {
+      "name": "Sky Ren",
+      "role": "VP of Finance & Growth",
+      "linkedinLink": "https://www.linkedin.com/in/sky-ren/",
+      "profilePicture": "members/sky_ren.png"
     },
     {
       "name": "Lala Leung",
@@ -325,12 +331,6 @@
       "role": "Director of Events",
       "linkedinLink": "https://www.linkedin.com/in/joshuaj-dong/",
       "profilePicture": "members/joshua_dong.png"
-    },
-    {
-      "name": "Sky Ren",
-      "role": "VP of Finance & Growth",
-      "linkedinLink": "https://www.linkedin.com/in/sky-ren/",
-      "profilePicture": "members/sky_ren.png"
     },
     {
       "name": "Kimberly Prijadi",

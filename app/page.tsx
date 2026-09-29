@@ -7,20 +7,26 @@ import HeroBanner from "@/components/Banner/HeroBanner.tsx";
 const cards_info = [
   {
     name: "The Inga Foundation",
-    description: "Coming Soon!",
+    description: "A data management and visualization platform tracking environmental impact.",
     image: "projects/inga.jpg",
     link: "/projects",
   },
   {
-    name: "Toronto Rape Crisis Centre",
-    description: "Coming Soon!",
-    image: "projects/trcc.jpg",
+    name: "The Period Purse",
+    description: "A native iOS rebuild of Menstruation Nation with modern tracking and educational content.",
+    image: "projects/the-period-purse.jpeg",
     link: "/projects",
   },
   {
-    name: "The Museum of Art and Digital Entertainment (MADE)",
-    description: "Coming Soon!",
-    image: "projects/made.jpg",
+    name: "Periods for All",
+    description: "An accessible period tracking app designed for people with disabilities.",
+    image: "projects/periods-for-all.jpg",
+    link: "/projects",
+  },
+  {
+    name: "Canada Basketball",
+    description: "A live box-score and performance analytics platform for youth camps and coaching staff.",
+    image: "projects/canada-basketball.jpg",
     link: "/projects",
   },
 ];

@@ -92,7 +92,7 @@ export default function ProjectsPage() {
                 }
               ]}
               webLink="https://www.ingafoundation.org/"
-              githubLink="https://github.com/uoftblueprint/inga"
+              githubLink="https://github.com/uoftblueprint/inga-native"
             />
             <ProjectsCardWModal
               name="The Period Purse"
@@ -165,7 +165,7 @@ export default function ProjectsPage() {
                 }
               ]}
               webLink="https://www.theperiodpurse.com/"
-              githubLink="https://github.com/uoftblueprint/the-period-purse-ios"
+              githubLink="https://github.com/uoftblueprint/the-period-purse"
             />
             <ProjectsCardWModal
               name="Periods for All"
@@ -238,7 +238,7 @@ export default function ProjectsPage() {
                 }
               ]}
               webLink="https://periodsforall.org/"
-              githubLink=""
+              githubLink="https://github.com/uoftblueprint/periods-for-all"
             />
             <ProjectsCardWModal
               name="Canada Basketball"
@@ -306,7 +306,7 @@ export default function ProjectsPage() {
                 }
               ]}
               webLink="https://www.basketball.ca/"
-              githubLink=""
+              githubLink="https://github.com/uoftblueprint/canada-basketball"
             />
           </SimpleGrid>
 

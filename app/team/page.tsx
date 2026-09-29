@@ -5,7 +5,13 @@ import TeamCard from "@/components/team-card/TeamCard";
 import { Button, Container, Divider, Flex, Text, Title } from "@mantine/core";
 import membersData from "@/data/current_members.json";
 
-const { members_inga, members_trcc, members_made, members_exec } = membersData;
+const {
+  members_inga,
+  members_period_purse,
+  members_periods_for_all,
+  members_canada_basketball,
+  members_operations,
+} = membersData;
 
 export default function TeamPage() {
   return (
@@ -13,7 +19,7 @@ export default function TeamPage() {
       <Banner
         title={"Meet our Team"}
         text={
-          "We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2025-2026 project teams!"
+          "We're aiming to change our surrounding community, one Blueprint at a time! Meet the 2026-2027 project teams!"
         }
       />
       <Flex
@@ -31,8 +37,8 @@ export default function TeamPage() {
 
         <Container m={"10vh 0 10vh 0"} w="100%" fluid>
           <TeamCard
-            title="Toronto Rape Crisis Centre"
-            team_members={members_trcc}
+            title="The Period Purse"
+            team_members={members_period_purse}
           />
         </Container>
 
@@ -40,15 +46,27 @@ export default function TeamPage() {
 
         <Container m={"10vh 0 10vh 0"} w="100%" fluid>
           <TeamCard
-            title="The Museum of Art and Digital Entertainment (MADE)"
-            team_members={members_made}
+            title="Periods for All"
+            team_members={members_periods_for_all}
           />
         </Container>
 
         <Divider w="40%" color="#0078E8" size={"2px"} />
 
         <Container m={"10vh 0 10vh 0"} w="100%" fluid>
-          <TeamCard title="Executive Team" team_members={members_exec} />
+          <TeamCard
+            title="Canada Basketball"
+            team_members={members_canada_basketball}
+          />
+        </Container>
+
+        <Divider w="40%" color="#0078E8" size={"2px"} />
+
+        <Container m={"10vh 0 10vh 0"} w="100%" fluid>
+          <TeamCard
+            title="Operations Team"
+            team_members={members_operations}
+          />
         </Container>
 
         <Divider w="40%" color="#0078E8" size={"2px"} />

@@ -62,8 +62,8 @@ export default function WhiteSection() {
             ></Image>
             <Title className="about-title">Our Impact</Title>
             <Text className="heading-text">
-              Since 2020, over 100+ students have joined the UofT Blueprint
-              family. Together, we have partnered with 10 NPOs over 5 years
+              Since 2020, over 200+ students have joined the UofT Blueprint
+              family. Together, we have partnered with 16 NPOs over 6 years
               delivering custom-built websites and mobile apps.
             </Text>
 
@@ -75,21 +75,21 @@ export default function WhiteSection() {
             >
               <Stack className="impact-number-container">
                 <Text c="#4CA3F4" className="impact-number">
-                  5
+                  6
                 </Text>
                 <Text className="impact-text">years</Text>
               </Stack>
 
               <Stack className="impact-number-container">
                 <Text c="#0078E8" className="impact-number">
-                  10
+                  16
                 </Text>
                 <Text className="impact-text">NPOs</Text>
               </Stack>
 
               <Stack className="impact-number-container">
                 <Text c="#4CA3F4" className="impact-number">
-                  100+
+                  200+
                 </Text>
                 <Text className="impact-text">students</Text>
               </Stack>

@@ -23,12 +23,6 @@ const cards_info = [
     image: "projects/periods-for-all.jpg",
     link: "/projects",
   },
-  {
-    name: "Canada Basketball",
-    description: "A live box-score and performance analytics platform for youth camps and coaching staff.",
-    image: "projects/canada-basketball.jpg",
-    link: "/projects",
-  },
 ];
 
 export default function Home() {
